@@ -1,14 +1,16 @@
 public class monkey {
     public static void main(String[] args) {
-        System.out.println(monkey(true,true));    
-        System.out.println(monkey(false,false));  
-        System.out.println(monkey(true,false));   
+        System.out.println(monkeyTrouble(true, true));  
+        System.out.println(monkeyTrouble(false, false)); 
+        System.out.println(monkeyTrouble(true, false));  
     }
 
-    public static boolean monkey(boolean aSmile,boolean bSmile) {
-        if (aSmile == true)&&(bSmile == true) {
+    public static boolean monkeyTrouble(boolean aSmile, boolean bSmile) {
+        if (aSmile && bSmile) {
             return true;
-        } else (aSmile == false)&&(bSmile == false){
+        } else if (!aSmile && !bSmile) {
+            return true;
+        } else {
             return false;
         }
     }
