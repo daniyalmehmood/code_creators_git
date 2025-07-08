@@ -4,13 +4,15 @@ public class Front3 {
     {
         StringBuilder builder=new StringBuilder();
         String firstThreeChar="";
+        String newString="";
         if(str.length()>=3)
         {
             firstThreeChar=str.substring(0,3);
             builder.append(firstThreeChar.repeat(3));
-            return builder.toString();
-
         }
-        else  return str;
+        else{
+            builder.append(str.repeat(3));
+        }
+        return builder.toString();
     }
 }
