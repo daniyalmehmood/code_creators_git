@@ -7,10 +7,7 @@ public class Front3 {
         if(str.length()>=3)
         {
             firstThreeChar=str.substring(0,3);
-            for(int i=0;i<3;i++)
-            {
-                builder.append(firstThreeChar);
-            }
+            builder.append(firstThreeChar.repeat(3));
             return builder.toString();
 
         }
