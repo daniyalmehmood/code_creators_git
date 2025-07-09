@@ -1,4 +1,4 @@
-public class TRA692{
+public class TRA693{
 public static String missingChar(String str, int n) {
         if (str.equals("")) {
             return "the input string is empty";
