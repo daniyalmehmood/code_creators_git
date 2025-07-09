@@ -12,4 +12,5 @@ public class SumDouble {
         System.out.println(SumDouble(3, 2));
         System.out.println(SumDouble(2, 2));
     }
+
 }
