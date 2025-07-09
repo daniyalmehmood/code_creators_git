@@ -11,4 +11,5 @@ public class MonkeyTrouble {
         System.out.println(MonkeyTrouble(true, false));
         System.out.println(MonkeyTrouble(false, true));
     }
+
     }
