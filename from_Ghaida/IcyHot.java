@@ -9,6 +9,9 @@ public class IcyHot{
 		if((temp1 < 0) && (temp2 > 100)){
 			return true;
 		}
+		else if(((temp2 < 0) && (temp1 > 100))){
+			return true;
+		}
 		else {
 			return false;
 		}
