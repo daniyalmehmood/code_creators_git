@@ -4,7 +4,7 @@ public class StringE {
         int stringLength = str.length();
         int counter=  0;
 
-        for (int i = 0; i <stringLength-1; i++)
+        for (int i = 0; i <stringLength; i++)
         {
             if(str.charAt(i)=='e') counter++;
 
