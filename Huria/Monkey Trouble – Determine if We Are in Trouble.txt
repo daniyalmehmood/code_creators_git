@@ -1,0 +1,30 @@
+public class MonkeyTrouble {
+
+    boolean aSmile;
+    boolean bSmile;
+
+    public static Boolean monkeyTrouble( boolean aSmile, boolean bSmile ){
+
+        if(aSmile == true && bSmile == false){
+            System.out.println("Monkey a is smiling");
+            return false;
+        }
+        else{
+            System.out.println("Monkey b is smiling");
+            return true;
+        }
+
+
+
+
+    }
+
+    public static void main(String[] args){
+
+            System.out.println( MonkeyTrouble.monkeyTrouble(true,true));
+            System.out.println( MonkeyTrouble.monkeyTrouble(false,false));
+            System.out.println( MonkeyTrouble.monkeyTrouble(true,false));
+
+
+        }
+}
