@@ -21,7 +21,7 @@ public class BackAroundString {
         if (str.length() != 0) {
             char[] strToArray=str.toCharArray();
             char[] newchars= new char [strToArray.length+2];
-            char lastIndex = strToArray[strToArray.length-1];
+            //char lastIndex = strToArray[strToArray.length-1];
             newchars[0]=strToArray[strToArray.length-1];
             int j=1;
             for(int i=0;i<strToArray.length;i++){
