@@ -1,0 +1,8 @@
+public class NumMax1020 {
+    public Integer max1020(int a, int b){
+
+        int maxA =(a>=10 && a<=20) ? a:0;
+        int maxB =(b>=10 && b<=20)? b:0;
+        return Math.max(maxA,maxB);
+    }
+}
