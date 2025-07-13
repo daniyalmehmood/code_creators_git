@@ -1,14 +1,18 @@
 public class Max1020 {
     public static Integer max1020(int a, int b)
     {
-        int result = 0;
-        if( (a>10 && a<20) || (b>10 && b<20) ) {
-            if(a>b)
-                result = a;
-            else
-                result = b;
-        }
 
-        return result;
+        if( (a>10 && a<20) && (b>10 && b<20) ) {
+            if(a>b)
+                return a;
+            else
+                return b;
+        } else if (a>10 && a<20) {
+            return a;
+        }
+        else if (b>10 && b<20) {
+            return b;
+        }
+        else return 0;
     }
 }
