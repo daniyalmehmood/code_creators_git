@@ -1,0 +1,24 @@
+public class Sleeping {
+    public static Boolean sleepIn(boolean weekday, boolean vacation) {
+
+        if (weekday != true && vacation == false ) {
+            System.out.println(" Yes, We can sleep" );
+            return true;
+
+        }
+        else if (weekday == true && vacation == false ) {
+            System.out.println(" No, We can NOT sleep" );
+            return false;
+        }
+        else {
+            System.out.println(" Yes, We can sleep" );
+            return true;
+        }
+    }
+    public static void main(String[] args) {
+       Sleeping.sleepIn(false, false);
+        Sleeping.sleepIn(true, false);
+        Sleeping.sleepIn(false, true);
+    }
+}
+
