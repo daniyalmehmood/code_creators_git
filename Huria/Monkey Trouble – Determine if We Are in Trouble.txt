@@ -5,7 +5,7 @@ public class MonkeyTrouble {
 
     public static Boolean monkeyTrouble( boolean aSmile, boolean bSmile ){
 
-        if(aSmile == true && bSmile == false){
+        if(aSmile && !bSmile){
             System.out.println("Monkey a is smiling");
             return false;
         }
