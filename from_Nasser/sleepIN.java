@@ -3,13 +3,13 @@ public class sleepIN {
 
     public static boolean canSleep(boolean weekDay, boolean vacation) {
 
-        if (weekDay == false || vacation == true) {
-            System.out.println("we can sleep on a vacation");
+        if (!weekDay  || vacation ) {
+
             return true;
-        } else if (weekDay == true || vacation == false) {
-            System.out.println("we cannot");
+        } else if (weekDay  || !vacation) {
+
             return false;
-        } else if (weekDay == true || vacation == true) {
+        } else if (weekDay  || vacation ) {
             return true;
         }
         else {
@@ -20,10 +20,10 @@ public class sleepIN {
 
     public static void main(String[] args){
 
-        System.out.println("can sleep in a vacation" + canSleep(false,true));
-        System.out.println("can sleep in a vacation" + canSleep(true ,true));
-        System.out.println("work day" + canSleep(true ,false));
-        System.out.println("we can sleep in the weekends" + canSleep(false ,false));
+        System.out.println("can sleep in a vacation\t" + canSleep(false,true));
+        System.out.println("can sleep in a vacation\t" + canSleep(true ,true));
+        System.out.println("work day\t" + canSleep(true ,false));
+        System.out.println("we can sleep in the weekends\t" + canSleep(false ,false));
     }
 }
 
