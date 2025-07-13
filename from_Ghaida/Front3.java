@@ -7,7 +7,7 @@ public class Front3{
 	
 	public static String front3(String str){
 		if(str.length() < 3){
-			String shortString = str;
+			String shortString = str + str + str;
 			return shortString;
 		}
 		else{
