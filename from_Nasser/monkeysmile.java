@@ -2,15 +2,15 @@ public class monkeysmile {
 
     public static boolean monkeyTruble(boolean aSmile, boolean bSmile) {
 
-        if (aSmile == true && bSmile == true) {
+        if (aSmile  && bSmile ) {
 
             System.out.println("there is a trouble\t");
             return true;
-        } else if (aSmile == false && bSmile == false) {
+        } else if (!aSmile  && !bSmile) {
             System.out.println("there is a trouble\t");
             return true;
         } else {
-            System.out.printf("no trouble\t");
+            System.out.println("no trouble\t");
             return false;
         }
     }
