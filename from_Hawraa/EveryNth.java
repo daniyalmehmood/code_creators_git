@@ -1,7 +1,7 @@
 public class EveryNth{
  public static String everyNth(String str, int n){
    StringBuilder newStr =new StringBuilder();
-   if (str.length() < 1){
+   if (n < 1){
 	   return "Invalid value of N";
    }
    for(int i = 0; i < str.length(); i += n){
