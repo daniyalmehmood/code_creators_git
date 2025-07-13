@@ -5,7 +5,7 @@ public class SleepIn {
 
     public static Boolean sleepIn(boolean weekday, boolean vacation ){
 
-        if(weekday  && vacation ){
+        if(weekday  && !vacation ){
             System.out.println("you can't sleep");
             return false;
         }
