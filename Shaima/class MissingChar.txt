@@ -1,0 +1,21 @@
+public class  MissingChar {
+    public static String missingChar(String str, int n) {
+        String FirstIndex ;
+        String LastIndex ;
+        String NewStr;
+        if (n <= str.length()) {
+            FirstIndex = str.substring(0, n);
+            LastIndex = str.substring(n + 1);
+            NewStr = FirstIndex + LastIndex;
+            return NewStr;
+        } else {
+            return str;
+        }
+    }
+
+    public static void main(String[] args) {
+        System.out.println(MissingChar.missingChar("kitten",1));
+        System.out.println(MissingChar.missingChar("kitten",0));
+        System.out.println(MissingChar.missingChar("kitten",4));
+    }
+}
