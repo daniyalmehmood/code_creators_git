@@ -1,0 +1,15 @@
+public class EveryNth {
+    public static String everyNth(String str, int n){
+        String NewStr ="" ;
+        for (int i = 0; i < str.length(); i=i+n){
+            NewStr=NewStr+ str.charAt(i);
+             
+        }
+        return NewStr;
+    }
+    public static void main(String[] args) {
+        System.out.println(EveryNth.everyNth("Miracle", 2));
+        System.out.println(EveryNth.everyNth("abcdefg", 2));
+        System.out.println(EveryNth.everyNth("abcdefg", 3));
+    }
+}
