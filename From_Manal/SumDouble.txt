@@ -1,10 +1,12 @@
 public class SumDouble {
     public static int SumDouble(int a, int b) {
         int sum = 0;
-        if (a != b) { sum = a + b; } 
-        else if (a == b) { sum = 2 * sum; }
-
-        return sum;
+        if (a != b) {
+            return sum = a + b; }
+        if (a==b) {
+            return sum = 2 * (a + b);
+        } {
+        return sum; }
     }
 
     public static void main(String[] args) {
@@ -12,5 +14,4 @@ public class SumDouble {
         System.out.println(SumDouble(3, 2));
         System.out.println(SumDouble(2, 2));
     }
-
 }
