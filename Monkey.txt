@@ -1,10 +1,10 @@
 public class Monkey {
     public static boolean monkeyTrouble ( boolean aSmile, boolean bSmile)
     {
-        if (aSmile == true || bSmile == true) {
+        if (aSmile  || bSmile ) {
             System.out.println(" Monkey Trouble");
             return true;
-        } else if (aSmile == false || bSmile == false) {
+        } else if (!aSmile  || !bSmile ) {
             System.out.println(" Monkey Trouble");
             return true;
         } else {
