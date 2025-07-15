@@ -4,10 +4,10 @@ public class Diff21 {
         if (n <= 21) {
             return 21 - n;
         }
-        else if(n > 21) {
+        else {
             return 2 * (n - 21);
 
         }
-        return n;
+        
     }
     }
