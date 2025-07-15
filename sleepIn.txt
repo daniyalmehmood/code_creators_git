@@ -4,9 +4,7 @@ public class sleep {
             if (!weekday  || vacation) {
                 System.out.println("we can sleep in.");
                 return true;
-            } else if (!weekday  || !vacation ) {
-                System.out.println("we can't sleep in. ");
-                return true;
+            
             } else {
                 return false;
             }
