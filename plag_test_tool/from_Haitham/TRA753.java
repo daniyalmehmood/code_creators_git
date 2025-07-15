@@ -1,13 +1,9 @@
 public class TRA753{
 public static boolean stringE(String str) {
-        char[] subStrings = new char[3];
-        if (str.length() < 4) {
-            return false;
+        int count=0;
+        for(int i=0;i<str.length();i++){
+            if(str.charAt(i)=='e') count++;
         }
-        str.getChars(1, 4, subStrings, 0);
-        System.out.println(new String(subStrings));
-        if (new String(subStrings).matches("^(?=[^e]*e[^e]*$).*$")) {
-            return true;
-        } else return false;
+        return count<=3 && count>0;
     }
 	}
