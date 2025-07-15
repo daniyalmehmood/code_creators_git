@@ -1,0 +1,12 @@
+public class MissingChar {
+    public static String missChar (String str, int n)
+    {
+        if (str != null && 0 <= n && n < str.length()) {
+            StringBuilder newString = new StringBuilder(str);
+            newString.deleteCharAt(n);
+            return newString.toString();
+
+        }
+        return str;
+    }
+}
