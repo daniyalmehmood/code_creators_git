@@ -4,10 +4,12 @@ public class Sum {
 if (a != b ) {
     return a + b;
 }
-else if (a == b) {
+else{
     return 2 * (a + b);
     
 }
-        return 0;
+       
     }
 }
+
+ 
