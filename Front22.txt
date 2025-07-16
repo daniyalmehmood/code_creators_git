@@ -2,7 +2,7 @@ public class Front22 {
     public static String front22(String str)
     {
         if(str.length()<2 ){
-            return str;
+            return str+ str+ str;
         }
         else {
             StringBuilder newStr =new StringBuilder(str);
