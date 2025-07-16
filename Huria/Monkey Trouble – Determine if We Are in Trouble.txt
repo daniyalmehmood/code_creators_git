@@ -5,13 +5,15 @@ public class MonkeyTrouble {
 
     public static Boolean monkeyTrouble( boolean aSmile, boolean bSmile ){
 
-        if(aSmile && !bSmile){
-            System.out.println("Monkey a is smiling");
-            return false;
+        if(aSmile && bSmile){
+            return true;
+        }
+        else if (!aSmile && !bSmile) {
+            return true;
         }
         else{
-            System.out.println("Monkey b is smiling");
-            return true;
+
+            return false;
         }
 
 
@@ -28,3 +30,4 @@ public class MonkeyTrouble {
 
         }
 }
+
