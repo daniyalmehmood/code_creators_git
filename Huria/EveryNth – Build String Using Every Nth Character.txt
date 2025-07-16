@@ -27,8 +27,7 @@ public class EveryNth {
                 System.out.println( EveryNth.everyNth("Miracle", 2));
                 System.out.println( EveryNth.everyNth("abcdefg", 2));
                 System.out.println( EveryNth.everyNth("abcdefg", 3));
-                System.out.println( EveryNth.everyNth("", 3));
-                System.out.println( EveryNth.everyNth("abcdefg", 0));
+               
 
 
             }
