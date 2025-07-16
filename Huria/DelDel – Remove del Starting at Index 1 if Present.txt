@@ -1,7 +1,5 @@
 public class DelDel {
 
-        String str;
-
         public static String delDel(String str) {
 
             String newString;
