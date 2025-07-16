@@ -1,24 +1,26 @@
-public class Sleeping {
-    public static Boolean sleepIn(boolean weekday, boolean vacation) {
+public class Close10 {
+    public static Integer close10(int a, int b) {
+        int closeA=Math.abs(a - 10);
+        int closeB=Math.abs(b - 10);
 
-        if (weekday != true && vacation == false ) {
-            System.out.println(" Yes, We can sleep" );
-            return true;
-
+        if (closeA<closeB) {
+            return a;
         }
-        else if (weekday == true && vacation == false ) {
-            System.out.println(" No, We can NOT sleep" );
-            return false;
+        else if (closeA>closeB) {
+            return b;
         }
         else {
-            System.out.println(" Yes, We can sleep" );
-            return true;
+            return 0;
         }
     }
-    public static void main(String[] args) {
-       Sleeping.sleepIn(false, false);
-        Sleeping.sleepIn(true, false);
-        Sleeping.sleepIn(false, true);
-    }
-}
 
+    public static void main(String[] args) {
+        System.out.println(Close10.close10(8,13));
+        System.out.println(Close10.close10(13,8));
+        System.out.println(Close10.close10(13,7));
+
+
+    }
+
+
+}
