@@ -5,23 +5,30 @@ public class EveryNth {
 
         public static String everyNth(String str, int n) {
 
-            String newString ="" ;
-
-            for (int i = 0; i < str.length(); i = i + n ) {
-
-                newString = newString + str.charAt(i);
+            String newString = "";
+            if (!str.isEmpty() && n >= 1) {
 
 
+                for (int i = 0; i < str.length(); i = i + n) {
 
+                    newString = newString + str.charAt(i);
+                }
+                return newString;
+
+            } else if (str.isEmpty() && n >= 1) {
+                return "str is empty";
+
+            } else {
+                return "n is 0";
             }
-
-            return  newString;
         }
             public static void main(String [] args){
 
                 System.out.println( EveryNth.everyNth("Miracle", 2));
                 System.out.println( EveryNth.everyNth("abcdefg", 2));
                 System.out.println( EveryNth.everyNth("abcdefg", 3));
+                System.out.println( EveryNth.everyNth("", 3));
+                System.out.println( EveryNth.everyNth("abcdefg", 0));
 
 
             }
