@@ -16,7 +16,7 @@ public class Front22 {
             }
             else {
 
-                return  str;
+               return  str.repeat(3);
 
             }
 
