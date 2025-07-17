@@ -9,9 +9,7 @@ public class sleepIN {
         } else if (weekDay  || !vacation) {
 
             return false;
-        } else if (weekDay  || vacation ) {
-            return true;
-        }
+        } 
         else {
             return false;
         }
