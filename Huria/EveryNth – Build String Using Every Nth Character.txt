@@ -1,0 +1,37 @@
+public class EveryNth {
+
+        String str;
+        int n;
+
+        public static String everyNth(String str, int n) {
+
+            String newString = "";
+            if (!str.isEmpty() && n >= 1) {
+
+
+                for (int i = 0; i < str.length(); i = i + n) {
+
+                    newString = newString + str.charAt(i);
+                }
+                return newString;
+
+            } else if (str.isEmpty() && n >= 1) {
+                return "str is empty";
+
+            } else {
+                return "n is 0";
+            }
+        }
+            public static void main(String [] args){
+
+                System.out.println( EveryNth.everyNth("Miracle", 2));
+                System.out.println( EveryNth.everyNth("abcdefg", 2));
+                System.out.println( EveryNth.everyNth("abcdefg", 3));
+               
+
+
+            }
+        }
+
+
+
