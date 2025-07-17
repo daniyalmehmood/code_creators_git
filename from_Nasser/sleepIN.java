@@ -6,9 +6,6 @@ public class sleepIN {
         if (!weekDay  || vacation ) {
 
             return true;
-        } else if (weekDay  || !vacation) {
-
-            return false;
         } 
         else {
             return false;
