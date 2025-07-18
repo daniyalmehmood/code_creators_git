@@ -1,10 +1,10 @@
 public class IcyHot {
      public static Boolean icyHot(int temp1, int temp2)
      {
-         if(temp1 >0&& temp2>0 || temp1<0 && temp2<0)
+         if(temp1<0&& temp2>100 || temp1>100 && temp2<0)
          {
-             return false;
+             return true;
          }
-         else return true;
+         else return false;
      }
 }
