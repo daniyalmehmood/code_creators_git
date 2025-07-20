@@ -9,7 +9,6 @@ public class SumDouble {
         return sum; }
     }
 
-
     public static void main(String[] args) {
         System.out.println(SumDouble(1, 2));
         System.out.println(SumDouble(3, 2));
