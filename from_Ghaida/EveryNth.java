@@ -6,7 +6,7 @@ public class EveryNth {
     }
     
     public static String everyNth(String str, int n){
-		if (n < 1) {
+		if (str == null || str.isEmpty() || n < 1) {
             return "Invalid (n) Value";
         }
 		
