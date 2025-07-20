@@ -6,12 +6,10 @@ public class MonkeyTrouble{
 	}
 	
 	public static boolean monkeyTrouble(boolean aSmile, boolean bSmile){
-		if((aSmile == true && bSmile == true) || (aSmile == false && bSmile == false)){
-		    System.out.print("We are in trouble if both monkeys are smiling or if neither is smiling . ");
+		if((aSmile && bSmile) || (!aSmile && !bSmile)){
 			return true;
 		}
 		else {
-		    System.out.print("We are not in trouble . ");
 			return false;
 		}
 	}
