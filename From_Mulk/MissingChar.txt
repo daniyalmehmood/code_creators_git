@@ -17,5 +17,5 @@ public class MissingChar {
         System.out.println(missingChar("kitten", 7));
         System.out.println(missingChar("", 7));
     }
-}
 
+}
