@@ -10,7 +10,7 @@ public class MissingChar {
         String secondtIndex="";
         String newString="";
 
-        if ( str.length()>=n){
+        if (!str.isEmpty() && n>=0 && n < str.length()){
             firstIndex= str.substring(0,n);
             secondtIndex=str.substring(n+1);
             newString = firstIndex + secondtIndex;
@@ -19,7 +19,7 @@ public class MissingChar {
         }
         else {
 
-            return  str;
+            return  "is empty or n<0";
         }
 
 
@@ -31,6 +31,8 @@ public class MissingChar {
         System.out.println( MissingChar.missingChar("kitten", 1));
         System.out.println( MissingChar.missingChar("kitten", 0));
         System.out.println( MissingChar.missingChar("kitten", 4));
+        System.out.println( MissingChar.missingChar("", 2));
+        System.out.println( MissingChar.missingChar("kitten", -1));
 
 
     }
