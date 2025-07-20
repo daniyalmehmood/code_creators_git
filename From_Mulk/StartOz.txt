@@ -9,14 +9,15 @@ public class StartOz {
         } else if ((str.substring(1, 2).equals("z"))) {
             return secondCharacter;
         } else {
-            return "";
+            return "String is empty";
         }
     }
     public static void main(String[] args) {
         System.out.println(startOz("ozymandias"));
         System.out.println(startOz("bzoo"));
         System.out.println(startOz("oxx"));
-        
+        System.out.println(startOz("abc"));
+
 
     }
 }
