@@ -1,6 +1,6 @@
 public class DelDel {
     public static String delDel(String str) {
-        if (str.substring(1,4).equals("del"))
+        if (str.length()>= 4 && str.substring(1,4).equals("del"))
         {
             StringBuilder newStr = new StringBuilder(str);
             newStr.delete(1,4);
