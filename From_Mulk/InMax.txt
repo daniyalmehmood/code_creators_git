@@ -16,4 +16,5 @@ public class IntMax {
         System.out.println(intMax(4, 4, 0));
         System.out.println(intMax(1, 4, 4));
     }
+
 }
