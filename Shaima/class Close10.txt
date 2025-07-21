@@ -1,0 +1,26 @@
+public class Close10 {
+    public static Integer close10(int a, int b) {
+        int closeA=Math.abs(a - 10);
+        int closeB=Math.abs(b - 10);
+
+        if (closeA<closeB) {
+            return a;
+        }
+        else if (closeA>closeB) {
+            return b;
+        }
+        else {
+            return 0;
+        }
+    }
+
+    public static void main(String[] args) {
+        System.out.println(Close10.close10(8,13));
+        System.out.println(Close10.close10(13,8));
+        System.out.println(Close10.close10(13,7));
+
+
+    }
+
+
+}
