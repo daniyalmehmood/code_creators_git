@@ -1,13 +1,13 @@
 public class StartOz {
     public static String startOz(String str) {
-        String firstCharacter = str.substring(0, 1);
-        String secondCharacter = str.substring(1, 2);
-        if (str.substring(0, 1).equals("o") && str.substring(1, 2).equals("z")) {
-            return firstCharacter + secondCharacter;
-        } else if ((str.startsWith("o"))) {
-            return firstCharacter;
-        } else if ((str.substring(1, 2).equals("z"))) {
-            return secondCharacter;
+        if (str.isEmpty()) {
+            return "String is empty";
+        }if (str.length()>=3 && str.substring(0, 1).equals("o") && str.substring(1, 2).equals("z")) {
+            return str.substring(0,1)+ str.substring(1,2);
+        } else if ((str.length()>=1 && str.startsWith("o"))) {
+            return str.substring(0,1);
+        } else if ((str.length()>=2 && str.substring(1, 2).equals("z"))) {
+            return str.substring(1,2);
         } else {
             return "String is empty";
         }
@@ -16,11 +16,9 @@ public class StartOz {
         System.out.println(startOz("ozymandias"));
         System.out.println(startOz("bzoo"));
         System.out.println(startOz("oxx"));
-        System.out.println(startOz("abc"));
-
+        System.out.println(startOz(""));
+        System.out.println(startOz("qwertoz"));
 
     }
 }
-
-
 
