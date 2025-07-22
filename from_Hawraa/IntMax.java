@@ -1,9 +1,9 @@
 public class IntMax{
   public static int intMax(int a, int b, int c){
-    if (a > b && a > c){
+    if (a >= b && a >= c){
 	  return a;
 	  }
-	else if (a < b && b > c){
+	else if (a <= b && b >= c){
 	  return b;
 	}
 	else{
