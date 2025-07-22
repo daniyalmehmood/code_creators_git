@@ -1,6 +1,7 @@
 public class ParrotTrouble {
 
     public static boolean parrotTrouble(boolean talking, int hour) {
+        if (talking && (hour < 7 || hour > 20)){
         if (talking == true && (hour < 7 || hour > 20)){
             return true;}
 
@@ -13,3 +14,5 @@ public class ParrotTrouble {
         System.out.println(parrotTrouble(false, 6));
     }
 }
+}
+
