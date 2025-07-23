@@ -1,0 +1,42 @@
+import java.util.Arrays;
+public class GradeManager {
+
+    public static  String[] reverseStudentNames(String[] names) {
+        String[] reversed =  new String[names.length];
+        for (int i=0 ; i<names.length; i++) {
+            reversed[i]= new StringBuilder(names[i]).reverse().toString();
+//
+        }
+        return reversed;
+    }
+
+
+    public static char getLetterGrade(int score) {
+
+        if (score >= 90 && score <= 100) {
+            return 'A';
+        } else if (score >= 80 && score <= 89) {
+            return 'B';
+        } else if (score >= 70 && score <= 79) {
+            return 'C';
+        } else if (score >= 60 && score <= 69) {
+            return 'D';
+        } else {
+            return 'F';
+        }
+
+    }
+
+    public static void main(String[] args) {
+        String[] students = {"Alice", "Bob", "Charlie", "Diana"};
+        System.out.println(Arrays.toString(GradeManager.reverseStudentNames(students)));
+
+        int[] scores = {95, 67, 45, 78};
+        char[] grade = new char[scores.length];
+        for (int i = 0; i < scores.length; i++) {
+              grade [i] = GradeManager.getLetterGrade(scores[i]);
+
+        }
+        System.out.println(Arrays.toString(grade));
+    }
+}
