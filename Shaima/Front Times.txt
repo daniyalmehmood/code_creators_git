@@ -1,0 +1,21 @@
+public String frontTimes(String str, int n) {
+        String front;
+        if (str.length()>2 && n >= 0  ){
+         front =str.substring(0,3);
+          String repeatedValue= ""; 
+          for (int i=0 ; i<n ; i++)
+          repeatedValue=repeatedValue +front ;
+            return repeatedValue;
+        }
+        
+        else if(str.length()<=2 && n>=0  ) {
+        front =str.substring(0,str.length());
+        String repeatedValue=""; 
+        for (int i=0 ; i<n ; i++)
+         repeatedValue=repeatedValue+front;
+            return repeatedValue;
+        }
+        else{
+            return " ";
+           }
+}
