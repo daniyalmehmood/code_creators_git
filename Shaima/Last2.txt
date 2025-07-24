@@ -1,0 +1,32 @@
+public class Last2 {
+    public static int last2(String str) {
+        String last="";
+        String newStr;
+        int count=0;
+        int x= str.length()-2;//x=6-2, 4 , index4=h
+        int y= str.length()-1;
+        if (str.length()<2){
+            return 0;
+        }
+        last = last + str.substring(x,y+1);
+        for (int i = 0; i < str.length()-2; i++) {
+            newStr=  str.substring(i,i+2);
+            if (last .equals(newStr)){
+                count++;
+
+            }
+        }
+        return count;
+    }
+
+    public static void main(String[] args) {
+        System.out.println(Last2.last2("hixxhi"));
+        System.out.println(Last2.last2("xaxxaxaxx"));
+        System.out.println(Last2.last2("axxxaaxx"));
+        System.out.println(Last2.last2("11212"));
+        System.out.println(Last2.last2("13121311"));
+        System.out.println(Last2.last2("hi"));
+        System.out.println(Last2.last2("h"));
+        System.out.println(Last2.last2(""));
+    }
+}

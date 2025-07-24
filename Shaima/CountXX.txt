@@ -1,0 +1,23 @@
+public class CountXX {
+
+    public static int countXX(String str) {
+        int countXX = 0;
+        for (int i = 0; i < str.length()-1; i++) {
+
+            if (str.charAt(i) == 'x' && str.charAt(i + 1) == 'x')
+            {
+                countXX++;
+            }
+         return countXX;
+        }
+
+        return countXX;
+    }
+        public static void main (String[]args){
+            System.out.println(CountXX.countXX("abcxx"));
+            System.out.println(CountXX.countXX("xxx"));
+            System.out.println(CountXX.countXX("xxxx"));
+
+
+        }
+    }
