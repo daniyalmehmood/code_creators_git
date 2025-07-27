@@ -1,5 +1,0 @@
-java -jar jplag.jar ../../examples -l java -r ./plag_report/report -M RUN_AND_VIEW
-
-java -jar jplag.jar ../../examples -l java -r ./plag_report/report -M RUN
-
-java -jar jplag.jar ./plag_report/report.jplag -M VIEW
