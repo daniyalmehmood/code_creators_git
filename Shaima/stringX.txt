@@ -1,0 +1,13 @@
+public String stringX(String str) {
+ int length= str.length();
+        if (length<=2){
+            return str;
+        }
+         String result=""+str.charAt(0);
+              for (int i = 1; i < length-1; i++) {
+                if (str.charAt(i) !='x') {
+                result += str.charAt(i);
+            }
+        }
+              return result+=str.charAt(length-1);
+}
