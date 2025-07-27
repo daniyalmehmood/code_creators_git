@@ -1,0 +1,14 @@
+public String stringYak(String str) {
+    String NewStr = "";
+        int len = str.length();
+         for (int i = 0; i < len; i++) {
+                if (len > i+2 &&str.charAt(i) == 'y' && str.charAt(i + 1) == 'a' && str.charAt(i + 2) == 'k') {
+                    i=i+2;
+                }
+                else{
+                    NewStr = NewStr + str.charAt(i);
+                }
+
+            }
+            return NewStr;
+}
