@@ -1,0 +1,13 @@
+public boolean arrayFront9(int[] nums) {
+  
+     int numleng=nums.length;
+        if (numleng>4){
+          numleng = 4;
+        }
+        for (int i=0; i<numleng ; i++){
+            if (nums[i] == 9  ){
+                return true;
+            }
+        }
+          return false;
+}
