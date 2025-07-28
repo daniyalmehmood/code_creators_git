@@ -1,6 +1,3 @@
-import javax.swing.*;
-import java.net.SocketTimeoutException;
-
 public class StringBits {
     public static String stringBits(String str) {
         String newStr = "";
