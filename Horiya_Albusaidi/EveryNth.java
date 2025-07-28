@@ -1,13 +1,14 @@
 public class EveryNth {
     public static String everyNth(String str, int n)
     {
-        String newString="";
+        StringBuilder newString = new StringBuilder();
         if(n>=1) {
             for (int i = 0; i < str.length(); i += n) {
-                newString += str.charAt(i);
+                newString.append(str.charAt(i));
             }
-            return newString;
+            return newString.toString();
         }
-        else return "Invalid 'N' Value";
+        else throw new IllegalArgumentException("Invalid 'N' Value");
+
     }
 }
