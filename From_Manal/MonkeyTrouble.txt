@@ -3,7 +3,7 @@ public class MonkeyTrouble {
         if ((aSmile && bSmile) || (aSmile == false && bSmile == false)) {
             return true;
         }
-                    return false;
+        return false;
             }
 
     public static void main(String[] args) {
