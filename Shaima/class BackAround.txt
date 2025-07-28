@@ -1,31 +1,20 @@
 public class BackAround {
     public  static String backAround(String str) {
         String last;
-        String NewStr;
-
+        String newStr;
         if (str.isEmpty()){
-            return "Invalied the str is empty ";
+            throw new IllegalArgumentException("Invalid input: the string is empty.");
         }
-        else if (str.length()>=1 )
-        {
+        else{
             last=str.substring(str.length()-1);
-            NewStr=last + str +last;
-            return NewStr;
+            newStr=last + str +last;
+            return newStr;
         }
-        else
-        {
-            NewStr= str + str +str  ;
-            return NewStr;
-        }
-
     }
-
     public static void main(String[] args) {
         System.out.println(BackAround.backAround("cat"));
         System.out.println(BackAround.backAround("Hello"));
         System.out.println(BackAround.backAround("a"));
         System.out.println(BackAround.backAround(""));
-
     }
-
 }
