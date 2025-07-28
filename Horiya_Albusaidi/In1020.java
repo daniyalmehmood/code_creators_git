@@ -1,5 +1,5 @@
 public class In1020 {
-    public static Boolean in1020(int a, int b)
+    public static boolean in1020(int a, int b)
     {
         if((a<=20 && a>=10) || (b<=20 && b>=10))
         {
