@@ -2,7 +2,7 @@ public class SumDouble {
     public static int SumDouble(int a, int b) {
         int sum = 0;
         if (a != b) { sum = a + b; } 
-        else if (a == b) { sum = 2 * sum; }
+        else if (a == b) { sum = 2 * (a + b); }
 
         return sum;
     }
