@@ -1,10 +1,8 @@
 public class StringE {
     public static boolean stringE(String str)
     {
-        int stringLength = str.length();
         int counter=  0;
-
-        for (int i = 0; i <stringLength; i++)
+        for (int i = 0; i <str.length();; i++)
         {
             if(str.charAt(i)=='e') counter++;
 
