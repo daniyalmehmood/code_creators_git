@@ -3,7 +3,7 @@ ppublic class posNeg {
         if ((a < 0 || b < 0) && !negative) {
             return true;
         }
-        if (a < 0 && b < 0 && negative) {
+       if ((a<0 || b<0) && negative==false) {
             return true;
         } else {
             return false;
