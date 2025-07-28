@@ -14,7 +14,6 @@ public class last2 {
                 count++;
             }
         }
-
         return count;
     }
 
