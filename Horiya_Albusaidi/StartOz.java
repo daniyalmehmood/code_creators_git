@@ -1,17 +1,17 @@
 public class StartOz {
     public static String startOz(String str) {
         if(!str.isEmpty()) {
-            boolean checkIfFirstChatIsO = str.charAt(0) == 'o';
-            boolean checkIfSecondChatIsZ =str.length()>1 && str.charAt(1) == 'z';
-            if (checkIfFirstChatIsO && checkIfSecondChatIsZ)
+            boolean checkIfFirstCharIsO = str.charAt(0) == 'o';
+            boolean checkIfSecondCharIsZ =str.length()>1 && str.charAt(1) == 'z';
+            if (checkIfFirstCharIsO && checkIfSecondCharIsZ)
             {
                 return "oz";
             }
-            else if (checkIfFirstChatIsO)
+            else if (checkIfFirstCharIsO)
             {
                 return "o";
             }
-            else if (checkIfSecondChatIsZ)
+            else if (checkIfSecondCharIsZ)
             {
                 return "z";
             }
