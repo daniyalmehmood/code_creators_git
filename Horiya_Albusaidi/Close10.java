@@ -6,7 +6,7 @@ public class Close10 {
         if(absWithA==absWithB)
             return 0;
         else if (absWithA > absWithB)
-            return absWithB;
-        else return absWithA;
+            return b;
+        else return a;
     }
 }
