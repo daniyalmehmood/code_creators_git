@@ -7,7 +7,7 @@ public String stringTimes(String str, int n) {
 
     return r;
 }
-public void main(String[] args) {
+public static void main(String[] args) {
     System.out.println(stringTimes("Hi", 2));
     System.out.println(stringTimes("Hi", 3));
     System.out.println(stringTimes("Hi", 1) );
@@ -27,7 +27,7 @@ public String frontTimes(String str, int n) {
     return result;
 }
 
-public void main(String[] args) {
+public static void main(String[] args) {
     System.out.println(frontTimes("Chocolate", 2));
     System.out.println(frontTimes("Chocolate", 3));
     System.out.println(frontTimes("Abc", 3));
@@ -48,7 +48,7 @@ int countXX(String str) {
     }
     return c;
 }
-public void main(String[] args) {
+public static void main(String[] args) {
     System.out.println(countXX("abcxx"));
     System.out.println(countXX("xxx") );
     System.out.println(countXX("xxxx"));
@@ -68,7 +68,7 @@ boolean doubleX(String str) {
     return str.charAt(index +1)== 'x';
 }
 
-public void main(String[] args) {
+public static void main(String[] args) {
     System.out.println(doubleX("axxbb"));
     System.out.println(doubleX("axaxax"));
     System.out.println(doubleX("xxxxx"));
@@ -86,7 +86,7 @@ public String stringBits(String str) {
     }
     return r;
 }
-public void main(String[] args) {
+public static void main(String[] args) {
     System.out.println(stringBits("Hello"));
     System.out.println(stringBits("Hi"));
     System.out.println(stringBits("Heeololeo"));
@@ -103,7 +103,7 @@ public String stringSplosion(String str) {
     }
     return r;
 }
-public void main(String[] args) {
+public static void main(String[] args) {
     System.out.println(stringSplosion("Code"));
     System.out.println(stringSplosion("abc"));
     System.out.println(stringSplosion("ab"));
@@ -130,7 +130,7 @@ public int last2(String str) {
     }
     return count;
 }
-public void main(String[] args) {
+public static void main(String[] args) {
     System.out.println(last2("hixxhi"));
     System.out.println(last2("xaxxaxaxx"));
     System.out.println(last2("axxxaaxx"));
@@ -156,7 +156,7 @@ public int arrayCount9(int[] nums) {
 
     return count;
 }
-public void main(String[] args) {
+public static void main(String[] args) {
     System.out.println(arrayCount9(new int[]{1, 9, 9}));
     System.out.println(arrayCount9(new int[]{1, 9, 9}));
     System.out.println(arrayCount9(new int[]{1, 9, 9, 3, 9}));
@@ -170,8 +170,7 @@ public void main(String[] args) {
 
 
 public boolean arrayFront9(int[] nums) {
-  
-  int count =0;
+    
   int n =nums.length;
   if(n>4) n=4;
   for (int i=0; i< n; i++) {
@@ -231,8 +230,7 @@ public class stringX {
             if (str.charAt(i) != 'x')
                 string1.append(str.charAt(i));
             }
-        String result;
-        return result =  str.substring(0, 1) + string1.toString() + str.substring(str.length() - 1);
+        return str.substring(0, 1) + string1.toString() + str.substring(str.length() - 1);
     }
     public static void main(String[] arg) {
         System.out.println(stringX("xxHxix"));
@@ -276,9 +274,12 @@ public class altPairs {
 public class stringYak {
     public static String stringYak(String str) {
         StringBuilder string1 = new StringBuilder(str);
-        for (int i = 0; i < str.length()-2; i++){
-            if (str.substring(i,i+3).equals("yak")){
-                string1.delete(i,i+3);
+        int i = 0;
+        while (i <= string1.length() - 3) {
+            if (string1.substring(i, i + 3).equals("yak")) {
+                string1.delete(i, i + 3);
+            } else {
+                i++;
             }
 
         }
@@ -335,12 +336,12 @@ public class array667 {
 
 public class noTriples {
     public static boolean noTriples(int[] nums) {
-        for (int i = 0; i < nums.length-1; i++) {
+        for (int i = 0; i < nums.length-2; i++) {
             if (nums[i] == nums[i + 1] && nums[i] == nums[i + 2]) {
-                return true;
+                return false;
             }
         }
-        return false;
+        return true;
     }
 
     public static void main(String[] arg) {
