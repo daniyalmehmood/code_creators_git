@@ -8,7 +8,7 @@ public static String front22(String str){
 
             return str + str + str;
         } else {
-            String firstTowCha = str.substring(0, 2);
-            return firstTowCha + str + firstTowCha;
+            String firstTowChar = str.substring(0, 2);
+            return firstTowChar + str + firstTowChar;
         }
     }
