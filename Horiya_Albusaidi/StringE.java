@@ -1,5 +1,5 @@
 public class StringE {
-    public static Boolean stringE(String str)
+    public static boolean stringE(String str)
     {
         int stringLength = str.length();
         int counter=  0;
