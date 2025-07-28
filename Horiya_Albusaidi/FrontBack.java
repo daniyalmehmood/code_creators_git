@@ -1,9 +1,9 @@
-import java.util.Arrays;
 
 public class FrontBack {
 
     public static String frontBack(String str)
     {
+        if(str.isEmpty())  return "";
         char [] stringCharacters=str.toCharArray();
         int lengthOfString=str.length();
         int indexOfLastStringChar=lengthOfString-1;
@@ -18,7 +18,7 @@ public class FrontBack {
         {
             stringCharacters[0]=lastChar;
             stringCharacters[indexOfLastStringChar]=firstChar;
-            return Arrays.toString(stringCharacters);
+            return new String(stringCharacters);
 
         }
     }
