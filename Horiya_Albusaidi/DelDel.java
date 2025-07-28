@@ -1,7 +1,7 @@
 public class DelDel {
     public static String  delDel(String str)
     {
-        if(str.isEmpty()) return "Invalid Input";
+        if(str.isEmpty()) return " ";
         if(str.length()>=4)
         {
             String checkDel=str.substring(1,4);
