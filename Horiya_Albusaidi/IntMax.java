@@ -1,5 +1,5 @@
 public class IntMax {
-    public static Integer intMax(int a, int b, int c)
+    public static int intMax(int a, int b, int c)
     {
         if(a>=b && a>=c)
             return a;
