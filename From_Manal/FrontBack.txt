@@ -11,8 +11,7 @@ public class FrontBack {
             newString.setCharAt(newString.length() - 1, firstC);
 
         }
-        String str1=newString.toString();
-        return str1;
+        return newString.toString();
     }
 
     public static void main(String[] args) {
