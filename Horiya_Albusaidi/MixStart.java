@@ -1,5 +1,5 @@
 public class MixStart {
-    public static Boolean mixStart(String str)
+    public static boolean mixStart(String str)
     {
 
         if(str.length()>=3)
