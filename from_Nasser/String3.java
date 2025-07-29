@@ -6,7 +6,7 @@ public class String3 {
         StringBuilder string1 = new StringBuilder();
         for (int i = 0; i < 3; i++) {
 
-        for (int j = 0; j < 3; j++) {
+        for (int j = 0; j < Math.min(str.length(), 3); j++) {
             char abc = c[j];
             string1.append(abc);
         }
