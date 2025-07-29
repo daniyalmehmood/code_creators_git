@@ -10,5 +10,5 @@ public static void main(String[] args) {
     System.out.println(lastChars("last","chars"));
     System.out.println(lastChars("yo","java"));
     System.out.println(lastChars("hi",""));
-}
+    }
 }
