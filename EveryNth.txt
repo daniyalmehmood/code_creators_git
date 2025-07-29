@@ -1,0 +1,14 @@
+public class EveryNth {
+    public static String  everyNth(String str, int n) {
+        if(n>=1|| str!= null) {
+            int i;
+            StringBuilder str1 = new StringBuilder(str);
+            StringBuilder str2=new StringBuilder();
+            for (i = 0; i < str.length(); i += n)
+                str2.append(str1.charAt(i));
+            return str2.toString();
+        }
+        return str;
+        
+    }
+}
