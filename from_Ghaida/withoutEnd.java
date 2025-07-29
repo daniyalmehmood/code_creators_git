@@ -1,13 +1,10 @@
 public class withoutEnd {
     public static void main(String[] args){
-        System.out.println(withouEnd2("Hello")); // "ell"
-        System.out.println(withouEnd2("abc")); //"b"
-        System.out.println(withouEnd2("ab")); //""
+        System.out.println(withoutEnd("Hello")); //"ell"
+        System.out.println(withoutEnd("java")); //"av"
+        System.out.println(withoutEnd("coding")); //"odin""
     }
-    public static String withouEnd2(String str) {
-        if(str.length() < 2){
-            return "";
-        }
+    public static String withoutEnd(String str) {
         String withOut = str.substring(1, str.length() - 1);
         return withOut;
     }
