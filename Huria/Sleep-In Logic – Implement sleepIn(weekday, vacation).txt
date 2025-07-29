@@ -1,0 +1,30 @@
+public class SleepIn {
+
+    boolean weekday;
+    boolean vacation;
+
+    public static Boolean sleepIn(boolean weekday, boolean vacation ){
+
+        if(weekday  && !vacation ){
+            System.out.println("you can't sleep");
+            return false;
+        }
+        else{
+           System.out.println("you can sleep");
+            return true;
+        }
+
+
+
+
+    }
+
+    public static void main(String[] args){
+
+        System.out.println( SleepIn.sleepIn(false,false));
+        System.out.println( SleepIn.sleepIn(true,false));
+        System.out.println( SleepIn.sleepIn(false,true));
+
+
+    }
+}
