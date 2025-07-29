@@ -1,0 +1,16 @@
+public class CountXx {
+    public static int countXx(String str) {
+
+        int c=0;
+        for(int i=0; i< str.length()-1; i++){
+            if(str.substring(i, i+2).equals("xx")) c++;
+
+        }
+        return c;
+    }
+    public static void main(String[] args) {
+        System.out.println(countXx("abcxx"));
+        System.out.println(countXx("xxx") );
+        System.out.println(countXx("xxxx"));
+    }
+}
