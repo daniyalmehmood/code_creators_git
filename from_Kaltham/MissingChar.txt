@@ -1,0 +1,41 @@
+//I solve this question by to ways
+
+//First way: 
+
+public class DeleteChar {
+    public String missingChar(String str, int n) {
+        if (!str.isEmpty() && n>=0 && n<=str.length()) {
+            StringBuilder str2=new StringBuilder(str);
+            str2.deleteCharAt(n);
+            String newStr=str2.toString();
+            return newStr;
+        }
+
+        return"The String is Empty OR N is less than zero";
+    }
+}
+
+
+//second way:
+
+
+public class DeleteChar {
+    public String missingChar(String str, int n) {
+
+        if (!str.isEmpty() && n>=0 && n<=str.length()){
+            char[] strToChar=str.toCharArray();
+            char [] finalstr= new char[str.length()-1];
+            int j=0;
+            for(int i=0;i<strToChar.length;i++) {
+                if (i != n) {
+                   finalstr[j] = strToChar[i];
+                    j++;
+            }
+        }
+            String newStr= new String(finalstr);
+            return newStr;
+        }
+            return "The String is Empty OR N is less than zero";
+    }
+
+}
