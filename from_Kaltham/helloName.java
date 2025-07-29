@@ -1,5 +1,5 @@
 public class StringJavaFundamental {
-    public String printhelloName(String name) {
+    public String printHelloName(String name) {
   
  
        return "Hello " +name+"!";
