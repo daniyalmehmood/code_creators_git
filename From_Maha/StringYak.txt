@@ -7,3 +7,5 @@ public String stringYak(String str) {
                 result += str.charAt(i);
             }
         }
+ return result;
+    }
