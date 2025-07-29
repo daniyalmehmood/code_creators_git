@@ -1,0 +1,13 @@
+public class StringRepeater
+ {
+    public static String repeatString(String str, int n) {
+        if(n>=1 ) {
+            int i;
+            StringBuilder str1 = new StringBuilder(str);
+            for (i = 0; i< n; i++)
+            str1.append(str);
+            return str1.toString();
+        }
+        return str;
+    }
+}
