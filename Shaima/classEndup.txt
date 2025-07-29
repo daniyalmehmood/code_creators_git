@@ -1,0 +1,28 @@
+public class Endup {
+
+    public static String endUp(String str) {
+        String result ;
+        int a=str.length()-3;
+
+        if (str.length()<3 )
+        {
+            result=str.toUpperCase();
+
+        }
+
+        else
+        {
+            result=str.substring(0,a)+(str.substring(a,str.length()).toUpperCase());
+        }
+        return result;
+    }
+
+
+
+    public static void main(String[] args) {
+        System.out.println(Endup.endUp("Hello"));
+        System.out.println(Endup.endUp("hi there"));
+        System.out.println(Endup.endUp("hi"));
+
+    }
+}
