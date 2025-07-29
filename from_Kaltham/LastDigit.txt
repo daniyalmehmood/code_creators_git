@@ -1,0 +1,12 @@
+public class LastDigit {
+
+    public boolean lastDigit(int a, int b){
+        if (a>0 && b>0){
+            int lastDigitA=a%10;
+            int lastDigitB= b%10;
+            if(lastDigitA==lastDigitB)
+            return true;
+        }
+        return false;
+    }
+}
