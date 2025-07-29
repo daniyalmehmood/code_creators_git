@@ -1,0 +1,10 @@
+public class NotString {
+    public static String notString(String str) {
+        if (str.equals("not") || str.startsWith("not")) {
+            return str ;
+        }
+         else  {
+          return "not "+ str;
+        }
+    }
+}

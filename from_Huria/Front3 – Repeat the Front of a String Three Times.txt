@@ -1,0 +1,38 @@
+public class Front3 {
+
+
+        String str;
+
+        public static String front3(String str) {
+
+            String front;
+            String newString;
+
+            if ( str.length()>=3){
+
+                front = str.substring(0,3);
+                newString = front.repeat(3);
+
+                return newString;
+            }
+            else {
+
+                return  str.repeat(3);
+
+            }
+
+
+
+        }
+
+        public static void main(String [] args){
+
+            System.out.println( Front3.front3("Java"));
+            System.out.println( Front3.front3("Chocolate"));
+            System.out.println( Front3.front3("abc"));
+
+
+        }
+    }
+
+
