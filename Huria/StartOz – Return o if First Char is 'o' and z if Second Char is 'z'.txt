@@ -1,0 +1,36 @@
+public class StartOz {
+
+        String str;
+
+        public static String startOz(String str) {
+
+            boolean char1 = str.length() >= 1 && str.charAt(0) == 'o';
+            boolean char2 = str.length() >= 2 && str.charAt(1) == 'z';
+
+            if (char1&&char2) {
+                return "oz";
+            }
+            else if(char1) {
+
+                return "o";
+            }
+            else if(char2){
+                return "z";
+
+            }
+            else {
+                return "no O or Z in the word";
+            }
+
+        }
+        public static void main(String [] args){
+
+            System.out.println( StartOz.startOz("ozymandias"));
+            System.out.println( StartOz.startOz("bzoo"));
+            System.out.println( StartOz.startOz("oxx"));
+
+
+        }
+    }
+
+

@@ -1,0 +1,40 @@
+public class MissingChar {
+
+    String str;
+    int n;
+
+
+    public static String missingChar(String str,int n) {
+
+        String firstIndex="";
+        String secondtIndex="";
+        String newString="";
+
+        if (!str.isEmpty() && n>=0 && n < str.length()){
+            firstIndex= str.substring(0,n);
+            secondtIndex=str.substring(n+1);
+            newString = firstIndex + secondtIndex;
+
+            return newString;
+        }
+        else {
+
+            return  "is empty or n<0";
+        }
+
+
+
+    }
+
+    public static void main(String [] args){
+
+        System.out.println( MissingChar.missingChar("kitten", 1));
+        System.out.println( MissingChar.missingChar("kitten", 0));
+        System.out.println( MissingChar.missingChar("kitten", 4));
+        System.out.println( MissingChar.missingChar("", 2));
+        System.out.println( MissingChar.missingChar("kitten", -1));
+
+
+    }
+}
+
