@@ -2,7 +2,7 @@ public class ParrotTrouble {
 
     public static boolean parrotTrouble(boolean talking, int hour){
 
-        if( talking==true && (7>hour||hour>20)) {
+        if( talking && (7>hour||hour>20)) {
 
             return true;
         }
