@@ -1,0 +1,31 @@
+public class Monkey {
+    public class Monkey {
+    public static Boolean monkeyTrouble(boolean aSmile, boolean bSmile) {
+
+        if (aSmile  && bSmile )
+        {
+            return true;
+        }
+        else if (!aSmile  && !bSmile )
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+    }
+
+    public static void main(String[] args) {
+
+        System.out.println(Monkey.monkeyTrouble(true, true));
+        System.out.println(Monkey.monkeyTrouble(false, false));
+        System.out.println(Monkey.monkeyTrouble(true, false));
+    }
+}
+
+
+
+
+
+
