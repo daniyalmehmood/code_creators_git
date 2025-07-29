@@ -1,7 +1,5 @@
-package Warmup2;
-
-public class Countxx {
-    public int countXX(String str) {
+public class CountNumberOfX {
+    public int countNumberOfXXInString(String str) {
         int count=0;
         for (int i=0;i<str.length()-1;i++)
         {
