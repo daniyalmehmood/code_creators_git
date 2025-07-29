@@ -1,5 +1,3 @@
-import java.awt.*;
-
 public class NotString {
     public static String notString(String str) {
         String substring;
@@ -7,10 +5,10 @@ public class NotString {
         String convertStringToUpperCase = "";
         if (str.length() >= 3) {
             substring = str.substring(0, 3);
-            convertStringToUpperCase=substring.toUpperCase();
-            modifiedString=convertStringToUpperCase.equals("NOT")?str:"Not " + str;
+            convertStringToUpperCase = substring.toUpperCase();
+            modifiedString = convertStringToUpperCase.equals("NOT") ? str : "not " + str;
 
-        } else return "Not " + str;
+        } else return "not " + str;
 
         return modifiedString;
     }
