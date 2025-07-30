@@ -1,4 +1,4 @@
-public class countXX {
+public class CountXX {
     public static void main(String[] args) {
         System.out.println(countXX("abcxx")); //1
         System.out.println(countXX("xxx")); //2
