@@ -1,0 +1,20 @@
+public class DelDel {
+    public static String delDel(String str) {
+        String Newstr;
+        if (str.length() >= 4 && str.substring(1, 4).equals("del")) {
+            Newstr = str.charAt(0) + str.substring(4);
+            return Newstr;
+        } else {
+            return str;
+        }
+
+    }
+
+    public static void main(String[] args) {
+        System.out.println(DelDel.delDel("adelbc"));
+        System.out.println(DelDel.delDel("adelHello"));
+        System.out.println(DelDel.delDel("adedbc"));
+
+    }
+
+}
