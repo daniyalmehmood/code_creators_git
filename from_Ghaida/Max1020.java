@@ -15,5 +15,15 @@ public class Max1020{
 			}
 		}
 		return 0;
+		 if (a >= 10 && a <= 20 && b >= 10 && b <= 20) {
+			 return Math.max(a, b);
+		 }
+		 else if (b >= 10 && b <= 20) {
+			 return b;
+		 }
+		 else if (a >= 10 && a <= 20) {
+			 return a;
+		 }
+		 return 0;
     }
 }
