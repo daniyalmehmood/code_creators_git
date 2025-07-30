@@ -6,6 +6,7 @@ public int last2(String str) {
   count++;
     }
       }
+	  
        return count;
     }
 

@@ -6,6 +6,7 @@ public int arrayCount9(int[] nums) {
                 count++;
             }
         }
+		
         return count;
     }
 	}
