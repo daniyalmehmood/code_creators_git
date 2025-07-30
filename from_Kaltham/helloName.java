@@ -1,7 +1,6 @@
-public class StringJavaFundamental {
-    public String printHelloName(String name) {
-  
- 
-       return "Hello " +name+"!";
-	}
+public class HelloName {
+    public String helloName(String name) {
+
+        return "Hello " + name + "!";
+    }
 }
