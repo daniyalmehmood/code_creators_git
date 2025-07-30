@@ -1,0 +1,26 @@
+public class StartOz {
+    public static String startOz(String str) {
+        String firstCharacter = str.substring(0, 1);
+        String secondCharacter = str.substring(1, 2);
+        if (str.startsWith("o")) {
+            return firstCharacter;
+        }
+
+        else if (str.substring(0,1).equals("o")  && str.substring(1,2).equals("z")) {
+            return firstCharacter+secondCharacter;
+        } else {
+            return secondCharacter;
+        }
+        }
+
+    public static void main(String[] args) {
+        System.out.println(startOz("ozymandias"));
+        System.out.println(startOz("bzoo"));
+        System.out.println(startOz("oxx"));
+    }
+}
+
+
+
+
+
