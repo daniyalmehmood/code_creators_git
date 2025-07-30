@@ -1,4 +1,4 @@
-public class frontTimes {
+public class FrontTimes {
         public static void main(String[] args) {
             System.out.println(frontTimes("Chocolate", 2)); //"ChoCho"
             System.out.println(frontTimes("Chocolate", 3)); //"ChoChoCho"
