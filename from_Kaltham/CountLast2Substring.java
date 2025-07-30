@@ -1,7 +1,7 @@
-public class JavaFundamental {
+public class CountLast2Substring {
     public int countLast2Substring(String str) {
         int count = 0;
-        if(str.length()>1) {
+        if (str.length() > 1) {
             String str1 = str.substring(str.length() - 2);
             for (int i = 0; i < str.length() - 2; i++) {
                 if (str.substring(i, i + 2).equals(str1)) {
@@ -9,11 +9,9 @@ public class JavaFundamental {
                 }
             }
             return count;
-        }
-        else{
+        } else {
             return 0;
         }
     }
-
 
 }
