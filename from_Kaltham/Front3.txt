@@ -1,0 +1,29 @@
+//The first solution:
+public class StrFront {
+    public String front3(String str) {
+        if (str.length() >= 3) {
+            String str1 = str.substring(0, 3);
+            return str1 + str1 + str1;
+        }
+        return str+str+str;
+    }
+}
+
+//The second solution:
+
+public class StrFront {
+    public String front3(String str) {
+        char[] strToArray = str.toCharArray();
+        char[] chars = new char[3];
+        int j = 0;
+        if (strToArray.length >=3) {
+            for (int i = 0; i < 3; i++) {
+                chars[j] = strToArray[i];
+                j++;
+            }
+            String finalStr = new String(chars);
+            return finalStr + finalStr + finalStr;
+        }
+        return str+str+str;
+    }
+}
