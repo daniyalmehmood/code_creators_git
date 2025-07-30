@@ -1,5 +1,5 @@
-public class StringJavaFundamental {
-    public String concatenateTwoString(String a, String b) {
+public class MakeAbba{
+    public String makeAbba(String a, String b) {
   
      return a+b+b+a;
 	}
