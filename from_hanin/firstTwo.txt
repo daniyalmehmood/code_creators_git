@@ -1,0 +1,9 @@
+public class FirstChars {
+    public String getFirstTwo(String str) {
+        if(str.length()>2){
+            return str.substring(0,2);
+        }
+        return str;
+    }
+
+}
