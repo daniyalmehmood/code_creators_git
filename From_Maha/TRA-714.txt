@@ -1,0 +1,17 @@
+public class startHiTask {
+    public static void main(String[] args) {
+        System.out.println(startHi("maha"));
+    }
+
+    public static boolean startHi(String str) {
+        String firstWord = str.substring(0, 2);
+        String HI = "hi";
+        if (firstWord.equals(HI)) {
+            return true;
+
+        } else {
+            return false;
+        }
+
+    }
+}
