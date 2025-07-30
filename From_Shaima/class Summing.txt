@@ -1,0 +1,26 @@
+public class Summing {
+    public static Integer sumDouble(int a, int b) {
+        int sum;
+        if (a != b )
+        {
+            sum= a+b;
+
+        }
+        else
+        {
+            sum=2*(a+b);
+
+
+        }
+        return sum;
+
+    }
+
+    public static void main(String[] args) {
+        System.out.println(Summing.sumDouble(1,2));
+        System.out.println(Summing.sumDouble(3,2));
+        System.out.println(Summing.sumDouble(2,2));
+    }
+
+
+}
