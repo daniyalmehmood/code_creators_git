@@ -1,5 +1,5 @@
-public class JavaFundamental {
-public int countCharX(String str) {
+public class CountCharX {
+    public int countCharX(String str) {
         int count = 0;
         if (str.contains(" ")) {
             int space = str.indexOf(" ");
@@ -16,12 +16,11 @@ public int countCharX(String str) {
                     count++;
                 }
             }
-            if(count>0){
+            if (count > 0) {
                 return count - 1;
             }
             return count;
-        }
-        else{
+        } else {
             return 0;
         }
 
