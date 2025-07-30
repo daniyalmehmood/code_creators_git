@@ -1,0 +1,13 @@
+public class difference {
+
+    int result;
+    public int diff21(int n){
+        if(n<=21){
+            result=21-n;
+        }
+        else if (n>21) {
+            result=2*(n-21);
+        }
+        return result;
+    }
+}
