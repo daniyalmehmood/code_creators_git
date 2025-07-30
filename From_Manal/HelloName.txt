@@ -1,4 +1,10 @@
 public class HelloName {
-    public static String HelloName(String name) {
+    public static String Helloname(String name) {
         return "Hello " + name + "!";
     }
+    public static void main(String[] arg) {
+        System.out.println(Helloname("Bob"));
+        System.out.println(Helloname("Alice"));
+        System.out.println(Helloname("X"));
+    }
+}
