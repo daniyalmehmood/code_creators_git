@@ -1,4 +1,4 @@
-public class stringSplosion {
+public class StringSplosion {
 public String stringSplosion(String str) {
         String newString = "";
         for (int i = 0; i < str.length(); i++) {
