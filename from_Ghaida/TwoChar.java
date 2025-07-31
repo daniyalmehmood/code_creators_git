@@ -1,4 +1,4 @@
-public class twoChar {
+public class TwoChar {
     public static void main(String[] args){
         System.out.println(twoChar("java", 0)); //"ja"
         System.out.println(twoChar("java", 2)); //"va"
