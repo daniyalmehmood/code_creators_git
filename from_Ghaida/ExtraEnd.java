@@ -1,4 +1,4 @@
-public class extraEnd {
+public class ExtraEnd {
     public static void main(String[] args) {
         System.out.println(extraEnd("Hello"));// → "lololo"
         System.out.println(extraEnd("ab")); // → "ababab"
