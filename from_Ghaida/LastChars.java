@@ -1,4 +1,4 @@
-public class lastChars {
+public class LastChars {
     public static void main(String[] args) {
         System.out.println(lastChars("last", "chars")); //"ls"
         System.out.println(lastChars("yo", "java")); //"ya"
