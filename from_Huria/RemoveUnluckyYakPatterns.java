@@ -14,7 +14,6 @@ public class RemoveUnluckyYakPatterns {
         }
         return result.toString();
     }
-
     public static void main(String[] args) {
         System.out.println(removeUnluckyYakPatterns("yakpak"));
         System.out.println(removeUnluckyYakPatterns("pakyak"));
