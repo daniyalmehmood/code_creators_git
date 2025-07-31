@@ -1,4 +1,4 @@
-public class start0z {
+public class Start0z {
     public String startOz(String str){
 
         String result="";
