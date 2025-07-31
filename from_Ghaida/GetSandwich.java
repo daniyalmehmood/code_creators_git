@@ -1,4 +1,4 @@
-public class getSandwich {
+public class GetSandwich {
     public static void main(String[] args) {
         System.out.println(getSandwich("breadjambread")); //"jam"
         System.out.println(getSandwich("xxbreadjambreadyy")); //"jam"
