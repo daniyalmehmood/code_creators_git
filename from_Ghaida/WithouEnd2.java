@@ -1,4 +1,4 @@
-public class withouEnd2 {
+public class WithouEnd2 {
     public static void main(String[] args) {
         System.out.println(withouEnd2("Hello")); //"ell"
         System.out.println(withouEnd2("abc"));//"b"
