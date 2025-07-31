@@ -1,4 +1,4 @@
-public class leftTwo {
+public class LeftTwo {
     public static void main(String[] args){
         System.out.println(left2("Hello")); //"lloHe"
         System.out.println(left2("java")); //"vaja"
