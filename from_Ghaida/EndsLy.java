@@ -1,4 +1,4 @@
-public class endsLy {
+public class EndsLy {
     public static void main(String[] args){
         System.out.println(endsLy("oddly"));// → true
         System.out.println(endsLy("y")); // → false
