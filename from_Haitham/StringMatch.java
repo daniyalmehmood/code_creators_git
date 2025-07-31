@@ -1,4 +1,4 @@
-public class stringMatch {
+public class StringMatch {
 public int stringMatch(String a, String b) {
         int smallestLength = a.length();
         if (smallestLength > b.length())
