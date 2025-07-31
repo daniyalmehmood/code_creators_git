@@ -1,4 +1,4 @@
-public class frontAgain {
+public class FrontAgain {
     public static void main(String[] args) {
         System.out.println(frontAgain("edited")); //true
         System.out.println(frontAgain("edit")); //false
