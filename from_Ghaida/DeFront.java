@@ -1,4 +1,4 @@
-public class deFront {
+public class DeFront {
     public static void main(String[] args) {
         System.out.println(deFront("Hello")); //"llo"
         System.out.println(deFront("java")); //"va"
