@@ -1,4 +1,4 @@
-public class mixString {
+public class MixString {
     public static void main(String[] args) {
         System.out.println(mixString("abc", "xyz")); //"axbycz"
         System.out.println(mixString("Hi", "There")); //"HTihere"
