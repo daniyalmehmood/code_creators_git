@@ -1,4 +1,4 @@
-public class conCat {
+public class ConCat {
     public static void main(String[] args) {
         System.out.println(conCat("abc", "cat")); //"abcat"
         System.out.println(conCat("dog", "cat")); //"dogcat"
