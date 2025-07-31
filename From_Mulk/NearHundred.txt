@@ -1,0 +1,16 @@
+ublic class NearHundred {
+    public static boolean nearHundred(int n) {
+        if (Math.abs(n - 100) <= 10 || Math.abs(n - 200) <= 10) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+    public static void main (String[]args){
+        System.out.print(nearHundred(93)+"\n");
+        System.out.print(nearHundred(90)+"\n");
+        System.out.print(nearHundred(89)+"\n");
+        }
+
+}
+
