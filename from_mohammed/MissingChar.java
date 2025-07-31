@@ -1,4 +1,4 @@
-public class missingChar {
+public class MissingChar {
 
     public String missingChar(String str, int n) {
         String front = str.substring(0,n);
