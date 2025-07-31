@@ -1,0 +1,14 @@
+public class FrontBack {
+    public static String frontBack(String str) {
+        if (str.length() <= 1) {
+            return str;
+        } else {
+            StringBuilder newString = new StringBuilder(str);
+            char Firstcharacter = newString.charAt(0);
+            char lastcharacter = newString.charAt(newString.length() - 1);
+            newString.setCharAt(0, lastcharacter);
+            newString.setCharAt(newString.length() - 1, Firstcharacter);
+        }
+        return str;
+    }
+}
