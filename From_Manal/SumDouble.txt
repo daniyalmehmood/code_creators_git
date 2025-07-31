@@ -1,0 +1,15 @@
+public class SumDouble {
+    public static int SumDouble(int a, int b) {
+        int sum = 0;
+        if (a != b) { sum = a + b; } 
+        else if (a == b) { sum = 2 * sum; }
+
+        return sum;
+    }
+
+    public static void main(String[] args) {
+        System.out.println(SumDouble(1, 2));
+        System.out.println(SumDouble(3, 2));
+        System.out.println(SumDouble(2, 2));
+    }
+}
