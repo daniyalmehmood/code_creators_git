@@ -1,4 +1,4 @@
-public class minCat {
+public class MinCat {
 
     public String minCat(String a, String b) {
 
