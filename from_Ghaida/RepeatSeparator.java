@@ -1,4 +1,4 @@
-public class repeatSeparator {
+public class RepeatSeparator {
     public static void main(String[] args) {
         System.out.println(repeatSeparator("Word", "X", 3)); //"WordXWordXWord"
         System.out.println(repeatSeparator("This", "And", 2)); //"ThisAndThis"
