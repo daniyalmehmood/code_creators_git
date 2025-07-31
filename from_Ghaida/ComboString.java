@@ -1,4 +1,4 @@
-public class comboString {
+public class ComboString {
     public static void main(String[] args){
         System.out.println(comboString("Hello", "hi")); // "hiHellohi"
         System.out.println(comboString("hi", "Hello")); // "hiHellohi"
