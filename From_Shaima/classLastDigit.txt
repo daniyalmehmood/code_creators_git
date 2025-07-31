@@ -1,0 +1,19 @@
+public class LastDigit {
+    public static Boolean lastDigit(int a, int b) {
+
+        if (a % 10 == b % 10 ) {
+
+            return true;
+
+        } else {
+            return false;
+        }
+    }
+
+    public static void main(String[] args) {
+        System.out.println(LastDigit.lastDigit(7, 17));
+        System.out.println(LastDigit.lastDigit(6, 17));
+        System.out.println(LastDigit.lastDigit(3, 113));
+    }
+
+}

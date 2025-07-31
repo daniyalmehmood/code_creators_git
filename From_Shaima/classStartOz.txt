@@ -1,0 +1,21 @@
+public class StartOz {
+    public static String startOz(String str) {
+        String Newstr = "";
+        if (str.length()>=1 && str.charAt(0)=='o')
+        {
+            Newstr=Newstr+'o';
+        }
+        if (str.length()>=2 && str.charAt(1)=='z' )
+        {
+            Newstr=Newstr+'z';
+        }
+        return Newstr;
+    }
+
+    public static void main(String[] args) {
+        System.out.println(StartOz.startOz("ozymandias"));
+        System.out.println(StartOz.startOz("bzoo"));
+        System.out.println(StartOz.startOz("oxx"));
+    }
+
+}

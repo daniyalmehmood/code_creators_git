@@ -1,0 +1,13 @@
+public class Front22 {
+    public static String front22(String str)
+    {
+        if(str.length()<2 ){
+            return str+ str+ str;
+        }
+        else {
+            StringBuilder newStr =new StringBuilder(str);
+            String twoLetter = newStr.substring(0,2);
+            return twoLetter+newStr+twoLetter;
+        }
+    }
+}
