@@ -1,4 +1,4 @@
-public class stringSplosion {
+public class StringSplosion {
     public static void main(String[] args) {
         System.out.println(stringSplosion("Code")); //"CCoCodCode"
         System.out.println(stringSplosion("abc")); //"aababc"
