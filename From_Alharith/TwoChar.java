@@ -1,4 +1,4 @@
-public class twoChar {
+public class TwoChar {
 
     public String twoChar(String str, int index) {
         if (index < 0 || index + 1 >= str.length()) {
