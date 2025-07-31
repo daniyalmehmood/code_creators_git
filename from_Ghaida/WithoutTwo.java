@@ -1,4 +1,4 @@
-public class without2 {
+public class WithoutTwo {
     public static void main(String[] args) {
         System.out.println(without2("HelloHe")); //"lloHe"
         System.out.println(without2("HelloHi")); //"HelloHi"
