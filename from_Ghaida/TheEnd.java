@@ -1,4 +1,4 @@
-public class theEnd {
+public class TheEnd {
     public static void main(String[] args){
         System.out.println(theEnd("Hello", true)); // → "H"
         System.out.println(theEnd("Hello", false)); // → "o"
