@@ -1,4 +1,4 @@
-public class seeColor {
+public class SeeColor {
 
     public String seeColor(String str) {
         if (str.startsWith("red")) {
