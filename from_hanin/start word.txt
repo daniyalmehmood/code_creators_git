@@ -1,0 +1,14 @@
+public class  StartWordChecker {
+    public static String startWord(String str, String word) {
+            String newStr = str.substring(1,word.length());
+            String  str1= word.substring(1,word.length());
+            char first = str.charAt(0);
+            if (newStr.equals(str1)) {
+                return first+ str1;
+
+            }
+            return "";
+        }
+
+
+}
