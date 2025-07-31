@@ -1,4 +1,4 @@
-public class extraFront {
+public class ExtraFront {
     public static void main(String[] args) {
         System.out.println(extraFront("Hello")); //"HeHeHe"
         System.out.println(extraFront("ab")); //"ababab"
