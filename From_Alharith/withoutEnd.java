@@ -1,4 +1,4 @@
-public class withoutEnd {
+public class WithoutEnd {
 
     public String withoutEnd(String str) {
 
