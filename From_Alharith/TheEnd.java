@@ -1,4 +1,4 @@
-public class theEnd {
+public class TheEnd {
 
     public String theEnd(String str, boolean front) {
         if (front) return str.substring(0,1);
