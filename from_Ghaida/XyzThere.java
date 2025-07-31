@@ -1,4 +1,4 @@
-public class xyzThere {
+public class XyzThere {
     public static void main(String[] args) {
         System.out.println(xyzThere("abcxyz")); //true
         System.out.println(xyzThere("abc.xyz")); //false
