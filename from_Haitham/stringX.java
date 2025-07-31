@@ -1,4 +1,4 @@
-public class stringX {
+public class StringX {
 public String stringX(String str) {
         String newString = "";
         for (int i = 0; i < str.length(); i++) {
