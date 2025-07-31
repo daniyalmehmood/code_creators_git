@@ -1,8 +1,8 @@
-public class atFirst {
+public class AtFirst {
     public static void main(String[] args) {
         System.out.println(atFirst("hello")); //"he"
-        System.out.println(atFirst("hi")); //"he"
-        System.out.println(atFirst("h")); //"he"
+        System.out.println(atFirst("hi")); //"hi"
+        System.out.println(atFirst("h")); //"h@"
     }
     public static String atFirst(String str) {
         if (str.length() >= 2) {
