@@ -1,0 +1,15 @@
+public class MixStart {
+    public static void main(String[] args) {
+    System.out.println(mixStart("aixr"));
+
+}
+    public static Boolean mixStart(String str){
+        if (str.startsWith("ix", 1)) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+}
+
