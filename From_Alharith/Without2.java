@@ -1,4 +1,4 @@
-public class without2 {
+public class Without2 {
 
     public String without2(String str) {
         if (str.length()==1) return str;
