@@ -1,4 +1,4 @@
-public class frontBack {
+public class FrontBack {
     public String frontBack(String str) {
         if(str.length() <= 1) return str;
         String m =str.substring(1,str.length()-1);
