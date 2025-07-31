@@ -1,4 +1,4 @@
-public class middleThree {
+public class MiddleThree {
 
     public String middleThree(String str) {
         int mid = str.length()/2;
