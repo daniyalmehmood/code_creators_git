@@ -1,5 +1,5 @@
-public class hasBad {
-    public boolean hasBad(String str) {
+public class BadChecker {
+    public boolean startsWithBad(String str) {
         if (str.length() >= 3 && str.substring(0, 3).equals("bad")) 
                                          {
             return true;
