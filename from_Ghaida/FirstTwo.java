@@ -1,4 +1,4 @@
-public class firstTwo {
+public class FirstTwo {
     public static void main(String[] args) {
         System.out.println(firstTwo("Hello")); // → "He"
         System.out.println(firstTwo("abcdefg")); // → "ab"
