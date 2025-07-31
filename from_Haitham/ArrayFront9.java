@@ -1,4 +1,4 @@
-public class arrayFront9 {
+public class ArrayFront9 {
 public boolean arrayFront9(int[] nums) {
 
         int arraySize = 4;
