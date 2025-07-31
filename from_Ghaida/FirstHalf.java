@@ -1,4 +1,4 @@
-public class firstHalf {
+public class FirstHalf {
     public static void main(String[] args) {
         System.out.println(firstHalf("WooHoo")); // → "Woo"
         System.out.println(firstHalf("HelloThere")); // → "Hello"
