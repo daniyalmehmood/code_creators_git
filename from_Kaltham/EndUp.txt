@@ -1,0 +1,12 @@
+public class EndUp {
+
+    public String endUp(String str){
+        if(str.length()>3){
+            String backStr= str.substring(str.length()-3);
+            backStr = backStr.toUpperCase();
+            String frontStr = str.substring(0,str.length()-3);
+            return frontStr+backStr;
+        }
+        return str.toUpperCase();
+    }
+}
