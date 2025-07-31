@@ -1,4 +1,4 @@
-public class nonStart {
+public class NonStart {
     public static void main(String[] args){
         System.out.println(nonStart("Hello", "There")); //"ellohere"
         System.out.println(nonStart("java", "code")); //"avaode"
