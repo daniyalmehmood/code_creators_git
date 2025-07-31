@@ -1,4 +1,4 @@
-public class endOther {
+public class EndOther {
     public static void main(String[] args) {
         System.out.println(endOther("Hiabc", "abc")); //true
         System.out.println(endOther("AbC", "HiaBc")); //true
