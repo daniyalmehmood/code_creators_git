@@ -1,5 +1,5 @@
-public class FrontTimes{
-public String frontTimes(String str, int n) {
+public class FrontTimes {
+    public String frontTimes(String str, int n) {
         StringBuilder str1 = new StringBuilder();
         if (str.length() <= 0) {
             return "";
@@ -10,4 +10,4 @@ public String frontTimes(String str, int n) {
         }
         return str1.toString();
     }
-	}
+}
