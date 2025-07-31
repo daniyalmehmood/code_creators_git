@@ -1,4 +1,4 @@
-public class withoutEnd {
+public class WithoutEnd {
     public static void main(String[] args){
         System.out.println(withoutEnd("Hello")); //"ell"
         System.out.println(withoutEnd("java")); //"av"
