@@ -1,4 +1,4 @@
-public class hasBad {
+public class HasBad {
     public static void main(String[] args){
         System.out.println(hasBad("badxx"));// → true
         System.out.println(hasBad("xbadxx")); // → true
