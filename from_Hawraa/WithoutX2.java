@@ -1,4 +1,4 @@
-public class withoutX2 {
+public class WithoutX2 {
     public static String withoutX2(String str) {
         String result = "";
         if (str.length() >= 1 && str.charAt(0) != 'x') {
