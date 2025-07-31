@@ -1,4 +1,4 @@
-public class countXX {
+public class CountXX {
 public int countXX(String str) {
         int count = 0;
         for (int i = 0; i < str.length() - 1; i++) {
