@@ -1,4 +1,4 @@
-public class intMax {
+public class IntMax {
     public String startOz(String str){
 
         String result="";
