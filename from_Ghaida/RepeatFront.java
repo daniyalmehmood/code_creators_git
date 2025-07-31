@@ -1,4 +1,4 @@
-public class repeatFront {
+public class RepeatFront {
     public static void main(String[] args) {
         System.out.println(repeatFront("Chocolate", 4)); //"ChocChoChC"
         System.out.println(repeatFront("Chocolate", 3)); //"ChoChC"
