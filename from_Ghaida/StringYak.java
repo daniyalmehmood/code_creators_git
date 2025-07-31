@@ -1,4 +1,4 @@
-public class stringYak {
+public class StringYak {
     public static void main(String[] args) {
         System.out.println(stringYak("yakpak")); //"pak"
         System.out.println(stringYak("pakyak")); //"pak"
