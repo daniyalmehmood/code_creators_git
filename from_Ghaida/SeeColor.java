@@ -1,4 +1,4 @@
-public class seeColor {
+public class SeeColor {
     public static void main(String[] args) {
         System.out.println(seeColor("redxx")); //"red"
         System.out.println(seeColor("xxred")); //""
