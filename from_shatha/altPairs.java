@@ -1,4 +1,4 @@
-public class altPairs {
+public class AltPairs {
     public static String altPairs(String str) {
         StringBuilder result = new StringBuilder();
         for (int i = 0; i < str.length(); i += 4) {
