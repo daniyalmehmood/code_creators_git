@@ -1,0 +1,9 @@
+public class middleTwo {
+
+    public String middleTwo(String str) {
+        int mid = (str.length()/2)-1;
+        int sec= mid +2;
+        return str.substring(mid,sec);
+    }
+
+}
