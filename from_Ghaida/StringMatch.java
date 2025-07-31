@@ -1,4 +1,4 @@
-public class stringMatch {
+public class StringMatch {
     public static void main(String[] args) {
         System.out.println(stringMatch("xxcaazz", "xxbaaz")); //3
         System.out.println(stringMatch("abc", "abc")); //2
