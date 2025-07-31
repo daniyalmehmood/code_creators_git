@@ -1,4 +1,4 @@
-public class stringBits {
+public class StringBits {
     public static void main(String[] args) {
         System.out.println(stringBits("Hello")); //"Hlo"
         System.out.println(stringBits("Hi")); //"H"
