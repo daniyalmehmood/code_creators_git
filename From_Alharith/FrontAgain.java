@@ -1,4 +1,4 @@
-public class frontAgain {
+public class FrontAgain {
 
     public boolean frontAgain(String str) {
         if (str.length()<2) return false;
