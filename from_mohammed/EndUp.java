@@ -1,4 +1,4 @@
-public class endUp {
+public class EndUp {
     public String endUp(String str) {
 
         if (str.length()<=3)
