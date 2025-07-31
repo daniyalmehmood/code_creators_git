@@ -1,4 +1,4 @@
-public class nTwice {
+public class NTwice {
     public static void main(String[] args){
         System.out.println(nTwice("Hello", 2)); // → "Helo"
         System.out.println(nTwice("Chocolate", 3));// → "Choate"
