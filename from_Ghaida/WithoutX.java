@@ -1,4 +1,4 @@
-public class withoutX {
+public class WithoutX {
     public static void main(String[] args) {
         System.out.println(withoutX("xHix")); //"Hi"
         System.out.println(withoutX("xHi")); //"Hi"
