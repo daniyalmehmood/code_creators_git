@@ -1,4 +1,4 @@
-public class countHi {
+public class CountHi {
     public static void main(String[] args) {
         System.out.println(countHi("abc hi ho")); //1
         System.out.println(countHi("ABChi hi")); //2
