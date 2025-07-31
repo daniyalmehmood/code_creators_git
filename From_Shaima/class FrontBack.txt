@@ -1,0 +1,24 @@
+public class FrontBack {
+        public static String frontBack(String str) {
+            char FirstIndex;
+            char LastIndex;
+            String Middle;
+            String NewStr;
+            if (str.length() > 1) {
+                FirstIndex = str.charAt(0);
+                LastIndex = str.charAt(str.length()-1);
+                Middle = str.substring(1,str.length()-1 );
+                NewStr =LastIndex+Middle+FirstIndex;
+                return NewStr;
+
+            } else {
+                return str;
+            }
+        }
+        public static void main(String[] args) {
+            System.out.println(FrontBack.frontBack("code"));
+            System.out.println(FrontBack.frontBack("a"));
+            System.out.println(FrontBack.frontBack("ab"));
+        }
+
+    }
