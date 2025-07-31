@@ -1,4 +1,4 @@
-public class minCat {
+public class MinCat {
     public static void main(String[] args) {
         System.out.println(minCat("Hello", "Hi")); //loHi
         System.out.println(minCat("Hello", "java")); //ellojava
