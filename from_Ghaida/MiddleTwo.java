@@ -1,4 +1,4 @@
-public class middleTwo {
+public class MiddleTwo {
     public static void main(String[] args){
         System.out.println(middleTwo("string")); // → "ri"
         System.out.println(middleTwo("code")); // → "od"
