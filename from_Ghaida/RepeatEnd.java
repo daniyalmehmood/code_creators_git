@@ -1,4 +1,4 @@
-public class repeatEnd {
+public class RepeatEnd {
     public static void main(String[] args) {
         System.out.println(repeatEnd("Hello", 3)); //"llollollo"
         System.out.println(repeatEnd("Hello", 2)); //"lolo"
@@ -21,7 +21,7 @@ public class repeatEnd {
         return "";
     }
 }
-/*public static String repeatEnd(String str, int n) {
+/*public static String RepeatEnd(String str, int n) {
         if(n <= 1){
             return str.substring(str.length()-1);
         }
