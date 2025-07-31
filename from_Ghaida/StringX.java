@@ -1,4 +1,4 @@
-public class stringX {
+public class StringX {
     public static void main(String[] args) {
         System.out.println(stringX("xxHxix")); //"xHix"
         System.out.println(stringX("abxxxcd")); //"abcd"
