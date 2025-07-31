@@ -1,4 +1,4 @@
-public class xyBalance {
+public class XyBalance {
     public static void main(String[] args) {
         System.out.println(xyBalance("aaxbby")); //true
         System.out.println(xyBalance("aaxbb")); //false
