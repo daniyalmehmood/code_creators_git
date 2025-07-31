@@ -1,0 +1,16 @@
+public class StringE {
+    public static boolean stringE(String str) {
+        int n = 0;
+        int i;
+        for (i = 0; i < str.length(); i++)
+            if (str.charAt(i) == 'e') {
+                n++;
+            }
+     if (n>=1 && n<= 3)
+    {
+        return true;
+    }
+     return false;
+    }
+
+}
