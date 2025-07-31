@@ -1,0 +1,16 @@
+public class BackAround{
+
+      public static String backAround(String str){
+            String lastCharacter= str.substring(str.length() - 1);
+            return lastCharacter+str+lastCharacter;
+        }
+
+            public static void main (String[]args) {
+
+                System.out.println(backAround("cat"));
+                System.out.println(backAround("hello"));
+                System.out.println(backAround("a"));
+            }
+}
+
+
