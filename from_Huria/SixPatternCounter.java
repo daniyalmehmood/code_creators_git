@@ -9,7 +9,6 @@ public class SixPatternCounter {
         }
         return count667;
     }
-
     public static void main(String[] args) {
         System.out.println(countSixFollowedBySixOrSeven(new int[]{6, 6, 2}));
         System.out.println(countSixFollowedBySixOrSeven(new int[]{6, 6, 2, 6}));
