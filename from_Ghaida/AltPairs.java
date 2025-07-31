@@ -1,4 +1,4 @@
-public class altPairs {
+public class AltPairs {
     public static void main(String[] args) {
         System.out.println(altPairs("kitten")); //"kien"
         System.out.println(altPairs("Chocolate")); //"Chole"
