@@ -1,5 +1,5 @@
-public class twoChar {
-    public String twoChar(String str, int index) {
+public class StringSlicer {
+    public String getTwoChar(String str, int index) {
         if (str.length() - 1 > index && str.length() < 2) {
             return str.substring(index, index + 2);
         
