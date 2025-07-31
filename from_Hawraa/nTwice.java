@@ -1,4 +1,4 @@
-public class nTwice {
+public class NTwice {
     public static String nTwice(String str, int n) {
         String firstCha = str.substring(0, n);
         String lastCha = str.substring(str.length() - n);
