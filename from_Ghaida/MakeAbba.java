@@ -1,4 +1,4 @@
-public class makeAbba {
+public class MakeAbba {
     public static void main(String[] args) {
         System.out.println(makeAbba("Hi", "Bye")); //"HiByeByeHi"
         System.out.println(makeAbba("Yo", "Alice")); //"YoAliceAliceYo"
