@@ -4,14 +4,14 @@
 
 public class DeleteChar {
     public String missingChar(String str, int n) {
-        if (str != null && n>=0 && n<=str.length()) {
+        if (!str.isEmpty() && n>=0 && n<=str.length()) {
             StringBuilder str2=new StringBuilder(str);
             str2.deleteCharAt(n);
             String newStr=str2.toString();
             return newStr;
         }
 
-        return"The String is Null";
+        return"The String is Empty OR N is less than zero";
     }
 }
 
@@ -22,7 +22,7 @@ public class DeleteChar {
 public class DeleteChar {
     public String missingChar(String str, int n) {
 
-        if (str != null && n>=0 && n<=str.length()){
+        if (!str.isEmpty() && n>=0 && n<=str.length()){
             char[] strToChar=str.toCharArray();
             char [] finalstr= new char[str.length()-1];
             int j=0;
@@ -35,7 +35,7 @@ public class DeleteChar {
             String newStr= new String(finalstr);
             return newStr;
         }
-            return "The String is Null";
+            return "The String is Empty OR N is less than zero";
     }
 
 }
