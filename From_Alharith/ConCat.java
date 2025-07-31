@@ -1,4 +1,4 @@
-public class conCat {
+public class ConCat {
 
     public String conCat(String a, String b) {
         if (a.length()<1 ) return b;
