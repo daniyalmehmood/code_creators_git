@@ -1,4 +1,4 @@
-public class array667 {
+public class Array667 {
     public static void main(String[] args) {
         System.out.println(array667(new int[] {6, 6, 2})); //1
         System.out.println(array667(new int[] {6, 6, 2, 6})); //1
