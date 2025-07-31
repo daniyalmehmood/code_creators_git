@@ -1,4 +1,4 @@
-public class lastTwo {
+public class LastTwo {
     public static void main(String[] args) {
         System.out.println(lastTwo("coding")); //codign
         System.out.println(lastTwo("cat")); //cta
