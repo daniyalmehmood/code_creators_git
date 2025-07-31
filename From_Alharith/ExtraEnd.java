@@ -1,4 +1,4 @@
-public class extraEnd {
+public class ExtraEnd {
 
     public String extraEnd(String str) {
         if (str.length()<2) return str;
