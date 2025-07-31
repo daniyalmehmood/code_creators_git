@@ -1,4 +1,4 @@
-public class stringTimes {
+public class StringTimes {
 public String stringTimes(String str, int n) {
         if (n < 0) {
             return null;
