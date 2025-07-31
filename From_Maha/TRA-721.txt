@@ -1,14 +1,19 @@
-public class Or35Task {
-    public static void main(String[] args){
-        System.out.println(or35(3));
-}
+public class intMax {
+    public static void main(String[] args) {
+        System.out.println(intMax(1, 2,  3));
+    }
 
-public static boolean or35(int n){
-
-        if(n>=0 && (n%3==0 || n%5==0)) {
-            return true;
+    public static int intMax(int a, int b, int c) {
+        if( a >b && a>c ){
+            return a;
         }
-        else return false ;
+        else if (b>a && b>c){
+            return b;
+        }
+        else {
+            return c;
+        }
 
     }
 }
+
