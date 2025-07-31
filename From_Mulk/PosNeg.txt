@@ -1,0 +1,18 @@
+public class PosNegCheck {
+    public static boolean posNegCheck(int a, int b, boolean negative) {
+        if (!negative && a < 0 && b > 0 || a>0 && b<0) {
+            return true;
+        } else
+        if (negative && a < 0 && b < 0) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+    public static void main (String[]args){
+        System.out.println(posNegCheck(1, -1, false));
+        System.out.println(posNegCheck(-1, 1, false));
+        System.out.println(posNegCheck(-4, -5, true));
+
+    }
+}
