@@ -1,4 +1,4 @@
-public class lastChars {
+public class LastChars {
 
     public String lastChars(String a, String b) {
         if (a.length()<1 && b.length()<1) return "@@";
