@@ -1,4 +1,4 @@
-public class array667 {
+public class Array667 {
  public int array667(int[] nums) {
         int count = 0;
         for (int index = 0; index < nums.length - 1; index++) {
