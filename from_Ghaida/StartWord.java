@@ -1,4 +1,4 @@
-public class startWord {
+public class StartWord {
     public static void main(String[] args) {
         System.out.println(startWord("hippo", "hi")); //"hi"
         System.out.println(startWord("hippo", "xip")); //"hip"
