@@ -8,5 +8,4 @@ public class ArrayFront9 {
         }
         return false;
     }
-	
 }
