@@ -1,4 +1,4 @@
-public class middleThree {
+public class MiddleThree {
     public static void main(String[] args){
         System.out.println(middleThree("Candy"));//"and"
         System.out.println(middleThree("and")); //"and"
