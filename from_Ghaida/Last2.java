@@ -1,4 +1,4 @@
-public class last2 {
+public class Last2 {
     public static void main(String[] args) {
         System.out.println(last2("hixxhi")); //1
         System.out.println(last2("xaxxaxaxx")); //1
