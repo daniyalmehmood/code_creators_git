@@ -1,0 +1,17 @@
+public class Front22 {
+    public static String front22(String str){
+        if (str.length()<2){
+            return str+str+str;
+        }else{
+            String firstCharacter=str.substring(0,1);
+            String secondCharacter=str.substring(1,2);
+            String lastCharacter=str.substring(str.length()-1);
+            return firstCharacter+secondCharacter+str+firstCharacter+secondCharacter;
+        }
+    }
+    public static void main(String[]args){
+            System.out.println(front22("kitten"));
+            System.out.println(front22("Ha"));
+            System.out.println(front22("abc"));
+        }
+        }
