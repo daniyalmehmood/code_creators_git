@@ -7,7 +7,6 @@ public class StringTimes {
         }
         return result.toString();
     }
-
     public static void main(String[] args) {
 
         System.out.println(stringTimes("Hi", 2));
