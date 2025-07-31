@@ -1,4 +1,4 @@
-public class doubleChar {
+public class DoubleChar {
     public static void main(String[] args) {
         System.out.println(doubleChar("The")); //"TThhee"
         System.out.println(doubleChar("AAbb")); //"AAAAbbbb"
