@@ -1,4 +1,4 @@
-public class catDog {
+public class CatDog {
     public static void main(String[] args) {
         System.out.println(catDog("catdog")); //true
         System.out.println(catDog("catcat")); //false
