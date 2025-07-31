@@ -1,4 +1,4 @@
-public class frontTimes {
+public class FrontTimes {
 public String frontTimes(String str, int n) {
         String frontString = "";
         int endIndex = 0;
