@@ -1,4 +1,4 @@
-public class atFirst {
+public class AtFirst {
 
     public String atFirst(String str) {
         if (str.length()< 1) return "@@";
