@@ -1,4 +1,4 @@
-public class startHi {
+public class StartHi {
 
     public boolean startHi(String str) {
         if (str.length()<2){
