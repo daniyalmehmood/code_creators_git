@@ -1,4 +1,4 @@
-public class posNeg {
+public class PosNeg {
 
     public boolean posNeg(int a, int b, boolean negative) {
 
