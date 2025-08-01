@@ -1,4 +1,4 @@
-public class backAround {
+public class BackAround {
 
     public String backAround(String str) {
         if (str.length()<=1){
