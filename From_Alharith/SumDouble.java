@@ -1,4 +1,4 @@
-public class sumDouble {
+public class SumDouble {
 
     public int sumDouble(int a, int b) {
         if (a != b) {
