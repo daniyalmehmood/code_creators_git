@@ -1,4 +1,4 @@
-public class front22 {
+public class Front22 {
 
     public String front22(String str) {
         int take =2;
