@@ -1,4 +1,4 @@
-public class delDel {
+public class DelDel {
 
     public String delDel(String str) {
         if (str.length() >= 4 && str.substring(1, 4).equals("del")) {
