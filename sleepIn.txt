@@ -1,0 +1,12 @@
+public class sleep {
+        public static boolean istSleepIn ( boolean weekday, boolean vacation)
+        {
+            if (!weekday  || vacation) {
+                System.out.println("we can sleep in.");
+                return true;
+            
+            } else {
+                return false;
+            }
+        }
+    }
