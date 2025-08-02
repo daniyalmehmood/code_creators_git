@@ -1,4 +1,4 @@
-public class everyNth {
+public class EveryNth {
 
     public String everyNth(String str, int n) {
         String result = "";
