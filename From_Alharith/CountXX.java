@@ -1,4 +1,4 @@
-public class countXX {
+public class CountXX {
 
     int countXX(String str) {
         int count = 0;
