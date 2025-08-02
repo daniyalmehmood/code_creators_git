@@ -1,4 +1,4 @@
-public class doubleX {
+public class DoubleX {
 
     boolean doubleX(String str) {
         int i = str.indexOf("x");
