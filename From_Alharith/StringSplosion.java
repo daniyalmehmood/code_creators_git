@@ -1,4 +1,4 @@
-public class stringSplosion {
+public class StringSplosion {
 
     public String stringSplosion(String str) {
         String result = "";
