@@ -1,4 +1,4 @@
-public class stringBits {
+public class StringBits {
 
     public String stringBits(String str) {
         String word = "";
