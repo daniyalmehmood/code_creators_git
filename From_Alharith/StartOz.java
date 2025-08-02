@@ -1,4 +1,4 @@
-public class startOz {
+public class StartOz {
 
     public String startOz(String str) {
         if (str.length()<2) return str;
