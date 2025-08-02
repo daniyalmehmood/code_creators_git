@@ -1,4 +1,4 @@
-public class max1020 {
+public class Max1020 {
 
     public int max1020(int a, int b) {
         if (b > a) {
