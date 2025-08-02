@@ -1,4 +1,4 @@
-public class intMax {
+public class IntMax {
 
     public int intMax(int a, int b, int c) {
         int max =0;
