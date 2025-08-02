@@ -1,4 +1,4 @@
-public class mixStart {
+public class MixStart {
 
     public boolean mixStart(String str) {
         if (str.length()<3) return false;
