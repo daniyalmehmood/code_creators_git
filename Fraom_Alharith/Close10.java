@@ -1,4 +1,4 @@
-public class close10 {
+public class Close10 {
 
     public int close10(int a, int b) {
         int aDiff= Math.abs(a -10);
