@@ -1,10 +1,10 @@
 public class Last2 {
     public static void main(String[] args) {
-        System.out.println(last2("hixxhi")); //1
-        System.out.println(last2("xaxxaxaxx")); //1
-        System.out.println(last2("axxxaaxx")); //2
+        System.out.println(countMatchingLastTwoPairs("hixxhi")); //1
+        System.out.println(countMatchingLastTwoPairs("xaxxaxaxx")); //1
+        System.out.println(countMatchingLastTwoPairs("axxxaaxx")); //2
     }
-    public static int last2(String str) {
+    public static int countMatchingLastTwoPairs(String str) {
         if (str.length() < 2) {//string can't be less 2 character
             return 0;
         }
