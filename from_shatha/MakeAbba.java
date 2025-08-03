@@ -1,4 +1,4 @@
-public class makeAbba {
+public class MakeAbba {
     public static String makeAbba(String a, String b) {
         return a.concat(b).concat(b).concat(a);
 
