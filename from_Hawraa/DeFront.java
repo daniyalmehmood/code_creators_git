@@ -1,5 +1,5 @@
 public class DeFront {
-    public static String deFront(String str) {
+    public static String preserveABPrefix(String str) {
         String newStr = "";
         if (str.length() >= 1) {
             if (str.charAt(0) == 'a') {
@@ -20,8 +20,8 @@ public class DeFront {
         return newStr;
     }
     public static void main(String[] args){
-        System.out.println(deFront("Hello"));
-        System.out.println(deFront("java"));
-        System.out.println(deFront("away"));
+        System.out.println(preserveABPrefix("Hello"));
+        System.out.println(preserveABPrefix("java"));
+        System.out.println(preserveABPrefix("away"));
     }
 }
