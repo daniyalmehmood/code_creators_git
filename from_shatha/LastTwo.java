@@ -1,4 +1,4 @@
-public class lastTwo {
+public class LastTwo {
     public static String lastTwo(String str) {
    if (str.length() < 2) {
             return str;
