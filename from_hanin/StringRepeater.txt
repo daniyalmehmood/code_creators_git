@@ -3,15 +3,15 @@ public class StringRepeater {
     public static String repeatString(String str, int n) {
         // If n is 1 or more, perform repetition
         if (n >= 1) {
-            StringBuilder newstr = new StringBuilder();
+            StringBuilder result = new StringBuilder();
 
-            // Append 'str' to 'newstr' n times
+            // Append 'result' to 'newstr' n times
             for (int i = 0; i < n; i++) {
-                newstr.append(str);
+                result.append(str);
             }
 
             // Return the final repeated string
-            return newstr.toString();
+            return result.toString();
         }
 
         // If n is less than 1, return the original string
