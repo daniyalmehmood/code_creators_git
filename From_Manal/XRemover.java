@@ -1,5 +1,5 @@
-public class WithoutXTwo {
-    public static String withoutX2(String str) {
+public class XRemover {
+    public static String removeXFromStart(String str) {
         int len = str.length();
         if (len >= 2) {
             String first = str.substring(0, 1);
@@ -21,9 +21,9 @@ public class WithoutXTwo {
     }
 
     public static void main(String[] args) {
-        System.out.println(withoutX2("xHi"));
-        System.out.println(withoutX2("Hxi"));
-        System.out.println(withoutX2("Hi"));
+        System.out.println(removeXFromStart("xHi"));
+        System.out.println(removeXFromStart("Hxi"));
+        System.out.println(removeXFromStart("Hi"));
     }
 }
 
