@@ -1,4 +1,4 @@
-public class BuildGrowingString {
+public class StringSplosion {
     public String buildGrowingString(String str) {
         StringBuilder Finalstr = new StringBuilder();
         for (int i = 0; i < str.length(); i++) {
