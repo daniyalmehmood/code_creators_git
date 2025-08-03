@@ -1,10 +1,10 @@
 public class StringX {
     public static void main(String[] args) {
-        System.out.println(stringX("xxHxix")); //"xHix"
-        System.out.println(stringX("abxxxcd")); //"abcd"
-        System.out.println(stringX("xabxxxcdx")); //"xabcdx"
+        System.out.println(removeXFromMiddle("xxHxix")); //"xHix"
+        System.out.println(removeXFromMiddle("abxxxcd")); //"abcd"
+        System.out.println(removeXFromMiddle("xabxxxcdx")); //"xabcdx"
     }
-    public static String stringX(String str) {
+    public static String removeXFromMiddle(String str) {
         if (str.length() <= 2){
             return str;
         }
