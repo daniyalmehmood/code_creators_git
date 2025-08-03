@@ -1,6 +1,0 @@
-public class AbbaFormatter {
-    public static String buildAbbaString(String a, String b) {
-        return a+b+b+a;
-
-    }
-}
