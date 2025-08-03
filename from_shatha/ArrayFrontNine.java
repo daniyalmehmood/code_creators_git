@@ -1,4 +1,4 @@
-public class arrayFront9 {
+public class ArrayFrontNine {
     public static boolean arrayFront9(int[] nums) {
         int end = nums.length;
         if (end > 4) end = 4;
