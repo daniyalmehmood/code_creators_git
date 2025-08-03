@@ -1,4 +1,4 @@
-public class CountLastTwo {
+public class LastTwo {
     public int lastTwo(String str) {
         int count = 0;
         if (str.length() > 1) {
