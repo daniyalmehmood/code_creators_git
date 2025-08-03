@@ -1,5 +1,5 @@
 public class TwoChar {
-    public static String twoChar(String str, int index) {
+    public static String extractTwoFromIndex(String str, int index) {
         if(index < 0 || index > str.length() - 2){
             return str.substring(0, 2);
         }
@@ -9,8 +9,8 @@ public class TwoChar {
     }
 
     public static void main(String[] args){
-        System.out.println(twoChar("java", 0));
-        System.out.println(twoChar("java", 2));
-        System.out.println(twoChar("java", 3));
+        System.out.println(extractTwoFromIndex("java", 0));
+        System.out.println(extractTwoFromIndex("java", 2));
+        System.out.println(extractTwoFromIndex("java", 3));
     }
 }
