@@ -1,4 +1,4 @@
-public class ArrayCount9 {
+public class ArrayCountNine {
 
 
     public static int arrayCount9(int[] nums) {
