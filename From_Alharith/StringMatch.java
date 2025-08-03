@@ -1,6 +1,6 @@
 public class stringMatch {
 
-    public int stringMatch(String a, String b) {
+    public int StringMatch(String a, String b) {
 
         int len = 0;
         if (a.length() > b.length()) len = b.length();
