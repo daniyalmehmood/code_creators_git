@@ -1,4 +1,4 @@
-public class WithoutX2 {
+public class WithoutXTwo {
     public static String withoutX2(String str) {
         int len = str.length();
         if (len >= 2) {
