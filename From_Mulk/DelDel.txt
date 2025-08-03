@@ -1,0 +1,21 @@
+public class DelDel {
+    public static String delDel(String str) {
+        if (str.substring(1,4).equals("del")){
+         StringBuilder str2=new StringBuilder(str);
+
+            StringBuilder str3= str2.delete(1,4);
+            String str4=str3.toString();
+            return str4;
+        }else{
+            return str;
+        }
+    }
+    public static void main (String[]args){
+        System.out.println(delDel("adelbc"));
+        System.out.println(delDel("adelHello"));
+        System.out.println(delDel("adedbc"));
+
+    }
+}
+
+
