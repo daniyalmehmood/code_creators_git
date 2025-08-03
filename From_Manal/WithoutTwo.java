@@ -1,4 +1,4 @@
-public class Without2 {
+public class WithoutTwo {
     public static String without2(String str) {
         if (str.length() >= 2) {
             String start = str.substring(0, 2);
