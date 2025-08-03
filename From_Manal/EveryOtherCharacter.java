@@ -1,5 +1,5 @@
 public class EveryOtherCharacter{
-public String getEveryOtherCharacter(String str) {
+public static String getEveryOtherCharacter(String str) {
     String r ="";
 
     for (int i=0; i<str.length(); i+=2) {
