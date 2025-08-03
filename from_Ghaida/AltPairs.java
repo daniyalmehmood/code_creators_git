@@ -1,10 +1,10 @@
 public class AltPairs {
     public static void main(String[] args) {
-        System.out.println(altPairs("kitten")); //"kien"
-        System.out.println(altPairs("Chocolate")); //"Chole"
-        System.out.println(altPairs("CodingHorror")); //"Congrr"
+        System.out.println(pickTwoSkipTwo("kitten")); //"kien"
+        System.out.println(pickTwoSkipTwo("Chocolate")); //"Chole"
+        System.out.println(pickTwoSkipTwo("CodingHorror")); //"Congrr"
     }
-    public static String altPairs(String str) {
+    public static String pickTwoSkipTwo(String str) {
         StringBuilder firstTwoIndex = new StringBuilder();
         for(int i = 0; i < str.length(); i += 4){
             firstTwoIndex.append(str.charAt(i));
