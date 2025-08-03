@@ -1,5 +1,5 @@
-public class CountCharX {
-    public int countXX(String str) {
+public class CountXX {
+    public int countCharX(String str) {
         int count = 0;
         if (str.contains(" ")) {
             int space = str.indexOf(" ");
