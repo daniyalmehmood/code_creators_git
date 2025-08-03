@@ -1,9 +1,13 @@
-public class WithOutEnd2 {
-    public String withouEnd2(String str) {
-        if(str.length()<=2){
-            return "";}
+public class StringTrimmer {
 
-        return str.substring(1,str.length()-1);
+
+ //Returns a version of the input string without the first and last characters.
+
+    public String removeFirstAndLastChar(String str) {
+        if (str.length() <= 2) {
+            return "";
+        }
+
+        return str.substring(1, str.length() - 1);
     }
-
 }
