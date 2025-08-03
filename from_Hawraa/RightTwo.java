@@ -1,4 +1,4 @@
-public class Right2 {
+public class RightTwo {
     public static String right2(String str) {
         String firstCh = "";
         String lastCh = "";
