@@ -1,5 +1,3 @@
-package Warmup2;
-
 public class ArrayElementCounter {
     public int countNumberOfNine(int[] nums) {
         int count = 0;
