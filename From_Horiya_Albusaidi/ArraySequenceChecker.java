@@ -1,7 +1,5 @@
-package Warmup2;
-
-public class Array123 {
-    public boolean array123(int[] nums) {
+public class ArraySequenceChecker {
+    public boolean checkOneTwoThreeSequence(int[] nums) {
         if(nums.length >2)
         {
             for(int i=0;i<nums.length-1;i++)
