@@ -1,4 +1,4 @@
-public class stringBits {
+public class StringBits {
     public static String stringBits(String str) {
         StringBuilder result = new StringBuilder();
 
