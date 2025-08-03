@@ -1,5 +1,5 @@
 public class StringSplosion {
-//Expand String by adding more than one character 
+    //Expand String by adding more than one character
     public static String expandString(String str) {
         String r = "";
         for (int i = 0; i < str.length(); i++) {
