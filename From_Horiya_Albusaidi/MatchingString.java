@@ -1,7 +1,5 @@
-package Warmup2;
-
-public class StringMatch {
-    public int stringMatch(String a, String b) {
+public class MatchingString {
+    public int checkStringMatch(String a, String b) {
         int count=0;
         int shortStringlength;
         if(a.length() <2 || b.length()<2) return 0;
