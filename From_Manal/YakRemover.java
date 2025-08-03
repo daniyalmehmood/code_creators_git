@@ -1,6 +1,7 @@
 
-public class StringYak {
-    public static String stringYak(String str) {
+public class YakRemover {
+//this function removes Yak pattern from string
+    public static String cleanYakFromString(String str) {
         StringBuilder string1 = new StringBuilder(str);
         int i = 0;
         while (i <= string1.length() - 3) {
@@ -14,8 +15,8 @@ public class StringYak {
         return string1.toString();
     }
     public static void main(String[] arg) {
-        System.out.println(stringYak("yakpak"));
-        System.out.println(stringYak("pakyak"));
-        System.out.println(stringYak("yak123ya"));
+        System.out.println(cleanYakFromString("yakpak"));
+        System.out.println(cleanYakFromString("pakyak"));
+        System.out.println(cleanYakFromString("yak123ya"));
     }
 }
