@@ -1,19 +1,18 @@
 public class RemoveInnerX {
     public String removeInnerX(String str) {
-        if (str.length() < 2 || str.isEmpty()) {
+        if (str.length() < 2) {
             return str;
         }
-        String front = str.substring(0, 1);
-        String back = str.substring(str.length() - 1);
-        String str3 = str.substring(1, str.length() - 1);
-        StringBuilder str1 = new StringBuilder(str3);
-        StringBuilder newstr = new StringBuilder();
-        for (int i = 0; i < str1.length(); i++) {
-            if (str1.charAt(i) != 'x') {
-                newstr.append(str1.charAt(i));
+        String frontStr = str.substring(0, 1);
+        String backStr = str.substring(str.length() - 1);
+        String middleStr = str.substring(1, str.length() - 1);
+        StringBuilder newStr = new StringBuilder();
+        for (int i = 0; i < middleStr.length(); i++) {
+            if (middleStr.charAt(i) != 'x') {
+                newStr.append(middleStr.charAt(i));
             }
         }
 
-        return front + newstr.toString() + back;
+        return frontStr + newStr.toString() + backStr;
     }
 }
