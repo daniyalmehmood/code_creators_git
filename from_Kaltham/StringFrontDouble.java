@@ -1,17 +1,17 @@
 public class StringFrontDouble {
     public String stringFrontDouble(String str, int n) {
-        StringBuilder str3 = new StringBuilder();
+        StringBuilder repeatedFrontStr = new StringBuilder();
         if (str.length() < 3) {
             for (int i = 0; i < n; i++) {
-                str3.append(str);
+                repeatedFrontStr.append(str);
             }
-            return str3.toString();
+            return repeatedFrontStr.toString();
         } else {
-            String str2 = str.substring(0, 3);
+            String frontStr = str.substring(0, 3);
             for (int i = 0; i < n; i++) {
-                str3.append(str2);
+                repeatedFrontStr.append(frontStr);
             }
-            return str3.toString();
+            return repeatedFrontStr.toString();
         }
     }
 }
