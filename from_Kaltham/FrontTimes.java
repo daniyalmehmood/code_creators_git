@@ -1,4 +1,4 @@
-public class StringFrontDouble {
+public class FrontTimes {
     public String stringFrontDouble(String str, int n) {
         StringBuilder repeatedFrontStr = new StringBuilder();
         if (str.length() < 3) {
