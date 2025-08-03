@@ -1,15 +1,18 @@
-public class ExtraEnd {
+public class LastTwoRepeater {
 
-    public String extraEnd(String str) {
+
+     // Takes the last 2 characters of a string and repeats them 3 times.
+
+    public String repeatLastTwoChars(String str) {
         String lastTwo = str.substring(str.length() - 2);
         return lastTwo + lastTwo + lastTwo;
     }
 
     public static void main(String[] args) {
-        ExtraEnd obj = new ExtraEnd();
+        LastTwoRepeater obj = new LastTwoRepeater();
 
-        System.out.println(obj.extraEnd("Hello"));  // output "lolo"
-        System.out.println(obj.extraEnd("ab"));     // output "ababab"
-        System.out.println(obj.extraEnd("Hi"));     // output "HiHiHi"
+        System.out.println(obj.repeatLastTwoChars("Hello"));  // Output: lololo
+        System.out.println(obj.repeatLastTwoChars("ab"));     // Output: ababab
+        System.out.println(obj.repeatLastTwoChars("Hi"));     // Output: HiHiHi
     }
 }
