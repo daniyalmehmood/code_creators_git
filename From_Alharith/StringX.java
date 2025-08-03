@@ -1,4 +1,4 @@
-public class stringX {
+public class StringX {
 
     public String stringX(String str) {
 
