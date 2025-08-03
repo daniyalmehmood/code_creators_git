@@ -1,4 +1,4 @@
-public class has271 {
+public class Has271 {
 
     public boolean has271(int[] nums) {
         for (int i = 0; i < nums.length - 2; i++) {
