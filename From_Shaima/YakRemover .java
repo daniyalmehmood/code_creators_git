@@ -3,7 +3,7 @@ public class YakRemover  {
         StringBuilder newStr = new StringBuilder(); // Create a StringBuilder object to build the final result 'newStr'
         for (int i = 0; i < str.length(); i++) // Use a for-loop to go through each character in the 'str'
         {
-            if (str.length() > i+2  && str.charAt(i) =='y'&& str.charAt(i + 2) == 'k')  // Check if the index value is 'y' and the value of index+2 is 'k'
+            if (i+2< str.length() && str.charAt(i) =='y'&& str.charAt(i + 2) == 'k')  // Check if the index value is 'y' and the value of index+2 is 'k'
             {
                 i+=2; // to skip 2 character from 'i'. // e.g str.charAt(0)=y &&  str.charAt(2)=k .
             }
