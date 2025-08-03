@@ -1,8 +1,8 @@
 public class MakeOutWord {
     public static String makeOutWord(String out, String word) {
-        String fOut = out.substring(0,2);
-        String lOut = out.substring(2,4);
-        return fOut + word + lOut;
+        String firstOut = out.substring(0,2);
+        String lastOut = out.substring(2,4);
+        return firstOut + word + lastOut;
     }
 
     public static void main(String[] args){
