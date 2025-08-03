@@ -1,4 +1,4 @@
-public class MixNum {
+public class IntMax {
 
     public Integer intMax(int a, int b, int c) {
         if (a >= b && a >= c){
