@@ -1,4 +1,4 @@
-public class conCat {
+public class ConCat {
     public static String conCat(String a, String b) {
         if (a.isEmpty() || b.isEmpty()) {
             return a + b;
