@@ -1,5 +1,5 @@
-public class Left2 {
-    public static String left2(String str) {
+public class LeftTwo {
+    public static String leftTwo(String str) {
         String firstCh = "";
         String lastCh = "";
         if(str.length() > 2){
@@ -13,8 +13,8 @@ public class Left2 {
     }
 
     public static void main(String[] args){
-        System.out.println(left2("Hello"));
-        System.out.println(left2("java"));
-        System.out.println(left2("Hi"));
+        System.out.println(leftTwo("Hello"));
+        System.out.println(leftTwo("java"));
+        System.out.println(leftTwo("Hi"));
     }
 }
