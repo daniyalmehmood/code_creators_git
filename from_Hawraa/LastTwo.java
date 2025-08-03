@@ -1,5 +1,5 @@
-public class Last2 {
-    public static int last2(String str) {
+public class LastTwo {
+    public static int lastTwo(String str) {
         if(str.length() < 2){
             return 0;
         }
@@ -16,8 +16,8 @@ public class Last2 {
     }
 
     public static void main(String[] args){
-        System.out.println(last2("hixxhi"));
-        System.out.println(last2("xaxxaxaxx") );
-        System.out.println(last2("axxxaaxx"));
+        System.out.println(lastTwo("hixxhi"));
+        System.out.println(lastTwo("xaxxaxaxx") );
+        System.out.println(lastTwo("axxxaaxx"));
     }
 }
