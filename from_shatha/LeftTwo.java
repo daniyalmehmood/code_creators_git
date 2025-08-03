@@ -1,4 +1,4 @@
-public class left2 {
+public class LeftTwo {
     public static String middleTwo(String str) {
 
     int mid = str.length() / 2;
