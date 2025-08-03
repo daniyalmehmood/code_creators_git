@@ -1,5 +1,0 @@
-public class HtmlTagBuilder {
-    public String formatHtml(String tag, String word) {
-        return "<"+tag+">"+word +"</" +tag+">";
-    }
-}
