@@ -1,5 +1,5 @@
-public class CountLast2Substring {
-    public int countLast2Substring(String str) {
+public class CountLastTwo {
+    public int lastTwo(String str) {
         int count = 0;
         if (str.length() > 1) {
             String str1 = str.substring(str.length() - 2);
@@ -8,10 +8,9 @@ public class CountLast2Substring {
                     count++;
                 }
             }
-            return count;
-        } else {
-            return 0;
+
         }
+        return count;
     }
 
 }
