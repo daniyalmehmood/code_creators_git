@@ -1,16 +1,16 @@
-public class MakeAbba {
+public class AbbaFormatter {
+
     public static void main(String[] args) {
-        MakeAbba obj = new MakeAbba();
+        AbbaFormatter obj = new AbbaFormatter();
 
-        System.out.println(obj.makeAbba("Hi", "Bye"));    // "HiByeByeHi"
-        System.out.println(obj.makeAbba("Yo", "Alice"));  // "YoAliceAliceYo"
-        System.out.println(obj.makeAbba("What", "Up"));   // "WhatUpUpWhat"
+        System.out.println(obj.formatAbbaStyle("Hi", "Bye"));    // Output: HiByeByeHi
+        System.out.println(obj.formatAbbaStyle("Yo", "Alice"));  // Output: YoAliceAliceYo
+        System.out.println(obj.formatAbbaStyle("What", "Up"));   // Output: WhatUpUpWhat
     }
 
-    
+    // Returns a new string in the format: a + b + b + a.
 
-    public String makeAbba(String a, String b) {
-        return a+b+b+a;
+    public String formatAbbaStyle(String a, String b) {
+        return a + b + b + a;
     }
-
 }
