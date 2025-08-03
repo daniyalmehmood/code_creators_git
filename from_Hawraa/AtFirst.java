@@ -7,7 +7,7 @@ public class AtFirst {
             return str + "@";
         }
         else{
-            return "@" + "@";
+            return "@@";
         }
     }
 
