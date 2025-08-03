@@ -1,4 +1,4 @@
-public class firstTwo {
+public class FirstTwo {
     public static String firstTwo(String str){
 
         if(str.length()>2)
