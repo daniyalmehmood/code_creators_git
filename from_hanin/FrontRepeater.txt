@@ -1,0 +1,21 @@
+// Class to repeat the first 3 characters of a string a specified number of times
+public class FrontRepeater {
+    public static String repeatTimes(String str, int n) {
+        if (n >= 1) {
+            int i;
+            String m = "";
+
+            // Extract the first 3 characters of the input string
+            String newstr = str.substring(0, 3);
+
+            // Repeat newstr n times and append to m
+            for (i = 0; i < n; i++)
+                m = str1 + m; 
+
+            return m;
+        }
+
+        // If n is less than 1, return the original string
+        return str;
+    }
+}
