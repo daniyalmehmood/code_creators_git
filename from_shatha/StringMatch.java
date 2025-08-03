@@ -1,4 +1,4 @@
-public class stringMatch {
+public class StringMatch {
     public static int stringMatch(String a, String b) {
         int count = 0;
 
