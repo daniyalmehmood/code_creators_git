@@ -1,10 +1,8 @@
 public class LeftTwo {
     public static String leftTwo(String str) {
-        String firstCh = "";
-        String lastCh = "";
         if(str.length() > 2){
-            firstCh = str.substring(0,2);
-            lastCh = str.substring(2, str.length());
+            String firstCh = str.substring(0,2);
+            String lastCh = str.substring(2, str.length());
             return lastCh + firstCh;
         }
         else {
