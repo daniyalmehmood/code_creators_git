@@ -1,9 +1,13 @@
-public class StringTimes{
- public String stringTimes(String str, int n) {
-    StringBuilder str1 = new StringBuilder();
-    for (int i = 0; i < n; i++) {
-        str1.append(str);
-    }  
-       return str1.toString();
-}
+public class FrontTimes {
+    public String createRepeatedText(String str, int n) {
+        StringBuilder str1 = new StringBuilder();
+        if (str.length() <= 0) {
+            return "";
+        }
+        for (int i = 0; i < n; i++) {
+
+            str1.append(str.length() < 3 ? str : str.substring(0, 3));
+        }
+        return str1.toString();
+    }
 }
