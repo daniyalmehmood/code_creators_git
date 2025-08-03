@@ -1,5 +1,5 @@
-public class StringCutter {
-    public String withoutEnd(String str) {
+public class WithoutEndTwo {
+    public static String withoutEnd(String str) {
         if (str.length() >= 2) {
             return str.substring(1, str.length() - 1);
         }
