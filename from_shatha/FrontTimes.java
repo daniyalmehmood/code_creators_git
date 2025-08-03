@@ -1,4 +1,4 @@
-public class frontTimes {
+public class FrontTimes {
     public String frontTimes(String str, int n) {
         String front = str.length() < 3 ? str : str.substring(0, 3);
         StringBuilder result = new StringBuilder(front.length() * n);
