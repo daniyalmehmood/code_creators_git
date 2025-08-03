@@ -1,4 +1,4 @@
-public class altPairs {
+public class AltPairs {
 
     public String altPairs(String str) {
         String result = "";
