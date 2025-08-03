@@ -1,4 +1,5 @@
 public class XRemover {
+    //the function removes X from the first two characters
     public static String removeXFromStart(String str) {
         int len = str.length();
         if (len >= 2) {
@@ -25,7 +26,4 @@ public class XRemover {
         System.out.println(removeXFromStart("Hxi"));
         System.out.println(removeXFromStart("Hi"));
     }
-}
-
-
 }
