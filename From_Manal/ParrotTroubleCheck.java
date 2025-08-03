@@ -10,8 +10,8 @@ public class ParrotTroubleCheck {
 
     public static void main (String[] args)
     {
-        System.out.println(parrotTrouble(true, 6));
-        System.out.println(parrotTrouble(true, 7));
-        System.out.println(parrotTrouble(false, 6));
+        System.out.println(isInTrouble(true, 6));
+        System.out.println(isInTrouble(true, 7));
+        System.out.println(isInTrouble(false, 6));
     }
 }
