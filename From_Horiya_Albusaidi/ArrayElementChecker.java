@@ -1,7 +1,5 @@
-package Warmup2;
-
-public class ArrayFront9 {
-    public boolean arrayFront9(int[] nums) {
+public class ArrayElementsChecker {
+    public boolean hasNineInFirstFour(int[] nums) {
 
         for(int i=0;i<nums.length;i++)
         {
