@@ -1,4 +1,4 @@
-public class deFront {
+public class DeFront {
     public static String deFront(String str) {
         String result = "";
 
