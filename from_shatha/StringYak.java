@@ -1,4 +1,4 @@
-public class stringYak {
+public class StringYak {
     public static String stringYak(String str) {
         StringBuilder result = new StringBuilder();
 
