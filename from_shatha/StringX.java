@@ -1,4 +1,4 @@
-public class stringX {
+public class StringX {
     public static String stringX(String str) {
         if (str.length() <= 2) {
             return str;
