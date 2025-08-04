@@ -1,4 +1,5 @@
-public String StringYak(String str) {
+public class StringYak{
+public String stringYak(String str) {
     String res = "";
 
     for (int i = 0; i < str.length(); i++) {
@@ -10,4 +11,4 @@ public String StringYak(String str) {
     }
 
     return res;
-}
+}}
