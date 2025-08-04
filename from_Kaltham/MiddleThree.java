@@ -1,13 +1,12 @@
 public class MiddleThree {
     public String middleThree(String str) {
-        String noSpace = str.replaceAll("\\s+", "");
-        int l = noSpace.length() / 2;
-        int l2 = str.length() / 2;
+        String strWithoutSpace = str.replaceAll("\\s+", ""); //It remove white space from String
+        int lengthOfStrWithoutSpace = strWithoutSpace.length() / 2;
 
-        if (noSpace.length() == 3) {
+        if (strWithoutSpace.length() == 3) {
             return str;
         } else {
-            return noSpace.substring(l - 1, l + 2);
+            return strWithoutSpace.substring(lengthOfStrWithoutSpace - 1, lengthOfStrWithoutSpace + 2);
         }
 
     }
