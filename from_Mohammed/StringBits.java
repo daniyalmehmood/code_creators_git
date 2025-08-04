@@ -1,3 +1,4 @@
+public class StringBits{
 public String stringBits(String str){
 
     String res="";
@@ -5,4 +6,4 @@ public String stringBits(String str){
         res+=str.substring(i,i+1);
     }
     return res;
-}
+}}
