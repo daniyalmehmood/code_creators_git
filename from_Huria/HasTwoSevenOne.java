@@ -1,4 +1,4 @@
-public class Has271 {
+public class HasTwoSevenOne {
 
     public static boolean has271(int[] nums ) {
 
