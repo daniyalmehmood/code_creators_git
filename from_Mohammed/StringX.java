@@ -1,4 +1,6 @@
-public String StringX(String str) {
+public class StringX {
+
+public String stringX(String str) {
 
     String result = "";
     for (int i=0; i<str.length(); i++) {
@@ -8,4 +10,4 @@ public String StringX(String str) {
         }
     }
     return result;
-}
+}}
