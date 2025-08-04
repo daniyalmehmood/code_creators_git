@@ -1,4 +1,4 @@
-public class AltPairs {
+public class AlternatePairProcessor {
     public static String getAlternatePairs(String str) {
         StringBuilder result = new StringBuilder();
         for (int i = 0; i < str.length(); i += 4) {
