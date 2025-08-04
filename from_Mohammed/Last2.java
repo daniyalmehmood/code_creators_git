@@ -1,4 +1,5 @@
-public int Last2(String str) {
+public class Last2{
+public int last2(String str) {
     if (str.length()<2)return 0;
 
     String last=str.substring(str.length()-2);
@@ -9,4 +10,4 @@ public int Last2(String str) {
         if (sub.equals(last)){
             count++;}}
     return count;
-}
+}}
