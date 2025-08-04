@@ -1,5 +1,5 @@
-public class WithoutX {
-    public static String withoutX(String str) {
+public class XRemover {
+    public static String removeEdgeXCharacter(String str) {
         if (str.length() == 0) {
             return str;
         }
@@ -8,9 +8,9 @@ public class WithoutX {
         return str;
     }
     public static void main(String[] args) {
-        System.out.println(withoutX("xHix"));
-        System.out.println(withoutX("xHi"));
-        System.out.println(withoutX("Hxix") );
+        System.out.println(removeEdgeXCharacter("xHix"));
+        System.out.println(removeEdgeXCharacter("xHi"));
+        System.out.println(removeEdgeXCharacter("Hxix") );
     }
 
 }
