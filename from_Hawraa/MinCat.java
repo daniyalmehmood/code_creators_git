@@ -1,5 +1,5 @@
 public class MinCat {
-    public static String minCat(String a, String b) {
+    public static String equalLengthConcat(String a, String b) {
         if(a.length() > b.length()){
             a = a.substring(a.length() - b.length());
         }
@@ -10,8 +10,8 @@ public class MinCat {
     }
 
     public static void main(String[] args){
-        System.out.println(minCat("Hello", "Hi"));
-        System.out.println(minCat("Hello", "java"));
-        System.out.println(minCat("java", "Hello"));
+        System.out.println(equalLengthConcat("Hello", "Hi"));
+        System.out.println(equalLengthConcat("Hello", "java"));
+        System.out.println(equalLengthConcat("java", "Hello"));
     }
 }
