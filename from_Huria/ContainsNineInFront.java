@@ -1,4 +1,4 @@
-public class Contains9InFront {
+public class ContainsNineInFront {
     public static boolean contains9InFront(int[] nums) {
         int n = nums.length;
         if (n > 4)
