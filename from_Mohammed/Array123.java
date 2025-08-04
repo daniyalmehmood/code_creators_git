@@ -1,4 +1,5 @@
-public boolean Array123(int[] nums) {
+public class Array123{
+public boolean array123(int[] nums) {
     {
         for (int i=0; i<(nums.length-2);i++)
 
@@ -6,3 +7,4 @@ public boolean Array123(int[] nums) {
                 return true;
 
     }return false;}
+}
