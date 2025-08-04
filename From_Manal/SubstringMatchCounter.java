@@ -7,12 +7,12 @@ public class SubstringMatchCounter {
             return 0;
         }
 //get the last two characters from the string
-        String end = str.substring(str.length() - 2);
+        String lastTwoChar = str.substring(str.length() - 2);
         int count = 0;
 //Loop through the string, stopping two characters befor the end
         for (int i = 0; i < str.length() - 2; i++) {
-            String sub = str.substring(i, i + 2);
-            if (sub.equals(end)) {
+            String currentPair = str.substring(i, i + 2);
+            if (currentPair.equals(lastTwoChar)) {
                 count++;
             }
         }
