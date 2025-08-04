@@ -2,7 +2,7 @@ public class DoubleXFinder {
     //this function check if 'X' is followed by another 'X'
    public static boolean hasDoubleX(String str) {
         int index= str.indexOf("x");
-        if (index== -1 || index +1>=str.length()){
+        if ( str.length() <= index + 1){
             return false;
         }
 
