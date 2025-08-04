@@ -5,11 +5,11 @@ public class SubstringPatternChecker  {
         {
             return 0;  //return 0 , if the 'str' length is less than 2
         }
-         String last2 = str.substring(str.length() -2); // initialize  'last2' variable and assigned the last 2 elements in the 'str'
+         String lastTwoChar = str.substring(str.length() -2); // initialize  'lastTwoChar' variable and assigned the last 2 elements in the 'str'
 
         for (int i = 0; i < str.length()-2; i++)  // Use a for-loop to go through each character in the 'str' unless the last 2 character
         {
-            if (str.substring(i,i+2).equals(last2)) // check if any substring of 2 characters is same as the 'last2'
+            if (str.substring(i,i+2).equals(lastTwoChar)) // check if any substring of 2 characters is same as the 'lastTwoChar'
             {
                 count++;  // +1 to 'count' variable if the condition is true
             }
