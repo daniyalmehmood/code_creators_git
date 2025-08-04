@@ -5,8 +5,8 @@ public class MinCat {
             return a.substring(lengthOfA) + b;
         }
         if (a.length() <= b.length()) {
-            int lengthOfb = b.length() - a.length();
-            return a + b.substring(lengthOfb);
+            int lengthOfB = b.length() - a.length();
+            return a + b.substring(lengthOfB);
         }
         return "";
 
