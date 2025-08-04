@@ -1,5 +1,5 @@
 public class ArrayFrontNine {
-    public boolean firstFourContains9(int[] nums) {
+    public boolean firstFourContainsNine(int[] nums) {
         for (int i = 0; i < Math.min(nums.length, 4); i++) {
 
             if (nums[i] == 9) {
