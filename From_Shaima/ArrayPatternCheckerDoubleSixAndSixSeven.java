@@ -1,5 +1,5 @@
-public class ArrayPatternChecker667 {
-    public static int count66And67(int[] nums) {
+public class ArrayPatternCheckerDoubleSixAndSixSeven {
+    public static int countDoubleSixAndSixSevenInArray(int[] nums) {
         int count =0; // initialize  'count' variable and assign 0 to its
         for (int i=0 ; i<nums.length-1; i++) // using a for loop to go through each element in the array
         {
@@ -11,8 +11,8 @@ public class ArrayPatternChecker667 {
         return count; // return the value of 'count'
     }
     public static void main(String[] args){
-        System.out.println(count66And67(new int[]{6, 6, 2}));
-        System.out.println(count66And67(new int[]{6, 6, 2, 6}));
-        System.out.println(count66And67(new int[]{6, 7, 2, 6}));
+        System.out.println(countDoubleSixAndSixSevenInArray(new int[]{6, 6, 2}));
+        System.out.println(countDoubleSixAndSixSevenInArray(new int[]{6, 6, 2, 6}));
+        System.out.println(countDoubleSixAndSixSevenInArray(new int[]{6, 7, 2, 6}));
     }
 }
