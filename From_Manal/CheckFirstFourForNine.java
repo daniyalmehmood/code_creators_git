@@ -2,9 +2,9 @@ public class CheckFirstFourForNine {
     public static boolean hasNineInFirstFour(int[] nums) {
         //return true if one of the first 4 elements in the array is a 9
 
-        int n =nums.length;
-        if(n>4) n=4;
-        for (int i=0; i< n; i++) {
+        int limit =nums.length;
+        if(limit>4) limit=4;
+        for (int i=0; i< limit; i++) {
             if (nums[i] ==9){return true;}
 
         }
