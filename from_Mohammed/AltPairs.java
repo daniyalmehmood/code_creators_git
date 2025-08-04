@@ -1,4 +1,5 @@
-public String AltPairs(String str) {
+public class AltPairs{
+public String altPairs(String str) {
     String res="";
     for (int i=0; i<str.length();i+=4){
         int end=i+2;
@@ -6,4 +7,4 @@ public String AltPairs(String str) {
             end=str.length();}
         res+=str.substring(i,end);}
     return res;
-}
+}}
