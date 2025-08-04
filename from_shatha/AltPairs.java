@@ -1,5 +1,5 @@
 public class AltPairs {
-    public static String altPairs(String str) {
+    public static String getAlternatePairs(String str) {
         StringBuilder result = new StringBuilder();
         for (int i = 0; i < str.length(); i += 4) {
             result.append(str.charAt(i));
