@@ -1,4 +1,4 @@
-public class Pattern271Checker {
+public class ArrayPatternChecker {
     public static boolean check271Pattern(int[] nums) {
         for (int i=0 ; i<nums.length-2 ; i++) //Use a for-loop to go through each element in the array 'nums[]' unless the last 2 elements
         {
