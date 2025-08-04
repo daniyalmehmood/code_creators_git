@@ -1,4 +1,4 @@
-public class Detect123Pattern{
+public class DetectPattern{
 
     public static boolean detect123Pattern(int[] num) {
         if (num.length <= 2) {
