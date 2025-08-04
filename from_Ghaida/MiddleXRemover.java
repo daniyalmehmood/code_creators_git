@@ -1,4 +1,4 @@
-public class StringX {
+public class MiddleXRemover {
     public static void main(String[] args) {
         System.out.println(removeXFromMiddle("xxHxix")); //"xHix"
         System.out.println(removeXFromMiddle("abxxxcd")); //"abcd"
