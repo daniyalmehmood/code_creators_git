@@ -1,5 +1,5 @@
-
-public int StringMatch(String a, String b) {
+public class StringMatch{ 
+public int stringMatch(String a, String b) {
     int leng= Math.min (a.length(),b.length());
     int tot=0;
     for (int i=0; i<leng-1; i++){
@@ -9,4 +9,4 @@ public int StringMatch(String a, String b) {
             tot++;
     }
     return tot;
-}
+}}
