@@ -14,12 +14,12 @@ public class HasTwoSevenOne {
 
     public static void main(String [] args) {
 
-        System.out.println(Has271.has271(new int[]{1, 2, 7, 1}));
-        System.out.println(Has271.has271(new int[]{1, 2, 8, 1}));
-        System.out.println(Has271.has271(new int[]{3, 8, 2}));
-        System.out.println(Has271.has271(new int[]{2, 7, 3}));
-        System.out.println(Has271.has271(new int[]{2, 7, -1}));
-        System.out.println(Has271.has271(new int[]{4, 5, 3, 8, 0}));
-        System.out.println(Has271.has271(new int[]{1, 1, 4, 9, 4, 9, 2}));
+        System.out.println(has271(new int[]{1, 2, 7, 1}));
+        System.out.println(has271(new int[]{1, 2, 8, 1}));
+        System.out.println(has271(new int[]{3, 8, 2}));
+        System.out.println(has271(new int[]{2, 7, 3}));
+        System.out.println(has271(new int[]{2, 7, -1}));
+        System.out.println(has271(new int[]{4, 5, 3, 8, 0}));
+        System.out.println(has271(new int[]{1, 1, 4, 9, 4, 9, 2}));
     }
 }
