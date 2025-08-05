@@ -1,7 +1,7 @@
 import java.util.HashMap;
 import java.util.Map;
 
-public class mabValues {
+public class MabValues {
     public static Map<String, String> replacingValues(Map<String, String> map) {
 
         if(map.containsKey("a"))
