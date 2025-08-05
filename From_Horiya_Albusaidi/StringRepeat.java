@@ -1,5 +1,3 @@
-package Warmup2;
-
 public class StringRepeat {
     public String repeatFrontNTimes(String str, int n) {
         StringBuilder result = new StringBuilder();
