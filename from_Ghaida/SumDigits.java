@@ -1,4 +1,4 @@
-public class sumDigits {
+public class SumDigits {
     public static void main(String[] args) {
         System.out.println(sumDigitsInString("aa1bc2d3"));// → 6
         System.out.println(sumDigitsInString("aa11b33"));// → 8
