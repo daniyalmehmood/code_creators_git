@@ -8,6 +8,7 @@ public class Max1020 {
         } else if (a >= 10 && a <= 20) {
             return a;
         } else if (b >= 10 && b <= 20) {
-        else return 0;
+            return b;
         }
+        else return 0;
     }
