@@ -1,10 +1,10 @@
-public class AtFirst {
+public class FirstTwoChars {
     public static void main(String[] args) {
-        System.out.println(atFirst("hello")); //"he"
-        System.out.println(atFirst("hi")); //"hi"
-        System.out.println(atFirst("h")); //"h@"
+        System.out.println(getFirstTwoChars("hello")); //"he"
+        System.out.println(getFirstTwoChars("hi")); //"hi"
+        System.out.println(getFirstTwoChars("h")); //"h@"
     }
-    public static String atFirst(String str) {
+    public static String getFirstTwoChars(String str) {
         if (str.length() >= 2) {
             return str.substring(0, 2);
         }
