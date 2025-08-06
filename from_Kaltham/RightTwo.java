@@ -1,5 +1,5 @@
 public class RightTwo {
-    public String right2(String str) {
+    public String rightTwo(String str) {
         if (str.length() <= 2) {
             return str;
         }
