@@ -9,6 +9,7 @@ public class ArraySumComparision {
         }
         return a;
     }
+    
     public static void main(String[] args) {
         System.out.println(Arrays.toString(getBiggerOFTwoNumber(new int[]{1, 2}, new int[]{3, 4})));
         System.out.println(Arrays.toString(getBiggerOfTwoNumber(new int[]{3, 4}, new int[]{1, 2})));
