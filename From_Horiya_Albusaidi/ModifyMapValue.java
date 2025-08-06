@@ -7,7 +7,6 @@ public class ModifyMapValue {
                 map.remove("a");
                 map.remove("b");
             }
-
         }
         return map;
     }
