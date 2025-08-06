@@ -1,6 +1,6 @@
 import java.util.Map;
 
-public class modifyMap {
+public class ModifyMap {
     public Map<String, String> mergeABValues(Map<String, String> map) {
         if (map.containsKey("a") && map.containsKey("b")) {
             String aValue = map.get("a");
