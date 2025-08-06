@@ -1,7 +1,7 @@
-public class LastChars {
-    public String lastChars(String a, String b) {
+public class EdgeCharacterCombiner {
+    public String joinFirstAndLast(String a, String b) {
         if (a.isEmpty() && b.isEmpty()) {
-            return "@" + "@";
+            return "@@";
         }
         if (a.isEmpty()) {
             return "@" + b.substring(b.length() - 1);
