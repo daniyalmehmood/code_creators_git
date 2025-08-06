@@ -1,10 +1,10 @@
-public class LastChars {
+public class FirstLastCharExtractor {
     public static void main(String[] args) {
-        System.out.println(lastChars("last", "chars")); //"ls"
-        System.out.println(lastChars("yo", "java")); //"ya"
-        System.out.println(lastChars("hi", "")); //"h@"
+        System.out.println(getFirstAndLastChars("last", "chars")); //"ls"
+        System.out.println(getFirstAndLastChars("yo", "java")); //"ya"
+        System.out.println(getFirstAndLastChars("hi", "")); //"h@"
     }
-    public static String lastChars(String a, String b) {
+    public static String getFirstAndLastChars(String a, String b) {
         if(a.isEmpty() && b.isEmpty()){
             return "@" +  "@";
         }
