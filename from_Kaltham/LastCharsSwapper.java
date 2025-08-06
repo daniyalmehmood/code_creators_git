@@ -1,5 +1,5 @@
-public class LastTwo {
-    public String lastTwo(String str) {
+public class LastCharsSwapper {
+    public String swapLastTwoChars(String str) {
         if (str.length() <= 1) {
             return str;
         }
