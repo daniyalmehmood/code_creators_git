@@ -1,7 +1,7 @@
 import java.util.Map;
 
 public class MapValueChecker {
-    public Map<String, String> topping3(Map<String, String> map) {
+    public Map<String, String> replaceMapValues(Map<String, String> map) {
         if (map.containsKey("potato")) {
             map.put("fries", map.get("potato"));
 
