@@ -1,5 +1,5 @@
-public class TheEnd {
-    public String theEnd(String str, boolean front) {
+public class CharExtractor {
+    public String getEndChar(String str, boolean front) {
         if (!str.isEmpty()) {
             if (front) {
                 return str.substring(0, 1);
