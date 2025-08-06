@@ -1,10 +1,10 @@
-public class MinCat {
+public class StringMinCat {
     public static void main(String[] args) {
-        System.out.println(minCat("Hello", "Hi")); //loHi
-        System.out.println(minCat("Hello", "java")); //ellojava
-        System.out.println(minCat("java", "Hello")); //javaello
+        System.out.println(concatShorterStrings("Hello", "Hi")); //loHi
+        System.out.println(concatShorterStrings("Hello", "java")); //ellojava
+        System.out.println(concatShorterStrings("java", "Hello")); //javaello
     }
-    public static String minCat(String a, String b) {
+    public static String concatShorterStrings(String a, String b) {
         int diffLen = Math.min(a.length(), b.length());
         if(a.length() > b.length()){
             return a.substring(a.length()-diffLen) + b.substring(0);
