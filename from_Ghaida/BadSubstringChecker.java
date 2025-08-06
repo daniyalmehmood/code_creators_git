@@ -1,10 +1,10 @@
-public class HasBad {
+public class BadSubstringChecker {
     public static void main(String[] args){
-        System.out.println(hasBad("badxx"));// → true
-        System.out.println(hasBad("xbadxx")); // → true
-        System.out.println(hasBad("xxbadxx")); // → false
+        System.out.println(containsBadSubstring("badxx"));// → true
+        System.out.println(containsBadSubstring("xbadxx")); // → true
+        System.out.println(containsBadSubstring("xxbadxx")); // → false
     }
-    public static boolean hasBad(String str) {
+    public static boolean containsBadSubstring(String str) {
         if(str.length() < 3){
             return false;
         }
