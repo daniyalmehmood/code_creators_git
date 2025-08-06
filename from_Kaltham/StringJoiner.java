@@ -1,5 +1,5 @@
-public class ConCat {
-    public String conCat(String a, String b) {
+public class StringJoiner {
+    public String mergeAvoidingOverlap(String a, String b) {
         if (a.isEmpty() && b.isEmpty()) {
             return "";
         }
