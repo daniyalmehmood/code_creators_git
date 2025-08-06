@@ -6,15 +6,15 @@ public class PartyQualityChecker {
     }
     public static int evaluateParty(int tea, int candy) {
         if (tea < 5 && candy < 5) {
-            return 0;
+            return 0;//bad
         }
         if (tea < 5 || candy < 5) {
             return 0;
         }
         if (tea >= 2 * candy || candy >= 2 * tea) {
-            return 2;
+            return 2;//great
         }
-        return 1;
+        return 1;//good
     }
 }
 
