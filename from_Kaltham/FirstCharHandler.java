@@ -1,5 +1,5 @@
-public class AtFirst {
-    public String atFirst(String str) {
+public class FirstCharHandler {
+    public String getFirstTwoChars(String str) {
 
         if (str.length() >= 2) {
             return str.substring(0, 2);
@@ -7,7 +7,7 @@ public class AtFirst {
         if (str.length() == 1) {
             return str.substring(0) + "@";
         }
-        return "@" + "@";
+        return "@@";
     }
 
 }
