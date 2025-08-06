@@ -1,10 +1,10 @@
-public class FrontAgain {
+public class StringFrontChecker {
     public static void main(String[] args) {
-        System.out.println(frontAgain("edited")); //true
-        System.out.println(frontAgain("edit")); //false
-        System.out.println(frontAgain("ed")); //true
+        System.out.println(hasSameFrontAndBack("edited")); //true
+        System.out.println(hasSameFrontAndBack("edit")); //false
+        System.out.println(hasSameFrontAndBack("ed")); //true
     }
-    public static boolean frontAgain(String str) {
+    public static boolean hasSameFrontAndBack(String str) {
         if (str == "") {
             return false;
         }
