@@ -1,28 +1,12 @@
 public class CountXX {
     public int countCharX(String str) {
         int count = 0;
-        if (str.contains(" ")) {
-            int space = str.indexOf(" ");
-            String firstWord = str.substring(0, space);
-            for (int i = 0; i < firstWord.length(); i++) {
-                if (firstWord.charAt(i) == 'x') {
-                    count++;
-                }
+        for (int i = 0; i < str.length() - 1; i++) {
+            if (str.charAt(i) == 'x' && str.charAt(i + 1) == 'x') {
+                count++;
             }
-
-            return count;
-        } else {
-            for (int i = 0; i < str.length(); i++) {
-                if (str.charAt(i) == 'x') {
-                    count++;
-                }
-            }
-
-            if (count > 0) {
-                return count - 1;
-            }
-            return count;
         }
+        return count;
 
     }
 }
