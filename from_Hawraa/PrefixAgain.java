@@ -1,7 +1,7 @@
 public class PrefixAgain {
     public static boolean prefixAgain(String str, int n) {
         String prefix = str.substring(0, n);
-        for (int i = n; i < str.length() - n; i++) {
+        for (int i = n; i <= str.length() - n; i++) {
             String currentSub  = str.substring(i, i + n);
             if (currentSub .equals(prefix)) {
                 return true;
