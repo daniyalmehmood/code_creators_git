@@ -1,5 +1,5 @@
 public class MinCat {
-    public String minCat(String a, String b) {
+    public String concatEqualEnds(String a, String b) {
         if (a.length() >= b.length()) {
             int lengthOfA = a.length() - b.length();
             return a.substring(lengthOfA) + b;
