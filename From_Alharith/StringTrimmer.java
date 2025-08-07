@@ -1,6 +1,6 @@
-public class MinCat {
+public class StringTrimmer  {
 
-    public String minCat(String a, String b) {
+    public String trimAndConcatEqualLength(String a, String b) {
 
         int lenA = a.length();
         int lenB = b.length();
