@@ -1,6 +1,6 @@
-public class Without2 {
+public class WithoutTwo {
 
-    public String without2(String str) {
+    public String removeMatchingStartAndEnd(String str) {
         if (str.length()==1) return str;
         if (str.length()<3) return "";
         String front = str.substring(0,2);
