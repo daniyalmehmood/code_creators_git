@@ -1,6 +1,6 @@
-public class LastDigit {
+public class LastDigitComparator  {
 
-    public boolean lastDigit(int a, int b, int c) {
+    public boolean hasMatchingLastDigit(int a, int b, int c) {
         if (a<0 || b<0 || c<0) return false;
         int modA= a%10;
         int modB= b%10;
