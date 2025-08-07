@@ -1,6 +1,6 @@
-public class Last2 {
+public class StringPatternCounter  {
 
-    public int last2(String str) {
+    public int countLast2Occurrences(String str) {
         if (str.length() < 2) return 0;
         String end = str.substring(str.length() - 2);
 
