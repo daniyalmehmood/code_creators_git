@@ -1,6 +1,6 @@
 public class LessBy10 {
 
-    public boolean lessBy10(int a, int b, int c) {
+    public boolean hasAnyPairWithDifferenceOfTenOrMore(int a, int b, int c) {
         int diffAB= Math.abs(a-b);
         int diffAC= Math.abs(a-c);
         int diffBC= Math.abs(b-c);
