@@ -1,6 +1,6 @@
-public class DoubleX {
+public class XChecker  {
 
-    boolean doubleX(String str) {
+    boolean hasDoubleXAtFirstX(String str) {
         int i = str.indexOf("x");
         if (i == -1) return false;
 
