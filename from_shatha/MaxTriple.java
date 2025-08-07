@@ -1,5 +1,5 @@
 
-public class maxTriple {
+public class MaxTriple {
     public static int maxTriple(int[] nums) {
         int first = nums[0];
         int middle = nums[nums.length / 2];
