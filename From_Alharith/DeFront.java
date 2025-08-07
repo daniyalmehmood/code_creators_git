@@ -1,6 +1,6 @@
 public class DeFront {
 
-    public String deFront(String str) {
+    public String keepABDropRestOfFront(String str) {
         String result="";
         if (str.length()>=1 && str.charAt(0)==('a')) {
             result += str.charAt(0);
