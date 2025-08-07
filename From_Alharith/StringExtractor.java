@@ -1,6 +1,6 @@
-public class TwoChar {
+public class StringExtractor  {
 
-    public String twoChar(String str, int index) {
+    public String getTwoCharsAtOrFromStart(String str, int index) {
         if (index < 0 || index + 1 >= str.length()) {
             return str.substring(0, 2);
         }
