@@ -1,6 +1,6 @@
-public class EndUp {
+public class StringFormatter {
 
-    public String endUp(String str) {
+    public String capitalizeLastThree(String str) {
         if (str.length()<=3) return str.toUpperCase();
 
         int length = (str.length()-3);
