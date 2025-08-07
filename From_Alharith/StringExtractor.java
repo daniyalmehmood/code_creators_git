@@ -1,6 +1,6 @@
-public class MiddleTwo {
+public class StringExtractor  {
 
-    public String middleTwo(String str) {
+    public String getMiddleTwoChars(String str) {
         int mid = (str.length()/2)-1;
         int sec= mid +2;
         return str.substring(mid,sec);
