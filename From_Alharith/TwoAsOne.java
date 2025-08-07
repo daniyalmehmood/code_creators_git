@@ -1,6 +1,6 @@
 public class TwoAsOne {
 
-    public boolean twoAsOne(int a, int b, int c) {
+    public boolean isAnyTwoNumbersSumEqualToThird(int a, int b, int c) {
         int sumAB=a+b;
         int sumAC=a+c;
         int sumBC= b+c;
