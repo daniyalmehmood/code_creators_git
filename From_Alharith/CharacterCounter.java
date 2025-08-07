@@ -1,6 +1,6 @@
-public class StringE {
+public class CharacterCounter  {
 
-    public boolean stringE(String str) {
+    public boolean hasOneToThreeEs(String str) {
         int count=0;
 
         for (int i=0; i< str.length(); i++ ){
