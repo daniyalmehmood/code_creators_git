@@ -1,6 +1,6 @@
-public class NotString {
+public class StringModifier  {
 
-    public String notString(String str) {
+    public String addNotPrefixIfMissing(String str) {
         if (str.length()>= 3 && str.substring(0,3).equals("not")){
             return str;
         }
