@@ -1,6 +1,6 @@
-public class FrontBack {
+public class StringSwapper  {
 
-    public String frontBack(String str) {
+    public String swapFirstAndLastCharacters(String str) {
         if (str.length() <= 1) {
             return str;
         }
