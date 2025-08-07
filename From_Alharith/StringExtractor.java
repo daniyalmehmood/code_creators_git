@@ -1,6 +1,6 @@
-public class EveryNth {
+public class StringExtractor  {
 
-    public String everyNth(String str, int n) {
+    public String getEveryNthChar(String str, int n) {
         String result = "";
 
         for (int i=0; i<str.length(); i = i + n) {
