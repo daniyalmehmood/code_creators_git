@@ -1,6 +1,6 @@
-public class AltPairs {
+public class StringPattern {
 
-    public String altPairs(String str) {
+    public String extractAlternatePairs(String str) {
         String result = "";
 
         for (int i = 0; i < str.length(); i = i + 4) {
