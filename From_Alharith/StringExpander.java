@@ -1,6 +1,6 @@
-public class Front22 {
+public class StringExpander  {
 
-    public String front22(String str) {
+    public String addFirstTwoCharsAround(String str) {
         int take =2;
 
 
