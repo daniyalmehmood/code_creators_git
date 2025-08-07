@@ -1,6 +1,6 @@
 public class WithoutDoubles {
 
-    public int withoutDoubles(int die1, int die2, boolean noDoubles) {
+    public int calculateSumWithoutDoubles(int die1, int die2, boolean noDoubles) {
 
         int  sum=die1+die2;
         if (noDoubles && sum==12) return die1+1;
