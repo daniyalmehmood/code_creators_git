@@ -1,6 +1,6 @@
-public class AtFirst {
+public class StringFormatter  {
 
-    public String atFirst(String str) {
+    public String getFirstTwoOrPad(String str) {
         if (str.length()< 1) return "@@";
 
         if (str.length()<2) return str.substring (0,1)+"@";
