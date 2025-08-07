@@ -1,6 +1,6 @@
-public class Max1020 {
+public class NumberSelector  {
 
-    public int max1020(int a, int b) {
+    public int getLargerInRange10to20(int a, int b) {
         if (b > a) {
             int temp = a;
             a = b;
