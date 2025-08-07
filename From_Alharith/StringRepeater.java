@@ -1,6 +1,6 @@
-public class FrontTimes {
+public class StringRepeater  {
 
-    public String frontTimes(String str, int n) {
+    public String repeatFrontNTimes(String str, int n) {
         int length = 3;
         if (str.length() < 3) {
             length = str.length();
