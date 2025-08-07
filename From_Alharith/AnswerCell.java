@@ -1,6 +1,6 @@
 public class AnswerCell {
 
-    public boolean answerCell(boolean isMorning, boolean isMom, boolean isAsleep) {
+    public boolean shouldAnswerCall(boolean isMorning, boolean isMom, boolean isAsleep) {
         if (isAsleep) return false;
         if (isMom) return true;
         if (isMorning) return false;
