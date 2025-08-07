@@ -1,6 +1,6 @@
-public class Front3 {
+public class StringRepeater  {
 
-    public String front3(String str) {
+    public String repeatFrontThreeTimes(String str) {
         if (str.length() <=3) {
             return str+str+str;
         }
