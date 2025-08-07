@@ -1,6 +1,6 @@
-public class EndsLy {
+public class StringChecker  {
 
-    public boolean endsLy(String str) {
+    public boolean endsWithLy(String str) {
         if (str.length()<2) return false;
         if ((str.substring(str.length()-2)).equals("ly")) return true;
         return false;
