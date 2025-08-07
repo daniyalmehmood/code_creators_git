@@ -1,6 +1,6 @@
-public class StringX {
+public class StringFilter  {
 
-    public String stringX(String str) {
+    public String removeInnerX(String str) {
 
         String result = "";
         for (int i = 0; i < str.length(); i++) {
