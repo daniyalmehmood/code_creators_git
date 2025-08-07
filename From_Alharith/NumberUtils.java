@@ -1,6 +1,6 @@
-public class IntMax {
+public class NumberUtils  {
 
-    public int intMax(int a, int b, int c) {
+    public int getMaxOfThree(int a, int b, int c) {
         int max =0;
         if (a>b) max=a;
         else max = b;
