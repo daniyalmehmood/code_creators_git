@@ -1,5 +1,5 @@
 public class ConCat {
-    public static String conCat(String a, String b) {
+    public static String concatNoDoubleChar(String a, String b) {
         if (a.isEmpty() || b.isEmpty()) {
             return a + b;
         }
@@ -12,8 +12,8 @@ public class ConCat {
     }
 
     public static void main(String[] args) {
-        System.out.println(conCat("abc", "cat"));
-        System.out.println(conCat("dog", "cat"));
-        System.out.println(conCat("abc", ""));
+        System.out.println(concatNoDoubleChar("abc", "cat"));
+        System.out.println(concatNoDoubleChar("dog", "cat"));
+        System.out.println(concatNoDoubleChar("abc", ""));
     }
 }
