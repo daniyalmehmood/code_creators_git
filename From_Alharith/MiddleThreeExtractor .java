@@ -1,6 +1,6 @@
-public class MidThree {
+public class MiddleThreeExtractor  {
 
-    public int[] midThree(int[] nums) {
+    public int[] extractMiddleThree(int[] nums) {
         if (nums.length<4) return nums;
 
         int len= (nums.length/2);
