@@ -1,8 +1,6 @@
 public class SkipFirstChars {
     public static String skipFirstChars(String a, String b) {
-        String newString = a.substring(1, a.length()) + b.substring(1, b.length());
-
-        return newString;
+        return a.substring(1) + b.substring(1);
     }
 
     public static void main(String[] args) {
