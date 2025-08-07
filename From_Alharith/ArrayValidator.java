@@ -1,6 +1,6 @@
-public class NoTriples {
+public class ArrayValidator  {
 
-    public boolean noTriples(int[] nums) {
+    public boolean hasNoTriples(int[] nums) {
         for (int i = 0; i < nums.length - 2; i++) {
             int number = nums[i];
 
