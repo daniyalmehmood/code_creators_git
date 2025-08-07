@@ -1,6 +1,6 @@
-public class BackAround {
+public class StringWrapper  {
 
-    public String backAround(String str) {
+    public String addLastCharAround(String str) {
         if (str.length()<=1){
             return str +str+str;
         }
