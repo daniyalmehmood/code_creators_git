@@ -1,6 +1,6 @@
-public class Topping1 {
+public class ToppingReplacer  {
 
-    public Map<String, String> topping1(Map<String, String> map) {
+    public Map<String, String> applyBasicToppingRules(Map<String, String> map) {
         if (map.containsKey("ice cream")) map.put("ice cream", "cherry");
         map.put("bread", "butter");
         return map;
