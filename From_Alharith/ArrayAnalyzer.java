@@ -1,6 +1,6 @@
-public class ArrayFront9 {
+public class ArrayAnalyzer {
 
-    public boolean arrayFront9(int[] nums) {
+    public boolean hasNineInFirstElements(int[] nums) {
 
         int length = nums.length;
         if (length > 4) length = 4;
