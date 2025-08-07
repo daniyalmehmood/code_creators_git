@@ -1,6 +1,6 @@
-public class Unlucky1 {
+public class UnluckyPairChecker {
 
-    public boolean unlucky1(int[] nums) {
+    public boolean hasUnluckyPair(int[] nums) {
         int len = nums.length;
         if (len < 2) {
             return false;
