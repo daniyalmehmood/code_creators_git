@@ -1,6 +1,6 @@
-public class Diff21 {
+public class NumberDifference  {
 
-    public int diff21(int n) {
+    public int getAbsoluteDifferenceFrom21(int n) {
         if (n < 21) {
             return 21 - n;
         }
