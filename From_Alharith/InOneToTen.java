@@ -1,6 +1,6 @@
-public class In1To10 {
+public class InOneToTen {
 
-    public boolean in1To10(int n, boolean outsideMode) {
+    public boolean isInRangeWithMode(int n, boolean outsideMode) {
         if (outsideMode) {
             return (n <= 1 || n >= 10);
         } else {
