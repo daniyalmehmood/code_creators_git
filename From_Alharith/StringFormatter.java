@@ -1,6 +1,6 @@
-public class LastChars {
+public class StringFormatter  {
 
-    public String lastChars(String a, String b) {
+    public String getFirstOfAAndLastOfB(String a, String b) {
         if (a.length()<1 && b.length()<1) return "@@";
         if (a.length()<1) a="@";
         if (b.length()<1) b="@";
