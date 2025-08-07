@@ -1,9 +1,8 @@
 public class FirstHalfExtractor {
     public static String firstHalfExtractor(String str) {
-
         int first = str.length() / 2;
-        String newString = str.substring(0, first);
-        return newString;
+        return str.substring(0, first);
+
     }
 
     public static void main(String[] args) {
