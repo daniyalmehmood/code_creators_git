@@ -1,6 +1,6 @@
-public class Close10 {
+public class NumberComparer {
 
-    public int close10(int a, int b) {
+    public int getClosestToTen(int a, int b) {
         int aDiff= Math.abs(a -10);
         int bDiff= Math.abs(b-10);
 
