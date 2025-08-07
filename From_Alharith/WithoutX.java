@@ -1,6 +1,6 @@
 public class WithoutX {
 
-    public String withoutX(String str) {
+    public String removeXFromEnds(String str) {
         String result="";
         if (str.length()<2) return "";
         if (str.charAt(0)==('x')) result += str.substring(1,str.length()-1);
