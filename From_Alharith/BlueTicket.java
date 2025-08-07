@@ -1,6 +1,6 @@
 public class BlueTicket {
 
-    public int blueTicket(int a, int b, int c) {
+    public int evaluateBlueTicketScore(int a, int b, int c) {
         int sumAB = a+b;
         int sumAC = a+c;
         int sumBC = c+b;
