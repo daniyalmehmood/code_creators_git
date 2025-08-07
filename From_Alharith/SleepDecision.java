@@ -1,6 +1,6 @@
-public class SleepIn {
+public class SleepDecision  {
 
-    public boolean sleepIn(boolean weekday, boolean vacation) {
+    public boolean canSleepIn (boolean weekday, boolean vacation) {
         if (!weekday || vacation) {
             return true;
         }
