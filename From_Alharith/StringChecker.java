@@ -1,6 +1,6 @@
-public class MixStart {
+public class StringChecker  {
 
-    public boolean mixStart(String str) {
+    public boolean startsWithMixPattern(String str) {
         if (str.length()<3) return false;
         if (str.substring(1,3).equals("ix")) return true;
         return false;
