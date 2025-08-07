@@ -1,7 +1,7 @@
 public class WithoutEnd {
     public static String withoutEnd(String str) {
-        String newString = str.substring(1, str.length() - 1);
-        return newString;
+        return str.substring(1, str.length() - 1);
+
     }
 
     public static void main(String[] args) {
