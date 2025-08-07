@@ -1,6 +1,6 @@
-public class StartHi {
+public class StringChecker  {
 
-    public boolean startHi(String str) {
+    public boolean startsWithHi(String str) {
         if (str.length()<2){
             return false;
         }
