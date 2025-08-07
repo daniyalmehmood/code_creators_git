@@ -1,6 +1,6 @@
-public class Or35 {
+public class NumberChecker  {
 
-    public boolean or35(int n) {
+    public boolean isMultipleOf3Or5(int n) {
         if (n%3==0 || n%5==0) {
             return true;
         }
