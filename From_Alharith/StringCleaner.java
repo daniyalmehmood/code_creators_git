@@ -1,6 +1,6 @@
-public class DelDel {
+public class StringCleaner  {
 
-    public String delDel(String str) {
+    public String removeDelIfAtIndexOne(String str) {
         if (str.length() >= 4 && str.substring(1, 4).equals("del")) {
             return str.charAt(0) + str.substring(4);
         }
