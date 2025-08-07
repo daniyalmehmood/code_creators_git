@@ -1,6 +1,6 @@
 public class StartWord {
 
-    public String startWord(String str, String word) {
+    public String matchWordAtStart(String str, String word) {
         int lenStr= str.length();
         int lenWord=word.length();
 
