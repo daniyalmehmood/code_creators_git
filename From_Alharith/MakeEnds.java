@@ -1,6 +1,6 @@
 public class MakeEnds {
 
-    public int[] makeEnds(int[] nums) {
+    public int[] getFirstAndLast(int[] nums) {
         return new int[] {nums[0], nums[nums.length-1]};
     }
 
