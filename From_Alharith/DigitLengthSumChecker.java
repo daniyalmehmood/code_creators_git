@@ -1,6 +1,6 @@
-public class SumLimit {
+public class DigitLengthSumChecker  {
 
-    public int sumLimit(int a, int b) {
+    public int getSumIfSameDigitLength(int a, int b) {
         int sum = a + b;
 
         int aDigits = String.valueOf(a).length();
