@@ -1,6 +1,6 @@
-public class FizzString2 {
+public class NumberFizzBuzzFormatter {
 
-    public String fizzString2(int n) {
+    public String NumberFizzBuzzFormatter (int n) {
         if (n%3==0 && n%5==0) return "FizzBuzz!";
 
         if (n%3==0) return "Fizz!";
