@@ -1,6 +1,6 @@
-public class StringBits {
+public class StringManipulator {
 
-    public String stringBits(String str) {
+    public String getEveryOtherChar(String str) {
         String word = "";
 
         for (int i = 0; i < str.length(); i += 2) {
