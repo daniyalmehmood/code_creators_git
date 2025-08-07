@@ -1,6 +1,6 @@
-public class MonkeyTrouble {
+public class MonkeyBehavior  {
 
-    public boolean monkeyTrouble(boolean aSmile, boolean bSmile) {
+    public boolean areMonkeysInTrouble (boolean aSmile, boolean bSmile) {
         if (aSmile && bSmile){
             return true;
         }
