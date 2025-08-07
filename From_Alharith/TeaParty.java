@@ -1,6 +1,6 @@
 public class TeaParty {
 
-    public int teaParty(int tea, int candy) {
+    public int evaluatePartyQuality(int tea, int candy) {
         int dubTea= 2*tea;
         int dubCandy= 2*candy;
         if (tea<5 || candy<5) return 0;
