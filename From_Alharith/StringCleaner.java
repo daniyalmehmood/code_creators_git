@@ -1,6 +1,6 @@
-public class StringYak {
+public class StringCleaner {
 
-    public String stringYak(String str) {
+    public String removeYakSubstrings(String str) {
         String result = "";
 
         for (int i = 0; i < str.length(); ) {
