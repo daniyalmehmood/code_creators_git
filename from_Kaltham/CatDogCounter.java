@@ -12,3 +12,4 @@ public class CatDogCounter {
         }
         return countcat == countdog;
     }
+}
