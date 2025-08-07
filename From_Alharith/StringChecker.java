@@ -1,6 +1,6 @@
-public class FrontAgain {
+public class StringChecker  {
 
-    public boolean frontAgain(String str) {
+    public boolean hasSameFrontAndBack(String str) {
         if (str.length()<2) return false;
         if (str.length()==2) return true;
 
