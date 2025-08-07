@@ -1,6 +1,6 @@
-public class ArrayCount9 {
+public class ArrayAnalyzer {
 
-    public int arrayCount9(int[] nums) {
+    public int countOccurrencesOfNine(int[] nums) {
 
         int count = 0;
         for (int i = 0; i < nums.length; i++) {
