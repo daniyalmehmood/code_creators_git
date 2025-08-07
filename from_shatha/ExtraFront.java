@@ -1,5 +1,5 @@
 public class extraFront {
-    public static String extraFront(String str) {
+    public static String repeatFirstTwo(String str) {
         String letter;
         if (str.length() >= 2) {
            letter = str.substring(0, 2);
