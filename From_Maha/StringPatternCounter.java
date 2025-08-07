@@ -5,7 +5,7 @@ public class StringPatternCounter {
      * appear elsewhere in the string, not including the last occurrence.
      */
     
-    public int last2(String str) {
+    public int countEndingPairMatches(String str) {
 
         if (str.length() < 2) {
             return 0; // Not enough characters to form a 2-char pattern
