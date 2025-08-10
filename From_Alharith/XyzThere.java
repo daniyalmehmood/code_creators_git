@@ -1,6 +1,6 @@
 public class XyzThere {
 
-    public boolean xyzThere(String str) {
+    public boolean containsUnprecededXyz(String str) {
 
 
         for(int i=0; i<=str.length()-3; i++){
