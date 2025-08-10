@@ -1,6 +1,6 @@
 public class EvenlySpaced {
 
-    public boolean evenlySpaced(int a, int b, int c) {
+    public boolean areNumbersEvenlySpaced(int a, int b, int c) {
 
         int maxValue= Math.max(a,Math.max(b,c));
         int small= Math.min(a,Math.min(b,c));
