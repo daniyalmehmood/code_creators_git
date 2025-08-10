@@ -3,11 +3,9 @@ import java.util.Arrays;
 public class MiddleTriple {
     public static int[] midThree(int[] nums) {
         int middlen = nums.length / 2;
-        if (nums.length > 2) {
-            int middThree[] = {nums[middlen - 1], nums[middlen], nums[middlen + 1]};
-            return middThree;
-        }
-        return nums;
+        int middThree[] = {nums[middlen - 1], nums[middlen], nums[middlen + 1]};
+        return middThree;
+
     }
 
     public static void main(String[] args) {
