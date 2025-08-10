@@ -1,13 +1,12 @@
 public class EvenIndexSelector {
     public static String selectEvenChars(String str) {
-        String newStr = "";
+        String newString = "";
 
-        // Iterate over even indices (i = 0, 2, 4, ...)
         for (int i = 0; i < str.length(); i += 2) {
             // Append character at index i to result
-            newStr = newStr + str.substring(i, i + 1);
+            newString = newString + str.substring(i, i + 1);
         }
 
-        return newStr;
+        return newString;
     }
 }
