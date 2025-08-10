@@ -1,6 +1,6 @@
 public class MakeBricks {
 
-    public boolean makeBricks(int small, int big, int goal) {
+    public boolean canBuildGoalLength(int small, int big, int goal) {
 
         int maxBig= goal/5;
 
