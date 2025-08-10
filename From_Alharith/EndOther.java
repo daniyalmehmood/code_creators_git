@@ -1,6 +1,6 @@
 public class EndOther {
 
-    public boolean endOther(String a, String b) {
+    public boolean doesOneStringEndWithOther(String a, String b) {
 
         a=a.toLowerCase();
         b=b.toLowerCase();
