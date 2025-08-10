@@ -1,6 +1,6 @@
 public class CatDog {
 
-    public boolean catDog(String str) {
+    public boolean hasEqualNumberOfCatAndDog(String str) {
         int countDog=0;
         int countCat=0;
 
