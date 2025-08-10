@@ -1,6 +1,6 @@
 public class NoTeenSum {
 
-    public int noTeenSum(int a, int b, int c) {
+    public int calculateNoTeenSum(int a, int b, int c) {
 
         a= fixTeen(a) ;
         b= fixTeen(b);
