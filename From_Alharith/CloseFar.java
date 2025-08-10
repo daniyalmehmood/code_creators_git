@@ -1,6 +1,6 @@
 public class CloseFar {
 
-    public boolean closeFar(int a, int b, int c) {
+    public boolean isCloseFar(int a, int b, int c) {
         int diffAB=Math.abs(a-b);
         int diffAC=Math.abs(a-c);
         int diffBC=Math.abs(c-b);
