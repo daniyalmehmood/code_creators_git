@@ -1,6 +1,6 @@
 public class LastTwoCharMatcher {
     public static int countMatchingLastTwo(String str) {
-        // If string length is less than 2, no matches possible
+        // If string length is less than 2
         if (str.length() < 2) return 0;
 
         int count = 0;
