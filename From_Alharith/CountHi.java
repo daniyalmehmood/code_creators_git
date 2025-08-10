@@ -1,6 +1,6 @@
 public class CountHi {
 
-    public int countHi(String str) {
+    public int countOccurrencesOfHi(String str) {
 
         int count=0;
 
