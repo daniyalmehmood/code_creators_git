@@ -1,6 +1,6 @@
 public class CountCode {
 
-    public int countCode(String str) {
+    public int countCodeOccurrences(String str) {
 
         int count=0;
         for (int i=0; i<str.length()-3; i++){
