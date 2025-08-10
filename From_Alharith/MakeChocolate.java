@@ -1,6 +1,6 @@
 public class MakeChocolate {
 
-    public int makeChocolate(int small, int big, int goal) {
+    public int calculateSmallBarsNeeded (int small, int big, int goal) {
 
         int maxBig= goal/5;
         if (big>maxBig) big=maxBig;
