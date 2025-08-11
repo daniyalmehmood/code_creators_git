@@ -1,0 +1,14 @@
+public class BackAround {
+
+    public static void main(String[] args){
+        System.out.println(backAround("Maha")); }
+
+
+public static String backAround(String str){
+       int strLength = str.length();
+       char lastChar= str.charAt(strLength - 1);
+       return String.valueOf(lastChar) + str + String.valueOf(lastChar);
+                                                                     }
+    }
+
+

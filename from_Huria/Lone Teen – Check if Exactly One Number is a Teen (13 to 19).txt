@@ -1,0 +1,42 @@
+public class LoneTeen {
+
+        int a;
+        int b;
+
+        public static Boolean loneTeen(int a, int b) {
+
+            boolean teen1= (a>=13 && a<=19);
+            boolean teen2=(b>=13 && b<=19);
+
+          if ( teen1 && !teen2) {
+
+              return true;
+          }
+          else if  (teen2 && !teen1) {
+
+                return true;
+            }
+          else{
+
+              return false;
+          }
+
+
+
+        }
+
+        public static void main(String [] args){
+
+            System.out.println( LoneTeen.loneTeen(13,99));
+            System.out.println( LoneTeen.loneTeen(21,19));
+            System.out.println( LoneTeen.loneTeen(13,13));
+
+
+        }
+    }
+
+
+
+
+
+
