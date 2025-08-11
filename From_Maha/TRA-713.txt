@@ -4,9 +4,11 @@ public class Front22 {
 
     }
 public static String front22(String str){
-        int strLength=str.length();
-        String firstTowCha=str.substring(0,2);
-        return firstTowCha +str+firstTowCha;
-}
+        if (str.length() < 2) {
 
-}
+            return str + str + str;
+        } else {
+            String firstTowChar = str.substring(0, 2);
+            return firstTowChar + str + firstTowChar;
+        }
+    }
