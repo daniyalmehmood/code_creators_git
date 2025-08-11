@@ -1,0 +1,14 @@
+public class CloseToTen {
+
+    public Integer close10(int a, int b){
+        int aclose=Math.abs(a-10);
+        int bclose=Math.abs(b-10);
+        if(aclose==bclose){
+            return 0;
+        }
+        else if (aclose<bclose) {
+            return a;
+        }
+        return b;
+    }
+}
