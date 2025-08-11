@@ -1,0 +1,15 @@
+public class Sum {
+
+     int sum;
+    public int sumDouble(int a, int b){
+       if(a!=b){
+           sum=a+b;
+       }
+       else if (a==b) {
+           sum=2*(a+b);
+       }
+        return sum;
+    }
+}
+
+
