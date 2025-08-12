@@ -1,5 +1,5 @@
 public class FrontAgain {
-    public static boolean frontAgain(String str) {
+    public static boolean hasSameStartAndEnd(String str) {
         if (str.length() < 2) {
             return false;
         }
@@ -8,9 +8,9 @@ public class FrontAgain {
     return first.equals(last);
 }
 public static void main (String[]args){
-    System.out.println(frontAgain("edited"));
-    System.out.println(frontAgain("edit"));
-    System.out.println(frontAgain("ed"));
+    System.out.println(hasSameStartAndEnd("edited"));
+    System.out.println(hasSameStartAndEnd("edit"));
+    System.out.println(hasSameStartAndEnd("ed"));
 
 }
 }
