@@ -1,0 +1,17 @@
+public class StartHi {
+    public static boolean startHi(String str){
+        if (str.startsWith("Hi")){
+            return true;
+        } else {
+            return false;
+        }
+    }
+    public static void main (String[]args){
+        System.out.println(startHi("Hi there"));
+        System.out.println(startHi("Hi"));
+        System.out.println(startHi("hello Hi"));
+
+    }
+
+}
+
