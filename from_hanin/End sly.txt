@@ -1,0 +1,10 @@
+public class StringEndingTest {
+    public static boolean endsWithLy(String str) {
+        if (str.endsWith("ly")) {
+
+            return true;
+        }
+        return false;
+    }
+
+}
