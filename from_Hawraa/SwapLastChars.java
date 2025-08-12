@@ -1,5 +1,5 @@
-public class LastTwo {
-    public static String lastTwo(String str) {
+public class SwapLastChars  {
+    public static String swapEndChars(String str) {
         if(str.length() < 2){
             return str;
         }
@@ -9,8 +9,8 @@ public class LastTwo {
     }
 
     public static void main(String[] args){
-        System.out.println(lastTwo("coding"));
-        System.out.println(lastTwo("cat"));
-        System.out.println(lastTwo("ab"));
+        System.out.println(swapEndChars("coding"));
+        System.out.println(swapEndChars("cat"));
+        System.out.println(swapEndChars("ab"));
     }
 }
