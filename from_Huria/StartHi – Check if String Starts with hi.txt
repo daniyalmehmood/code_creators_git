@@ -1,0 +1,28 @@
+public class StartHi {
+
+        String str;
+
+        public static boolean startHi(String str) {
+
+            if (str.length() >= 2 && str.substring(0, 2).equals("hi")) {
+
+                return true;
+            }
+        else {
+
+                return false;
+            }
+
+
+
+        }
+
+        public static void main(String [] args){
+
+            System.out.println( StartHi.startHi("hi there"));
+            System.out.println( StartHi.startHi("hi"));
+            System.out.println( StartHi.startHi("hello hi"));
+
+
+        }
+    }
