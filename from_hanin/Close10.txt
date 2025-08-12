@@ -1,0 +1,13 @@
+public class Close10 {
+    public  static int close10(int a, int b) {
+        int difA = Math.abs(a-10);
+       int difB = Math.abs(b-10);
+        if (difA < difB) {
+            return a;
+        } else if (difB < difA) {
+            return b;
+        } else {
+            return 0;
+        }
+    }
+}

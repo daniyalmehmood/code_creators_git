@@ -1,0 +1,39 @@
+public class Max1020 {
+
+        public static Integer max1020(int a, int b) {
+            int largest = 0;
+            Boolean AinRang= a >= 10 && a <= 20;
+            Boolean BinRang= a >= 10 && a <= 20;
+
+            if (AinRang && BinRang) {
+                if (a > b) {
+                    largest = a;
+                } else {
+                    largest = b;
+                }
+            }
+            else if (AinRang) {
+                largest = a;
+            }
+            else if (BinRang) {
+                largest =b;
+            }
+            else {
+                largest=0;
+            }
+
+            return largest;
+        }
+        public static void main(String[] args) {
+            System.out.println(Max1020.max1020(11,19));
+            System.out.println(Max1020.max1020(19,11));
+            System.out.println(Max1020.max1020(11,9));
+            System.out.println(Max1020.max1020(30,9));
+
+        }
+
+    }
+
+
+
+
