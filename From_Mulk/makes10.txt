@@ -1,0 +1,17 @@
+public class makes10 {
+    public static boolean Makes10(int a, int b) {
+        if (((a & b) == 10) || (a + b == 10)) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+    public static void main(String[]args){
+            System.out.println(Makes10(9,10));
+            System.out.println(Makes10(9,9));
+            System.out.println(Makes10(1,9));
+        }
+        }
+
+
+
