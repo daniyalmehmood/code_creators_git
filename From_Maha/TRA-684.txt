@@ -1,0 +1,10 @@
+public static String front3(String str){
+        String front3Char;
+        if (str.length() < 3) {
+            front3Char = str;
+        } else {
+            front3Char = str.substring(0,3);
+        }
+        return front3Char + front3Char + front3Char;
+    }
+}
