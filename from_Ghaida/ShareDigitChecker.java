@@ -9,10 +9,8 @@ public class ShareDigitChecker {
         int leftDigitOfB = b/10;
         int rightDigitOfA = a%10;
         int rightDigitOfB = b%10;
-        if(a >= 10 && a <= 99 && b >= 10 && b <= 99) {
-            if (leftDigitOfA == leftDigitOfB || leftDigitOfA == rightDigitOfB || leftDigitOfB == rightDigitOfA || rightDigitOfA==rightDigitOfB) {
-                return true;
-            }
+        if (leftDigitOfA == leftDigitOfB || leftDigitOfA == rightDigitOfB || leftDigitOfB == rightDigitOfA || rightDigitOfA==rightDigitOfB) {
+            return true;
         }
         return false;
     }
