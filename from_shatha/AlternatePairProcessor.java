@@ -10,7 +10,6 @@ public class AlternatePairProcessor {
 
         return result.toString();
     }
-
     public static void main(String[] args) {
         System.out.println(altPairs("kittens"));
         System.out.println(altPairs("Chocolate"));
