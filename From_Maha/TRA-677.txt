@@ -1,0 +1,9 @@
+
+public class parrotTrouble {
+    public parrotTrouble(boolean talking, int hour){
+        retuen (talking && ( hour<7 || hour >20));
+    }
+    public static void main(String[] args) {
+        System.out.println(parrotTrouble(true, 6));
+    }
+}
