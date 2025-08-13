@@ -1,4 +1,4 @@
-public class EdgeRemover {
+public class ToEdgeRemover {
     public static String withoutEnd(String str) {
         // Check if the string has at least 2 characters
         if (str.length() >= 2) {
