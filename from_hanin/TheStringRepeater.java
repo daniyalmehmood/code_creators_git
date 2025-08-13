@@ -1,5 +1,5 @@
 // Class to repeat a given string a specified number of times fot task stringTimes
-public class StringRepeater {
+public class TheStringRepeater {
     public static String repeatString(String str, int n) {
         // If n is 1 or more, perform repetition
         if (n >= 1) {
