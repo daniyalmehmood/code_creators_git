@@ -1,8 +1,8 @@
 public class UniqueSum {
     public static void main(String[] args) {
         System.out.println(calculateUniqueSum(1, 2, 3));// → 6
-        System.out.println(calculateUniqueSum(3, 2, 3));// → 2
-        System.out.println(calculateUniqueSum(3, 3, 3));// → 0
+        System.out.println(calculateUniqueSum(2, 13, 1));// → 2
+        System.out.println(calculateUniqueSum(2, 1, 14));// → 0
     }
     public static int calculateUniqueSum(int a, int b, int c) {
         int sum = fixTeen(a) + fixTeen(b) + fixTeen(c);
