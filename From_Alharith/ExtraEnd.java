@@ -1,4 +1,4 @@
-public class StringRepeater  {
+public class ExtraEnd  {
 
     public String repeatLastTwoChars(String str) {
         if (str.length()<2) return str;
