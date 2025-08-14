@@ -1,4 +1,4 @@
-public class StringTrimmer  {
+public class MinCat  {
 
     public String trimAndConcatEqualLength(String a, String b) {
 
