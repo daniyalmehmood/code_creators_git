@@ -1,4 +1,4 @@
-public class StringRepeater  {
+public class StringTimes  {
     public String repeatStringNTimes(String str, int n) {
         n = Math.abs(n);
         String result = "";
