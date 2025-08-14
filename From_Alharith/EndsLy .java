@@ -1,4 +1,4 @@
-public class StringChecker  {
+public class EndsLy   {
 
     public boolean endsWithLy(String str) {
         if (str.length()<2) return false;
