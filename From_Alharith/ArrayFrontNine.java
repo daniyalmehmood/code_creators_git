@@ -1,4 +1,4 @@
-public class ArrayAnalyzer {
+public class ArrayFrontNine {
 
     public boolean hasNineInFirstElements(int[] nums) {
 
