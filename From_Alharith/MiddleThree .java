@@ -1,4 +1,4 @@
-public class StringExtractor {
+public class MiddleThree {
 
     public String getMiddleThreeChars(String str) {
         int mid = str.length()/2;
