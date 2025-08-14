@@ -1,4 +1,4 @@
-public class StringExtractor  {
+public class TwoChar   {
 
     public String getTwoCharsAtOrFromStart(String str, int index) {
         if (index < 0 || index + 1 >= str.length()) {
