@@ -1,0 +1,31 @@
+public class Diff 21 {
+
+  public class Diff21 {
+    int a;
+    public static Integer diff21( int a){
+        int diff = 21 - a;
+        int doub = 2 * (a - 21);
+
+        if(a <= 21 ){
+            System.out.println("diffrence=" + diff);
+            return diff;
+        }
+        else{
+            System.out.println("double=" + doub);
+            return doub;
+        }
+
+
+
+
+    }
+
+    public static void main(String[] args){
+
+        System.out.println( Diff21.diff21(19));
+        System.out.println( Diff21.diff21(10));
+        System.out.println( Diff21.diff21(21));
+
+
+    }
+}
