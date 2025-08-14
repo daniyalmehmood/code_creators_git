@@ -1,0 +1,23 @@
+public class EveryNth {
+    public static String everyNth(String str, int n) {
+        if (n>=1 && str.length()>1){
+            StringBuilder str2=new StringBuilder(str);
+            StringBuilder str3=new StringBuilder();
+            for (int i=0; i< str.length();i+=n){
+                str3.append(str2.charAt(i));
+            }
+            String str4 = str3.toString();
+            return str4;
+        }else{
+            return "n<1 or String empty";
+        }
+
+}
+
+    public static void main (String[]args){
+        System.out.println(everyNth("Miracle", 2));
+        System.out.println(everyNth("abcdefg", 2));
+        System.out.println(everyNth("abcdefg", 3));
+
+    }
+}
