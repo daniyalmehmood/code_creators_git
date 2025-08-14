@@ -1,4 +1,4 @@
-public class StringSwapper  {
+public class LastTwo  {
 
     public String swapLastTwoChars(String str) {
         if (str.length()<2) return str;
