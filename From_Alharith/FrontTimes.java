@@ -1,4 +1,4 @@
-public class StringRepeater  {
+public class FrontTimes  {
 
     public String repeatFrontNTimes(String str, int n) {
         int length = 3;
