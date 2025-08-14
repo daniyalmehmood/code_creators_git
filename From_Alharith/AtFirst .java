@@ -1,4 +1,4 @@
-public class StringFormatter  {
+public class AtFirst   {
 
     public String getFirstTwoOrPad(String str) {
         if (str.length()< 1) return "@@";
