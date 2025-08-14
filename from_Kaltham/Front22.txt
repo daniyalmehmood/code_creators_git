@@ -1,0 +1,61 @@
+//The first Solution:
+public class FrontEndString {
+    public String front22(String str){
+        if(str.length()>=2) {
+            String str1 = str.substring(0, 2);
+            return str1 + str + str1;
+        }
+        else {
+           return str+str+str;
+        }
+    }
+}
+
+//The second Solution:
+public class FrontEndString {
+    public String front22(String str) {
+        if (str.length()>=2) {
+            char[] strToArray=str.toCharArray();
+            char[] newchars= new char [strToArray.length+4];
+            char [] firstTwoIndex = {strToArray[0] ,strToArray[1]};
+            int i=0;
+            for(char c:firstTwoIndex){
+                newchars[i]=c;
+                i++;
+            }
+            int k=2;
+            for(int j=0;j<strToArray.length;j++){
+                newchars[k]=strToArray[j];
+                k++;
+            }
+            int l= strToArray.length+2;
+            for(char d:firstTwoIndex){
+                newchars[l]=d;
+                l++;
+            }
+            String charsToStr=new String(newchars);
+            return charsToStr ;
+        }
+        return str+str+str;
+    }
+}
+
+
+
+//The Third Solution:
+import java.util.Arrays;
+
+public class FrontEndString {
+    public String front22(String str) {
+        if (str.length() >=2) {
+            char[] strToArray = str.toCharArray();
+            char[] newchars = new char[strToArray.length + 4];
+            char [] firstTwoIndex= Arrays.copyOfRange(strToArray,0,2);
+            System.arraycopy(firstTwoIndex,0,newchars,0,firstTwoIndex.length);
+            System.arraycopy(strToArray,0,newchars,2,strToArray.length);
+            System.arraycopy(firstTwoIndex,0,newchars,strToArray.length+2,2);
+            return new String(newchars);
+        }
+        return str+str+str;
+    }
+}

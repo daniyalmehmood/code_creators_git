@@ -1,0 +1,22 @@
+public class NearHundred {
+    public static Boolean nearHundred(int n) {
+        boolean R=Math.abs(n - 100) <= 10;
+        boolean S=Math.abs(n - 200) <= 10;
+
+         if (R||S) {
+        return true;
+         }
+         else {
+        return false;
+        }
+    }
+
+    public static void main(String[] args) {
+        System.out.println(NearHundred.nearHundred(93));
+        System.out.println(NearHundred.nearHundred(90));
+        System.out.println(NearHundred.nearHundred(89));
+
+
+    }
+
+}

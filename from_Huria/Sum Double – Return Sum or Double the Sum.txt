@@ -1,0 +1,31 @@
+  public class SumDouble {
+    int a;
+    int b;
+    public static Integer sumDouble(int a, int b){
+        
+       int doub = 2 * (a + b);
+       int sum = a + b;
+        
+            if(a == b ){
+            System.out.println("double " + doub);
+            return doub;
+        }
+        else{
+            System.out.println("sum=" + sum);
+            return sum;
+        }
+
+
+
+
+    }
+
+    public static void main(String[] args){
+
+        System.out.println( SumDouble.sumDouble(1,2));
+        System.out.println( SumDouble.sumDouble(3,2));
+        System.out.println( SumDouble.sumDouble(2,2));
+
+
+    }
+}
