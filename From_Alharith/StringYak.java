@@ -1,4 +1,4 @@
-public class StringCleaner {
+public class StringYak {
 
     public String removeYakSubstrings(String str) {
         String result = "";
