@@ -1,4 +1,4 @@
-public class StringChecker  {
+public class HasBad   {
 
     public boolean containsBadAtStart(String str) {
         if (str.length() >= 3 && str.substring(0, 3).equals("bad")) {
