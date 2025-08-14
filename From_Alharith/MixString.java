@@ -1,4 +1,4 @@
-public class StringChecker  {
+public class MixString  {
 
     public boolean startsWithMixPattern(String str) {
         if (str.length()<3) return false;
