@@ -1,0 +1,35 @@
+public class Close10 {
+
+        int a;
+        int b;
+
+        public static Integer close10(int a, int b) {
+
+           int num1=Math.abs(10-a);
+            int num2=Math.abs(10-b);
+
+            if(num1>num2){
+                return b;
+            }
+
+            else if (num2>num1){
+
+                return a;
+            }
+            else{
+                return 0;
+            }
+        }
+
+        public static void main(String [] args){
+
+            System.out.println( Close10.close10(8,13));
+            System.out.println( Close10.close10(13,8));
+            System.out.println( Close10.close10(13,7));
+
+
+        }
+    }
+
+
+

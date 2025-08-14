@@ -1,0 +1,36 @@
+//This is first solution:
+public class BackAroundString {
+    public String backAround(String str) {
+        if (str.length() != 0) {
+            StringBuilder newStr = new StringBuilder(str);
+            char lastIndex = newStr.charAt(newStr.length() - 1);
+            newStr.insert(0,lastIndex);
+            newStr.insert(newStr.length(),lastIndex);
+
+            String finalString= newStr.toString();
+            return finalString;
+        }
+        return "The string is null";
+    }
+}
+
+//This is second solution:
+
+public class BackAroundString {
+    public String backAround(String str) {
+        if (str.length() != 0) {
+            char[] strToArray=str.toCharArray();
+            char[] newchars= new char [strToArray.length+2];
+            newchars[0]=strToArray[strToArray.length-1];
+            int j=1;
+            for(int i=0;i<strToArray.length;i++){
+                newchars[j]=strToArray[i];
+                j++;
+            }
+            newchars[newchars.length-1]=strToArray[strToArray.length-1];
+            String charsToStr=new String(newchars);
+            return charsToStr ;
+        }
+        return "The string is null";
+    }
+}

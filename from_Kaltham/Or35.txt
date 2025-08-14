@@ -1,0 +1,9 @@
+public class CheckNumber {
+
+    public Boolean or35(int n){
+        if(n>0) {
+            return (n % 3 == 0 || n % 5 == 0);
+        }
+   return false;
+    }
+}
