@@ -1,4 +1,4 @@
-public class StringMerger  {
+public class ConCat   {
 
     public String mergeWithoutDuplicateBoundary(String a, String b) {
         if (a.length()<1 ) return b;
