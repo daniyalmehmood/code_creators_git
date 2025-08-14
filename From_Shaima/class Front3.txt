@@ -1,0 +1,19 @@
+public class Front3 {
+    public static String front3(String str) {
+        String NewStr;
+        String front;
+        if (str.length() >= 3) {
+            front = str.substring(0, 3);
+            NewStr = front + front + front;
+            return NewStr;
+        } else {
+            return str+str+str;
+        }
+    }
+            public static void main (String[]args){
+            System.out.println(Front3.front3("Java"));
+            System.out.println(Front3.front3("Chocolate"));
+            System.out.println(Front3.front3("abc"));
+            System.out.println(Front3.front3("ab"));
+            }
+        }

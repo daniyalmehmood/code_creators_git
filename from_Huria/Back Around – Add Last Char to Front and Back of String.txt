@@ -1,0 +1,36 @@
+public class BackAround {
+
+        String str;
+
+        public static String backAround(String str) {
+
+            String newString;
+
+            if (str.length() >=1){
+
+                int lastIndex = str.length() - 1;
+                char lastChar = str.charAt(lastIndex);
+
+                newString = lastChar + str + lastChar;
+
+                return newString;
+            }
+            else {
+
+                return  str;
+
+            }
+
+
+
+        }
+
+        public static void main(String [] args){
+
+            System.out.println( BackAround.backAround("cat"));
+            System.out.println( BackAround.backAround("Hello"));
+            System.out.println( BackAround.backAround("a"));
+
+
+        }
+    }
