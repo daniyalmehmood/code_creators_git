@@ -1,4 +1,4 @@
-public class StringTrimmer {
+public class WithoutEndTwo {
 
     public String removeFirstAndLastIfPossible(String str) {
         if (str.length()<2) return "";
