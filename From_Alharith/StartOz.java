@@ -1,4 +1,4 @@
-public class StringFilter  {
+public class StartOz  {
 
     public String getOzPrefix(String str) {
         if (str.length()<2) return str;
