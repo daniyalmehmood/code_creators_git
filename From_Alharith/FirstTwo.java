@@ -1,4 +1,4 @@
-public class StringExtractor  {
+public class FirstTwo  {
 
     public String getFirstTwoChars(String str) {
         if (str.length()<2) return str;
