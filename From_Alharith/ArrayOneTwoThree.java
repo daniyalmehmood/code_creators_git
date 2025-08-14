@@ -1,4 +1,4 @@
-public class ArrayAnalyzer  {
+public class ArrayOneTwoThree  {
 
     public boolean containsSequenceOneTwoThree(int[] nums) {
         for (int i = 0; i < nums.length - 2; i++) {
