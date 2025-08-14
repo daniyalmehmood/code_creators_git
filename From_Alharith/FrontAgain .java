@@ -1,4 +1,4 @@
-public class StringChecker  {
+public class FrontAgain   {
 
     public boolean hasSameFrontAndBack(String str) {
         if (str.length()<2) return false;
