@@ -1,4 +1,4 @@
-public class MixString {
+public class MergeString {
 
     public String MergeString(String a, String b) {
         int lenA= a.length();
