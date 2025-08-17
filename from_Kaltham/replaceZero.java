@@ -1,5 +1,5 @@
-public class replaceZero {
-    public int[]ReplaceZeroWithMaxOdd(int[]nums) {
+public class ReplaceZero {
+    public int[]replaceZeroWithMaxOdd(int[]nums) {
         int maxOdd = 0;
         for (int i = 0; i < nums.length; i++) {
             if (nums[i] == 0) {
