@@ -12,4 +12,4 @@ public class SumCalculator {
         }
         return a + b + c;
     }
-}
+
