@@ -2,8 +2,8 @@ public class MakeBricks {
     public static boolean canBuildGoal(int small, int big, int goal) {
         int maxBig = goal / 5;
         int usedBig = Math.min(maxBig, big);
-        int r = goal - (usedBig * 5);
-        return small >= r;
+        int smallNeeded = goal - (usedBig * 5);
+        return small >= smallNeeded;
     }
 
     public static void main(String[] args) {
