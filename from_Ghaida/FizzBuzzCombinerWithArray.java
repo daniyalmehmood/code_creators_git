@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class FizzBuzzCombinerWithArray {
+public class FizzBuzzCombinerWithArray {//Array-2 > fizzBuzz
     public static void main(String[] args) {
         System.out.println(Arrays.toString(buildFizzBuzzWithArray(1, 6)));// ["1", "2", "Fizz", "4", "Buzz"]
         System.out.println(Arrays.toString(buildFizzBuzzWithArray(1, 8)));// ["1", "2", "Fizz", "4", "Buzz", "Fizz", "7"]
