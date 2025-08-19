@@ -6,10 +6,10 @@ public class NumberSquare {//Array-3 > squareUp
     }
     public static int[] makeSquarePattern(int n) {
         int[] result = new int[n * n];
-        if(n == 0) return result;
+        if (n == 0) return result;
         for (int i = 0; i < n; i++) {
-            for (int j = 0; j < i; j++) {
-                result[i * n + (n - j - 1)] = j + 1;
+            for (int j = 0; j <= i; j++) {
+                result[i * n + (n - j - 1)] = j + 1; // fill the first j+1 elements in the row
             }
         }
         return result;
