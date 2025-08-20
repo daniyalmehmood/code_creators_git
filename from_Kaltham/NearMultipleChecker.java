@@ -1,3 +1,4 @@
+
 //Logic-1 > less20
 
 public class NearMultipleChecker {
@@ -6,6 +7,5 @@ public class NearMultipleChecker {
             return true;
         }
         return false;
-
     }
 }
