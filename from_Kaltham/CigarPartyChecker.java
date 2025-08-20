@@ -1,4 +1,4 @@
-public boolean CigarPartyChecker {
+public class CigarPartyChecker {
     public boolean isSuccessfulParty(int cigars, boolean isWeekend) {
         if (isWeekend) {
             if (cigars >= 40) {
