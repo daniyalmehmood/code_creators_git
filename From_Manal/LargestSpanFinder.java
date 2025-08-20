@@ -1,4 +1,4 @@
-Array-3 > maxSpan
+//Array-3 > maxSpan
 public class LargestSpanFinder {
 
     // Method to find the largest span in an array
