@@ -1,3 +1,4 @@
+//Logic-1 > cigarParty
 public class CigarPartyChecker {
     public boolean isSuccessfulParty(int cigars, boolean isWeekend) {
         if (isWeekend) {
