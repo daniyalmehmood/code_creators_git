@@ -1,8 +1,9 @@
-//Logic-1 > more20
+
+//Logic-1 > less20
 
 public class NearMultipleChecker {
-    public boolean isNearMultipleOfTwenty(int n) {
-        if (n % 20 == 1 || n % 20 == 2) {
+    public boolean isJustBeforeMultipleOfTwenty(int n) {
+        if (n % 20 == 18 || n % 20 == 19) {
             return true;
         }
         return false;
