@@ -1,3 +1,4 @@
+//Array-3 > seriesUp
 public class SeriesUpPattern {
 
     // Method to create the seriesUp pattern
