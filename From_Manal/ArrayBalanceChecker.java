@@ -1,3 +1,4 @@
+//Array-3 > canBalance
 public class ArrayBalanceChecker {
 
     // Method to check if array can be split into two equal sum parts
