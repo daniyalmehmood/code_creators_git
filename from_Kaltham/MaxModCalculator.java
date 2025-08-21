@@ -1,0 +1,13 @@
+//Logic-1 > maxMod5
+
+public class MaxModCalculator {
+    public int maxModFive(int a, int b) {
+        if (a == b) {
+            return 0;
+        }
+        if (a % 5 == b % 5) {
+            return Math.min(a, b);
+        }
+        return Math.max(a, b);
+    }
+}
