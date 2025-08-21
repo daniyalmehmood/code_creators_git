@@ -12,10 +12,10 @@ public class OddAndTenSplitter {//Recursion-2 > splitOdd10
             // one of the two groups must be odd and the other must be divisible by 10 && the other must be odd
             return (sumOfFirstGroup % 10 == 0 && sumOfSecondGroup % 2 == 1) || (sumOfSecondGroup % 10 == 0 && sumOfFirstGroup % 2 == 1);
         }
-        if (splitOdd10Helper(nums, currentIndex + 1, sumOfFirstGroup + nums[currentIndex], sumOfSecondGroup)) {
+        else if (splitOdd10Helper(nums, currentIndex + 1, sumOfFirstGroup + nums[currentIndex], sumOfSecondGroup)) {
             return true;// group 1
         }
-        if (splitOdd10Helper(nums, currentIndex + 1, sumOfFirstGroup, sumOfSecondGroup + nums[currentIndex])) {
+        else if (splitOdd10Helper(nums, currentIndex + 1, sumOfFirstGroup, sumOfSecondGroup + nums[currentIndex])) {
             return true; //group 2
         }
         return false;
