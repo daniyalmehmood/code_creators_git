@@ -1,0 +1,36 @@
+public class Front22 {
+
+        String str;
+
+        public static String front22(String str) {
+
+            String newString;
+
+            if (str.length() >=2){
+
+                String firstChar = str.substring(0,2);
+
+                newString = firstChar + str + firstChar;
+
+                return newString;
+            }
+            else {
+
+               return  str.repeat(3);
+
+            }
+
+
+
+        }
+
+        public static void main(String [] args){
+
+            System.out.println(  Front22.front22("kitten"));
+            System.out.println(  Front22.front22("Ha"));
+            System.out.println(  Front22.front22("abc"));
+
+
+        }
+    }
+
