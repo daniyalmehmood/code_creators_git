@@ -1,4 +1,4 @@
-public class SumTwo {
+public class SumTwoCalculator {
     public boolean checkSumOfTwosEqualsEight(int[] nums) {
         int sum = 0;
         for (int i = 0; i < nums.length; i++) {
