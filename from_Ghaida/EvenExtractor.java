@@ -8,11 +8,11 @@ public class EvenExtractor {//AP-1 > copyEvens
     }
     public static int[] extractFirstEvens(int[] nums, int count) {
         int[] evenNumbersList = new int[count];
-        int index = 0;
+        int currentIndex = 0;
         int i = 0;
-        while (i < nums.length && index < count) {
+        while (i < nums.length && currentIndex < count) {
             if (nums[i] % 2 == 0) {
-                evenNumbersList[index++] = nums[i];
+                evenNumbersList[currentIndex++] = nums[i];
             }
             i++;
         }
