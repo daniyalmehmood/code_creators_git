@@ -10,9 +10,9 @@ public class WordLengthMap {//Map-2 > wordLen
     }
     public static Map<String, Integer> createWordLengthMap(String[] strings) {
         Map<String, Integer> map = new HashMap<>();
-        for(String str : strings){
-            if(!map.containsKey(str)){
-                map.put(str, str.length());
+        for(String word : strings){
+            if(!map.containsKey(word)){
+                map.put(word, word.length());
             }
         }
         return map;
