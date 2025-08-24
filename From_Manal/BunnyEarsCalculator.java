@@ -1,10 +1,9 @@
-TRA-3886-BunnyEars
 //Recursion-1 > bunnyEars
 public class BunnyEarsCalculator {
 
     // Function to calculate total ears of bunnies
     public static int calculateTotalEars(int numberOfBunnies) {
-        // Base case: no bunnies → no ears
+        //  no bunnies → no ears
         if (numberOfBunnies == 0) {
             return 0;
         }
