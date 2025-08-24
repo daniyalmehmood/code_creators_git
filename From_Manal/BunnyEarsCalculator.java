@@ -1,3 +1,4 @@
+TRA-3886-BunnyEars
 //Recursion-1 > bunnyEars
 public class BunnyEarsCalculator {
 
@@ -15,3 +16,5 @@ public class BunnyEarsCalculator {
         System.out.println(calculateTotalEars(0));
         System.out.println(calculateTotalEars(1));
         System.out.println(calculateTotalEars(2));
+    }
+}
