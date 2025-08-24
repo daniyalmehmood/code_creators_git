@@ -1,6 +1,6 @@
 // Array-2 > tenRun
 public class MultipleOfTenReplacer {
-    public int[] tenRun(int[] nums) {
+    public int[] replaceWithLastMultipleOfTen(int[] nums) {
         int currentMultiple = -1;
         for (int i = 0; i < nums.length; i++) {
             if (nums[i] % 10 == 0) {
