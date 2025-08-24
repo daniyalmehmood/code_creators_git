@@ -1,5 +1,5 @@
 // Array-2 > sum13
-public class SumNumbers {
+public class SumWithoutThirteen {
     public static int sumExcludingThirteen(int[] nums) {
         int sum = 0;
         for (int i = 0; i < nums.length; i++) {
