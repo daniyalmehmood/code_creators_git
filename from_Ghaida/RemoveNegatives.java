@@ -9,7 +9,7 @@ public class RemoveNegatives {//Functional-2 > noNeg
         System.out.println(removeNegatives(Arrays.asList(-1, -1, -1)));         // → []
     }
     public static List<Integer> removeNegatives(List<Integer> nums) {
-        nums.removeIf(underZero -> underZero < 0);
+        nums.removeIf(number -> number < 0);
         return nums;
     }
 }
