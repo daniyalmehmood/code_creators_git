@@ -1,9 +1,15 @@
 public class SumCalculator {
-    // Returns 20 if the sum of a and b is between 10 and 19 inclusive; otherwise returns the sum.
-    public int calculateSpecialSum(int a, int b) {
-        if ((a + b) >= 10 && (a + b) <= 19) {
-            return 20;
+    // Returns the sum of three integers, but if any value is 13, ignore it and all values to its right
+    public int sumIgnoringThirteen(int a, int b, int c) {
+        if (a == 13) {
+            return 0;
         }
-        return a + b;
+        if (b == 13) {
+            return a;
+        }
+        if (c == 13) {
+            return a + b;
+        }
+        return a + b + c;
     }
-}
+
