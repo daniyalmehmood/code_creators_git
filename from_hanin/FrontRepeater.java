@@ -1,19 +1,15 @@
 public class FrontRepeater {
-    public static String frontTimes(String str, int n) {
-        if (n >= 1) {
-            int i;
-            String result = "";
 
-            // Get the first 3 characters, or the whole string if shorter
-            String newstring = str.length() < 3 ? str : str.substring(0, 3);
+    public String repeatFrontSegment(String str, int n) {
+        StringBuilder results = new StringBuilder();
 
-            // Repeat string n times and append to result
-            for (i = 0; i < n; i++) {
-                result = result + newstring;
-            }
+        for (int i = 0; i <n; i++) {
+            String startWord = str.substring(0,n-i);
+            results.append(startWord);
 
-            return result;
         }
-        return "";
+
+        return results.toString();
     }
-}
+
+
