@@ -27,4 +27,3 @@ public class SubstringCounter {
         System.out.println(counter.countNonOverlapping11("111"));         
     }
 }
-
