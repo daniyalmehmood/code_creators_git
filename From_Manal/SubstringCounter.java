@@ -1,24 +1,30 @@
-//Recursion-1 > strCount
+//TRA-3893-Recursion-1/count11
 public class SubstringCounter {
 
-    // Recursive method to count non-overlapping occurrences of sub
-    public static int countSubstring(String text, String sub) {
-        // if text is shorter than sub, it can't contain sub
-        if (text.length() < sub.length()) {
+    // to count how many times "11" appears in the string
+    
+    public int countNonOverlapping11(String text) {
+        // if the string has fewer than 2 characters, it can't contain "11"
+        if (text.length() < 2) {
             return 0;
         }
 
-        // Check if the text starts with sub
-        if (text.startsWith(sub)) {
-            return 1 + countSubstring(text.substring(sub.length()), sub);
-        } else {
-            return countSubstring(text.substring(1), sub);
+        // If the string starts with "11", count it and skip the next char to avoid overlap
+        if (text.startsWith("11")) {
+            return 1 + countNonOverlapping11(text.substring(2));
         }
+
+        // Otherwise, move one character forward and continue checking
+        return countNonOverlapping11(text.substring(1));
     }
 
+    
     public static void main(String[] args) {
-        System.out.println(countSubstring("catcowcat", "cat"));
-        System.out.println(countSubstring("catcowcat", "cow"));
-        System.out.println(countSubstring("catcowcat", "dog"));
+        SubstringCounter counter = new SubstringCounter();
+
+        System.out.println(counter.countNonOverlapping11("11abc11"));     
+        System.out.println(counter.countNonOverlapping11("abc11x11x11")); 
+        System.out.println(counter.countNonOverlapping11("111"));         
     }
 }
+
