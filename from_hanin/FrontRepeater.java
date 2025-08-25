@@ -1,4 +1,5 @@
 public class FrontRepeater {
+
     public String repeatFrontSegment(String str, int n) {
         StringBuilder results = new StringBuilder();
 
@@ -11,4 +12,4 @@ public class FrontRepeater {
         return results.toString();
     }
 
-}
+
