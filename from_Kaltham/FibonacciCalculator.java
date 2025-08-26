@@ -9,7 +9,7 @@ public class FibonacciCalculator {
             return 1;
         } else {
 
-            return fibonacci(n - 1) + fibonacci(n - 2);
+            return calculateFibonacci(n - 1) + calculateFibonacci(n - 2);
         }
     }
 }
