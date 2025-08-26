@@ -5,9 +5,9 @@ public class SumDouble {
             return sum = a + b; }
         if (a==b) {
             return sum = 2 * (a + b);
-        } 
-}
-        
+        }
+    }
+
 
     public static void main(String[] args) {
         System.out.println(SumDouble(1, 2));
