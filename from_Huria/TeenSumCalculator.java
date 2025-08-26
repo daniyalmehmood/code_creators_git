@@ -1,4 +1,5 @@
 public class TeenSumCalculator {
+
     public static int calculateNoTeenSum(int a, int b, int c) {
         return fixTeen(a) + fixTeen(b) + fixTeen(c);
     }
