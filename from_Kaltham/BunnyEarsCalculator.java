@@ -5,7 +5,7 @@ public class BunnyEarsCalculator {
 
         if (bunnies > 0) {
 
-            return 2 + bunnyEars(bunnies - 1);
+            return 2 + calculateBunnyEars(bunnies - 1);
         } else {
             return 0;
         }
