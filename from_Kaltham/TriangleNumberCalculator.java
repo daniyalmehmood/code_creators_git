@@ -6,6 +6,6 @@ public class TriangleNumberCalculator {
         if (rows == 0) {
             return 0;
         }
-        return rows + triangle(rows - 1);
+        return rows + calculateTriangleNumber(rows - 1);
     }
 }
