@@ -1,5 +1,6 @@
 import java.util.Arrays;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class AddStarToStrings {//Functional-1 > addStar
 
@@ -9,7 +10,6 @@ public class AddStarToStrings {//Functional-1 > addStar
         System.out.println(appendStar(Arrays.asList("*")));             // → [**]
     }
     public static List<String> appendStar(List<String> strings) {
-        strings.replaceAll(string -> string + "*");
-        return strings;
+        return strings.stream().map(string -> string + "*").collect(Collectors.toList());
     }
 }
