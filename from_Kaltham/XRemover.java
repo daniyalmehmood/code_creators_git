@@ -10,10 +10,10 @@ public class XRemover {
         char firstChar = str.charAt(0);
 
         if (firstChar == 'x') {
-            return noX(str.substring(1));
+            return RemoveX(str.substring(1));
         }
 
-        return String.valueOf(firstChar) + noX(str.substring(1));
+        return String.valueOf(firstChar) + RemoveX(str.substring(1));
     }
 
 }
