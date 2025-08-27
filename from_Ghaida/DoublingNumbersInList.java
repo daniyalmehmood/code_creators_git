@@ -1,5 +1,6 @@
 import java.util.Arrays;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class DoublingNumbersInList {//Functional-1 > doubling
 
@@ -9,7 +10,6 @@ public class DoublingNumbersInList {//Functional-1 > doubling
         System.out.println(doubleListValues(Arrays.asList()));// → []
     }
     public static List<Integer> doubleListValues(List<Integer> nums) {
-        nums.replaceAll(number -> number * 2);
-        return nums;
+        return nums.stream().map(number -> number * 2).collect(Collectors.toList());
     }
 }
