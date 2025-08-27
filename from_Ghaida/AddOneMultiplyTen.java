@@ -1,5 +1,6 @@
 import java.util.Arrays;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class AddOneMultiplyTen {//Functional-1 > math1
 
@@ -9,7 +10,6 @@ public class AddOneMultiplyTen {//Functional-1 > math1
         System.out.println(incrementAndMultiplyBy10(Arrays.asList(10)));                 // → [110]
     }
     public static List<Integer> incrementAndMultiplyBy10(List<Integer> nums) {
-        nums.replaceAll(number -> (number + 1) * 10);
-        return nums;
+        return nums.stream().map(number -> (number + 1) * 10).collect(Collectors.toList());
     }
 }
