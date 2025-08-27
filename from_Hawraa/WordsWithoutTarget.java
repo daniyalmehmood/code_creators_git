@@ -7,7 +7,6 @@ public class WordsWithoutTarget {
                 arrayLength++;
             }
         }
-
         String[] result = new String[words.length - arrayLength];
         int index = 0;
         for (int i = 0; i < words.length; i++) {
