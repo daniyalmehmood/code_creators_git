@@ -1,8 +1,11 @@
+//Array-2 > countEvens
 public class ArrayUtils {
-
-    public boolean isSameFirstAndLast(int[] nums) {
-        if (nums.length == 0) {
-            return false;
-        } else return nums[0] == nums[nums.length - 1];
-    }
-}
+    public int countEvenNumbers(int[] nums) {
+        int count = 0;
+        for (int i = 0; i < nums.length; i++) {
+            if (nums[i] % 2 == 0) {
+                count++;
+            }
+        }
+        return count;
+        }
