@@ -1,5 +1,6 @@
 import java.util.Arrays;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class LowerStrings {//Functional-1 > lower
 
@@ -9,7 +10,6 @@ public class LowerStrings {//Functional-1 > lower
         System.out.println(toLowerCaseList(Arrays.asList("KitteN", "ChocolaTE")));      // → [kitten, chocolate]
     }
     public static List<String> toLowerCaseList(List<String> strings) {
-        strings.replaceAll(string -> string.toLowerCase());
-        return strings;
+        return strings.stream().map(string -> string.toLowerCase()).collect(Collectors.toList());
     }
 }
