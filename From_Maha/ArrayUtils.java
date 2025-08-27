@@ -8,5 +8,4 @@ public class ArrayUtils {
             }
         }
         return count;
-    }
-}
+        }
