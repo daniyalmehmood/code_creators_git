@@ -1,7 +1,14 @@
 public class NumberChecker {
-    public boolean isLove6(int a, int b) {
-        int sum = a + b;
-        int diff = Math.abs(a - b);
-        return a == 6 || b == 6 || sum == 6 || diff == 6;
+    public boolean containsNoOneAndFourTogether(int[] nums) {
+        for (int i = 0; i < nums.length; i++) {
+            for (int j = 0; j < nums.length; j++) {
+                if (nums[i] == 1) {
+                    if (nums[j] == 4) {
+                        return false;
+                    }
+                }
+            }
+        }
+        return true;
     }
 }
