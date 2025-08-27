@@ -1,4 +1,3 @@
-//Array-2 > no14
 public class NumberChecker {
     public boolean containsNoOneAndFourTogether(int[] nums) {
         for (int i = 0; i < nums.length; i++) {
