@@ -1,12 +1,11 @@
+
+//Recursion-1 > sumDigits
+
 public class DigitSumCalculator {
-    public int sumOfDigitsInString(String str) {
-        int sumDigits = 0;
-        for (int i = 0; i < str.length(); i++) {
-            if (Character.isDigit(str.charAt(i))) {
-                int digit = Character.digit(str.charAt(i), 10);
-                sumDigits += digit;
-            }
+    public int calculateDigitSum(int n) {
+        if (n > 0) {
+            return (n % 10) + calculateDigitSum(n / 10);
         }
-        return sumDigits;
+        return 0;
     }
 }
