@@ -1,0 +1,10 @@
+public class ArrayModifier {
+    public int[] replaceNotAlone(int[] nums, int val) {
+        for (int i = 1; i < nums.length - 1; i++) {
+            if (nums[i] == val && nums[i - 1] != val && nums[i + 1] != val) {
+                nums[i] = Math.max(nums[i - 1], nums[i + 1]); // replace "not alone" value
+            }
+        }
+        return nums;
+    }
+}
