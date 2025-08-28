@@ -1,20 +1,21 @@
-public class SplitOddTen {
-    public static boolean splitOddTenRecursive(int[] nums) {
-        return splitOddTenRecursive(0, nums, 0, 0);
+public class SplitOdd10Solver {
+    public boolean splitOddTen(int[] nums) {
+        return helper(0, nums, 0, 0);
     }
 
-    boolean splitOddTenRecursive(int start, int[] nums, int sumTenGroup, int sumOddGroup) {
-        if (start >= nums.length)
-            return (sumTenGroup % 10 == 0) && (sumOddGroup % 2 == 1);
+    private boolean helper(int index, int[] nums, int sum1, int sum2) {
+        if (index >= nums.length)
+            return (sum1 % 10 == 0) && (sum2 % 2 == 1);
 
-        int current = nums[start];
-        return splitOddTenRecursive(start + 1, nums, sumTenGroup + current, sumOddGroup) || splitOddTenRecursive(start + 1, nums, sumTenGroup, sumOddGroup + current);
+        int curr = nums[index];
+        return helper(index + 1, nums, sum1 + curr, sum2) || helper(index + 1, nums, sum1, sum2 + curr);
     }
 
     public static void main(String[] args) {
-        System.out.println(splitOddTenRecursive(new int[]{5, 5, 5}));
-        System.out.println(splitOddTenRecursive(new int[]{5, 5, 6}));
-        System.out.println(splitOddTenRecursive(new int[]{5, 5, 6, 1}));
+        SplitOdd10Solver solver = new SplitOdd10Solver();
+        System.out.println(solver.splitOddTen(new int[]{5,5,5}));
+        System.out.println(solver.splitOddTen(new int[]{5,5,6}));
+        System.out.println(solver.splitOddTen(new int[]{5,5,6,1}));
     }
 }
 
