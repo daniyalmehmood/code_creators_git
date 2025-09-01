@@ -1,18 +1,13 @@
 public class CountHi {
-    public int CountHi(String str) {
-        int count = 0;
-        for (int i = 0; i <= str.length() - 2; i++) {
-            if (str.substring(i, i + 2).equals("hi")) {
-                count++;
-            }
-        }
-        return count;
-    }
+  public static void main(String[] args) {
+    System.out.println(countHi("xxhixx"));
+    System.out.println(countHi("xhixhix"));
+    System.out.println(countHi("hi"));
+  }
 
-    public static void main(String[] args) {
-        CountHi ch = new CountHi();
-        System.out.println(ch.CountHi("abc hi ho"));
-        System.out.println(ch.CountHi("ABChi hi"));
-        System.out.println(ch.CountHi("hihi"));
-    }
+  public static int countHi(String str) {
+    if (str.length() < 2) return 0;
+    if (str.substring(0, 2).equals("hi")) return 1 + countHi(str.substring(2));
+    return countHi(str.substring(1));
+  }
 }
