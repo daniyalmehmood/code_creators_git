@@ -6,7 +6,6 @@ public class HiCounter {
             count++;
         }
     }
-
     return count;
 }
     public static void main (String[]args){
