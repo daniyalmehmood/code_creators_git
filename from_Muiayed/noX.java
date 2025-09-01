@@ -1,16 +1,13 @@
-import java.util.List;
-import java.util.ArrayList;
-import java.util.Arrays;
+public class NoX {
+  public static void main(String[] args) {
+    System.out.println(noX("xaxb"));
+    System.out.println(noX("abc"));
+    System.out.println(noX("xx"));
+  }
 
-public class noX {
-    public static List<String> noX(List<String> strings) {
-        strings.replaceAll(s -> s.replace("x", ""));
-        return strings;
-    }
-
-    public static void main(String[] args) {
-        System.out.println(noX(new ArrayList<>(Arrays.asList("ax", "bb", "cx"))));
-        System.out.println(noX(new ArrayList<>(Arrays.asList("xxax", "xbxbx", "xxcx"))));
-        System.out.println(noX(new ArrayList<>(Arrays.asList("x"))));
-    }
+  public static String noX(String str) {
+    if (str.length() == 0) return "";
+    if (str.charAt(0) == 'x') return noX(str.substring(1));
+    return str.charAt(0) + noX(str.substring(1));
+  }
 }
