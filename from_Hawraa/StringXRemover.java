@@ -1,5 +1,5 @@
 // Recursion-1 > noX
-public class XRemover {
+public class StringXRemover {
     public String removeXChars(String str) {
         if (str.isEmpty()) return "";
         if (str.charAt(0) == 'x') {
